@@ -1,5 +1,4 @@
 /* eslint-disable react/no-unescaped-entities */
-import Link from 'next/link';
 import React from 'react';
 import RightNavigationAbove from '../../components/Navigation/RightNavigationAbove';
 import RightNavigationBelow from '../../components/Navigation/RightNavigationBelow';
@@ -11,18 +10,18 @@ function ourwork() {
         <RightNavigationAbove />
         <div>
           <ul className="flex border-b border-gray-400 w-full">
-            <Link href="/about/overview">
+            {/* <Link href="/about/overview">
               <li className="px-5  py-1.5">Overview</li>
-            </Link>
+            </Link> */}
             <li className="px-5 py-1.5 border-b-4 border-blue-600 font-bold">
               Our Work
             </li>
-            <Link href="/about/culture">
+            {/* <Link href="/about/culture">
               <li className="px-5 py-1.5">Culture</li>
             </Link>
             <Link href="/about/leadership">
               <li className="px-5 py-1.5">Leadership</li>
-            </Link>
+            </Link> */}
           </ul>
           <div className="py-6 grid gap-y-4">
             <div className="grid gap-y-2">
@@ -48,33 +47,21 @@ function ourwork() {
             </p>
 
             <div className="grid grid-cols-12 gap-y-4">
-              <div className="flex col-span-4 items-start gap-x-4 ">
+              <div className="flex col-span-12 mobile:col-span-6 tabletxl:col-span-4 items-start gap-x-4 ">
                 <i className="fa-brands fa-react text-4xl"></i>
-                <h2 className="text-lg">
-                  Building innovative <br />
-                  solutions
-                </h2>
+                <h2 className="text-lg">Building innovative solutions</h2>
               </div>
-              <div className="flex col-span-4 items-start gap-x-4 ">
+              <div className="flex col-span-12 mobile:col-span-6 tabletxl:col-span-4 items-start gap-x-4 ">
                 <i className="fa-solid fa-rocket text-4xl"></i>
-                <h2 className="text-lg">
-                  Driving customer <br />
-                  outcomes
-                </h2>
+                <h2 className="text-lg">Driving customer outcomes</h2>
               </div>
-              <div className="flex col-span-4 items-start gap-x-4 ">
+              <div className="flex col-span-12 mobile:col-span-6 tabletxl:col-span-4 items-start gap-x-4 ">
                 <i className="fa-solid fa-people-robbery text-4xl"></i>
-                <h2 className="text-lg">
-                  Improving our <br />
-                  communities
-                </h2>
+                <h2 className="text-lg">Improving our communities</h2>
               </div>
-              <div className="flex col-span-4 items-start gap-x-4 ">
+              <div className="flex col-span-12 mobile:col-span-6 tabletxl:col-span-4 items-start gap-x-4 ">
                 <i className="fa-solid fa-comments text-4xl"></i>
-                <h2 className="text-lg">
-                  Inspiring our <br />
-                  employees
-                </h2>
+                <h2 className="text-lg">Inspiring our employees</h2>
               </div>
             </div>
           </div>

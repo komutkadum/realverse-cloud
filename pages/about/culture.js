@@ -10,12 +10,12 @@ function culture() {
         <RightNavigationAbove />
         <div>
           <ul className="flex border-b border-gray-400 w-full">
-            <li className="px-5  py-1.5">Overview</li>
-            <li className="px-5 py-1.5 ">Our Work</li>
+            {/* <li className="px-5  py-1.5">Overview</li>
+            <li className="px-5 py-1.5 ">Our Work</li> */}
             <li className="px-5 py-1.5 border-b-4 border-blue-600 font-bold">
               Culture
             </li>
-            <li className="px-5 py-1.5">Leadership</li>
+            {/* <li className="px-5 py-1.5">Leadership</li> */}
           </ul>
           <div className="py-6 grid gap-y-4">
             <div className="grid gap-y-2">
@@ -38,22 +38,22 @@ function culture() {
               spirit of innovation that makes that change count.
             </p>
 
-            <div className="grid grid-cols-12 mt-2 gap-x-4 items-start">
-              <div className="col-span-4 grid gap-y-4 ">
+            <div className="grid grid-cols-12 mt-2 gap-x-4 gap-y-6 items-start">
+              <div className="col-span-12 tablet:col-span-6 laptop:col-span-4 grid gap-y-4 ">
                 <i className="fa-solid fa-eye text-3xl text-cyan-600"></i>
                 <p>
                   <b>Vision</b>: To be the best technology solution provider in
                   the world.
                 </p>
               </div>
-              <div className="col-span-4 grid gap-y-4">
+              <div className="col-span-12 tablet:col-span-6 laptop:col-span-4 grid gap-y-4">
                 <i className="fa-solid fa-bullseye text-3xl text-cyan-600"></i>
                 <p>
                   <b>Mission</b>: To create a profitable growth company that is
                   also a great place to work for all.
                 </p>
               </div>
-              <div className="col-span-4 grid gap-y-4">
+              <div className="col-span-12 tablet:col-span-6 laptop:col-span-4 grid gap-y-4">
                 <i className="fa-solid fa-ranking-star text-3xl text-cyan-600"></i>
                 <p>
                   <b>Core Values</b>: The foundation of who we are, how we treat

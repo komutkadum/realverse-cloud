@@ -24,9 +24,10 @@ function solutions() {
       </p>
       <div className="grid gap-y-4">
         <h4 className="text-2xl font-bold">Featured Solutions</h4>
+        {/* grid done */}
         <div className="grid grid-cols-12 gap-2">
           <div
-            className="col-span-3 rounded-md border aspect-w-16 aspect-h-9 bg-red-600 bg-cover bg-no-repeat text-white"
+            className="col-span-12 mobile:col-span-6 tabletxl:col-span-4 laptopxl:col-span-3 rounded-md border aspect-w-16 aspect-h-9 bg-red-600 bg-cover bg-no-repeat text-white"
             style={{
               backgroundImage: "url('/images/turn-on-2923046_1920.jpg')",
             }}
@@ -41,7 +42,7 @@ function solutions() {
             </div>
           </div>
           <div
-            className="col-span-3 rounded-md border aspect-w-16 aspect-h-9 bg-red-600 bg-cover bg-no-repeat text-white"
+            className="col-span-12 mobile:col-span-6 tabletxl:col-span-4 laptopxl:col-span-3 rounded-md border aspect-w-16 aspect-h-9 bg-red-600 bg-cover bg-no-repeat text-white"
             style={{
               backgroundImage: "url('/images/businessman-1176006_1920.jpg')",
             }}
@@ -57,7 +58,7 @@ function solutions() {
             </div>
           </div>
           <div
-            className="col-span-3 rounded-md border aspect-w-16 aspect-h-9 bg-red-600 bg-cover bg-no-repeat text-white"
+            className="col-span-12 mobile:col-span-6 tabletxl:col-span-4 laptopxl:col-span-3 rounded-md border aspect-w-16 aspect-h-9 bg-red-600 bg-cover bg-no-repeat text-white"
             style={{
               backgroundImage: "url('/images/electrical-2476782_1920.jpg')",
             }}
@@ -73,7 +74,7 @@ function solutions() {
             </div>
           </div>
           <div
-            className="col-span-3 rounded-md border aspect-w-16 aspect-h-9 bg-red-600 bg-cover bg-no-repeat text-white"
+            className="col-span-12 mobile:col-span-6 tabletxl:col-span-4 laptopxl:col-span-3 rounded-md border aspect-w-16 aspect-h-9 bg-red-600 bg-cover bg-no-repeat text-white"
             style={{
               backgroundImage: "url('/images/fiber-4814456_1920.jpg')",
             }}
@@ -133,7 +134,7 @@ function solutions() {
           <h4 className="text-2xl font-bold">Automation and orchestration</h4>
           <div className="grid grid-cols-12 gap-2">
             <div
-              className="col-span-3 rounded-md border aspect-w-16 aspect-h-9 bg-red-600 bg-cover bg-no-repeat text-white"
+              className="col-span-12 mobile:col-span-6 tabletxl:col-span-4 laptopxl:col-span-3 rounded-md border aspect-w-16 aspect-h-9 bg-red-600 bg-cover bg-no-repeat text-white"
               style={{
                 backgroundImage: "url('/images/devops-3155972_1920.jpg')",
               }}
@@ -149,7 +150,7 @@ function solutions() {
               </div>
             </div>
             <div
-              className="col-span-3 rounded-md border aspect-w-16 aspect-h-9 bg-red-600 bg-cover bg-no-repeat text-white"
+              className="col-span-12 mobile:col-span-6 tabletxl:col-span-4 laptopxl:col-span-3 rounded-md border aspect-w-16 aspect-h-9 bg-red-600 bg-cover bg-no-repeat text-white"
               style={{
                 backgroundImage:
                   "url('/images/maxim-hopman-IayKLkmz6g0-unsplash.jpg')",
@@ -172,7 +173,7 @@ function solutions() {
           <h4 className="text-2xl font-bold">Cloud</h4>
           <div className="grid grid-cols-12 gap-2">
             <div
-              className="col-span-3 rounded-md border aspect-w-16 aspect-h-9 bg-red-600 bg-cover bg-no-repeat text-white"
+              className="col-span-12 mobile:col-span-6 tabletxl:col-span-4 laptopxl:col-span-3 rounded-md border aspect-w-16 aspect-h-9 bg-red-600 bg-cover bg-no-repeat text-white"
               style={{
                 backgroundImage: "url('/images/wuz-vTBqLytx6SQ-unsplash.jpg')",
               }}
@@ -189,7 +190,7 @@ function solutions() {
             </div>
 
             <div
-              className="col-span-3 rounded-md border aspect-w-16 aspect-h-9 bg-red-600 bg-cover bg-no-repeat text-white"
+              className="col-span-12 mobile:col-span-6 tabletxl:col-span-4 laptopxl:col-span-3 rounded-md border aspect-w-16 aspect-h-9 bg-red-600 bg-cover bg-no-repeat text-white"
               style={{
                 backgroundImage:
                   "url('/images/kabiur-rahman-riyad-YzZJUXjb9aw-unsplash.jpg')",
@@ -212,7 +213,7 @@ function solutions() {
           <h4 className="text-2xl font-bold">Data Center</h4>
           <div className="grid grid-cols-12 gap-2">
             <div
-              className="col-span-3 rounded-md border aspect-w-16 aspect-h-9 bg-red-600 bg-cover bg-no-repeat text-white"
+              className="col-span-12 mobile:col-span-6 tabletxl:col-span-4 laptopxl:col-span-3 rounded-md border aspect-w-16 aspect-h-9 bg-red-600 bg-cover bg-no-repeat text-white"
               style={{
                 backgroundImage:
                   "url('/images/dan-nelson-AvSFPw5Tp68-unsplash.jpg')",
@@ -229,7 +230,7 @@ function solutions() {
               </div>
             </div>
             <div
-              className="col-span-3 rounded-md border aspect-w-16 aspect-h-9 bg-red-600 bg-cover bg-no-repeat text-white"
+              className="col-span-12 mobile:col-span-6 tabletxl:col-span-4 laptopxl:col-span-3 rounded-md border aspect-w-16 aspect-h-9 bg-red-600 bg-cover bg-no-repeat text-white"
               style={{
                 backgroundImage: "url('/images/cdc-_XLJy3h77cw-unsplash.jpg')",
               }}
@@ -245,7 +246,7 @@ function solutions() {
               </div>
             </div>
             <div
-              className="col-span-3 rounded-md border aspect-w-16 aspect-h-9 bg-red-600 bg-cover bg-no-repeat text-white"
+              className="col-span-12 mobile:col-span-6 tabletxl:col-span-4 laptopxl:col-span-3 rounded-md border aspect-w-16 aspect-h-9 bg-red-600 bg-cover bg-no-repeat text-white"
               style={{
                 backgroundImage:
                   "url('/images/pexels-christina-morillo-1181335.jpg')",
@@ -262,7 +263,7 @@ function solutions() {
               </div>
             </div>
             <div
-              className="col-span-3 rounded-md border aspect-w-16 aspect-h-9 bg-red-600 bg-cover bg-no-repeat text-white"
+              className="col-span-12 mobile:col-span-6 tabletxl:col-span-4 laptopxl:col-span-3 rounded-md border aspect-w-16 aspect-h-9 bg-red-600 bg-cover bg-no-repeat text-white"
               style={{
                 backgroundImage:
                   "url('/images/christina-wocintechchat-com-glRqyWJgUeY-unsplash.jpg')",
@@ -285,7 +286,7 @@ function solutions() {
           <h4 className="text-2xl font-bold">Networking</h4>
           <div className="grid grid-cols-12 gap-2">
             <div
-              className="col-span-3 rounded-md border aspect-w-16 aspect-h-9 bg-red-600 bg-cover bg-no-repeat text-white"
+              className="col-span-12 mobile:col-span-6 tabletxl:col-span-4 laptopxl:col-span-3 rounded-md border aspect-w-16 aspect-h-9 bg-red-600 bg-cover bg-no-repeat text-white"
               style={{
                 backgroundImage:
                   "url('/images/imgix-klWUhr-wPJ8-unsplash.jpg')",

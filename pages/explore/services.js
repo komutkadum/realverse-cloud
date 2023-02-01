@@ -28,7 +28,7 @@ function services() {
         <h4 className="text-2xl font-bold">Realverse Cloud Services</h4>
         <div className="grid grid-cols-12 gap-2">
           <div
-            className="col-span-3 rounded-md border aspect-w-16 aspect-h-9 bg-red-600 bg-cover bg-no-repeat text-white"
+            className="col-span-12 mobile:col-span-6 tabletxl:col-span-4 laptopxl:col-span-3 rounded-md border aspect-w-16 aspect-h-9 bg-red-600 bg-cover bg-no-repeat text-white"
             style={{
               backgroundImage: "url('/images/turn-on-2923046_1920.jpg')",
             }}
@@ -44,7 +44,7 @@ function services() {
             </div>
           </div>
           <div
-            className="col-span-3 rounded-md border aspect-w-16 aspect-h-9 bg-red-600 bg-cover bg-no-repeat text-white"
+            className="col-span-12 mobile:col-span-6 tabletxl:col-span-4 laptopxl:col-span-3 rounded-md border aspect-w-16 aspect-h-9 bg-red-600 bg-cover bg-no-repeat text-white"
             style={{
               backgroundImage: "url('/images/businessman-1176006_1920.jpg')",
             }}
@@ -104,7 +104,7 @@ function services() {
           <h4 className="text-2xl font-bold">Consulting Services</h4>
           <div className="grid grid-cols-12 gap-2">
             <div
-              className="col-span-3 rounded-md border aspect-w-16 aspect-h-9 bg-red-600 bg-cover bg-no-repeat text-white"
+              className="col-span-12 mobile:col-span-6 tabletxl:col-span-4 laptopxl:col-span-3 rounded-md border aspect-w-16 aspect-h-9 bg-red-600 bg-cover bg-no-repeat text-white"
               style={{
                 backgroundImage: "url('/images/devops-3155972_1920.jpg')",
               }}
@@ -116,7 +116,7 @@ function services() {
               </div>
             </div>
             <div
-              className="col-span-3 rounded-md border aspect-w-16 aspect-h-9 bg-red-600 bg-cover bg-no-repeat text-white"
+              className="col-span-12 mobile:col-span-6 tabletxl:col-span-4 laptopxl:col-span-3 rounded-md border aspect-w-16 aspect-h-9 bg-red-600 bg-cover bg-no-repeat text-white"
               style={{
                 backgroundImage:
                   "url('/images/maxim-hopman-IayKLkmz6g0-unsplash.jpg')",
@@ -135,7 +135,7 @@ function services() {
           <h4 className="text-2xl font-bold">Infrastructure Services</h4>
           <div className="grid grid-cols-12 gap-2">
             <div
-              className="col-span-3 rounded-md border aspect-w-16 aspect-h-9 bg-red-600 bg-cover bg-no-repeat text-white"
+              className="col-span-12 mobile:col-span-6 tabletxl:col-span-4 laptopxl:col-span-3 rounded-md border aspect-w-16 aspect-h-9 bg-red-600 bg-cover bg-no-repeat text-white"
               style={{
                 backgroundImage: "url('/images/wuz-vTBqLytx6SQ-unsplash.jpg')",
               }}
@@ -148,7 +148,7 @@ function services() {
             </div>
 
             <div
-              className="col-span-3 rounded-md border aspect-w-16 aspect-h-9 bg-red-600 bg-cover bg-no-repeat text-white"
+              className="col-span-12 mobile:col-span-6 tabletxl:col-span-4 laptopxl:col-span-3 rounded-md border aspect-w-16 aspect-h-9 bg-red-600 bg-cover bg-no-repeat text-white"
               style={{
                 backgroundImage:
                   "url('/images/kabiur-rahman-riyad-YzZJUXjb9aw-unsplash.jpg')",
@@ -161,7 +161,7 @@ function services() {
               </div>
             </div>
             <div
-              className="col-span-3 rounded-md border aspect-w-16 aspect-h-9 bg-red-600 bg-cover bg-no-repeat text-white"
+              className="col-span-12 mobile:col-span-6 tabletxl:col-span-4 laptopxl:col-span-3 rounded-md border aspect-w-16 aspect-h-9 bg-red-600 bg-cover bg-no-repeat text-white"
               style={{
                 backgroundImage:
                   "url('/images/kabiur-rahman-riyad-YzZJUXjb9aw-unsplash.jpg')",

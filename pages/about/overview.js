@@ -1,5 +1,4 @@
 /* eslint-disable react/no-unescaped-entities */
-import Link from 'next/link';
 import React from 'react';
 import RightNavigationAbove from '../../components/Navigation/RightNavigationAbove';
 import RightNavigationBelow from '../../components/Navigation/RightNavigationBelow';
@@ -14,7 +13,7 @@ function overview() {
             <li className="px-5 border-b-4 border-blue-600 font-bold py-1.5">
               Overview
             </li>
-            <Link href="/about/our-work">
+            {/* <Link href="/about/our-work">
               <li className="px-5 py-1.5">Our Work</li>
             </Link>
             <Link href="/about/culture">
@@ -22,7 +21,7 @@ function overview() {
             </Link>
             <Link href="/about/leadership">
               <li className="px-5 py-1.5">Leadership</li>
-            </Link>
+            </Link> */}
           </ul>
           <div className="py-6 grid gap-y-2">
             <h4 className="text-xl font-bold">Make a new world happen.</h4>
@@ -93,7 +92,7 @@ function overview() {
             </p>
             <div className="grid grid-cols-12 gap-y-4">
               {/* <!-- grid --> */}
-              <div className="col-span-4 flex items-start justify-center gap-x-2">
+              <div className="col-span-12 mobile:col-span-6 tabletxl:col-span-4 flex items-start justify-center gap-x-2">
                 <i className="fa-brands fa-react text-3xl"></i>
                 <div className="grid gap-y-1.5 leading-relaxed">
                   <h3 className="text-lg">Solutions</h3>
@@ -109,7 +108,7 @@ function overview() {
                 </div>
               </div>
 
-              <div className="col-span-4 flex items-start justify-center gap-x-2">
+              <div className="col-span-12 mobile:col-span-6 tabletxl:col-span-4 flex items-start justify-center gap-x-2">
                 <i className="fa-solid fa-wand-magic-sparkles text-3xl"></i>
                 <div className="grid gap-y-1.5 leading-relaxed">
                   <h3 className="text-lg">Services</h3>
@@ -125,7 +124,7 @@ function overview() {
                 </div>
               </div>
 
-              <div className="col-span-4 flex items-start justify-center gap-x-2">
+              <div className="col-span-12 mobile:col-span-6 tabletxl:col-span-4 flex items-start justify-center gap-x-2">
                 <i className="fa-solid fa-industry text-3xl"></i>
                 <div className="grid gap-y-1.5 leading-relaxed">
                   <h3 className="text-lg">Industries</h3>
@@ -141,7 +140,7 @@ function overview() {
                 </div>
               </div>
 
-              <div className="col-span-4 flex items-start justify-center gap-x-2">
+              <div className="col-span-12 mobile:col-span-6 tabletxl:col-span-4 flex items-start justify-center gap-x-2">
                 <i className="fa-solid fa-handshake text-3xl"></i>
                 <div className="grid gap-y-1.5 leading-relaxed">
                   <h3 className="text-lg">Partners</h3>
@@ -163,7 +162,7 @@ function overview() {
             <h4 className="text-xl font-bold">Key services and capabilities</h4>
             <div className="grid grid-cols-12 gap-2">
               <div
-                className="col-span-4 rounded-md border aspect-w-16 aspect-h-9 bg-red-600 bg-cover bg-no-repeat text-white"
+                className="col-span-12 mobile:col-span-6 laptopxl:col-span-4 rounded-md border aspect-w-16 aspect-h-9 bg-red-600 bg-cover bg-no-repeat text-white"
                 style={{
                   backgroundImage: "url('/images/turn-on-2923046_1920.jpg')",
                 }}
@@ -179,7 +178,7 @@ function overview() {
                 </div>
               </div>
               <div
-                className="col-span-4 rounded-md border aspect-w-16 aspect-h-9 bg-red-600 bg-cover bg-no-repeat text-white"
+                className="col-span-12 mobile:col-span-6 laptopxl:col-span-4 rounded-md border aspect-w-16 aspect-h-9 bg-red-600 bg-cover bg-no-repeat text-white"
                 style={{
                   backgroundImage:
                     "url('/images/businessman-1176006_1920.jpg')",
@@ -196,7 +195,7 @@ function overview() {
                 </div>
               </div>
               <div
-                className="col-span-4 rounded-md border aspect-w-16 aspect-h-9 bg-red-600 bg-cover bg-no-repeat text-white"
+                className="col-span-12 mobile:col-span-6 laptopxl:col-span-4 rounded-md border aspect-w-16 aspect-h-9 bg-red-600 bg-cover bg-no-repeat text-white"
                 style={{
                   backgroundImage: "url('/images/electrical-2476782_1920.jpg')",
                 }}
@@ -212,7 +211,7 @@ function overview() {
                 </div>
               </div>
               <div
-                className="col-span-4 rounded-md border aspect-w-16 aspect-h-9 bg-red-600 bg-cover bg-no-repeat text-white"
+                className="col-span-12 mobile:col-span-6 laptopxl:col-span-4 rounded-md border aspect-w-16 aspect-h-9 bg-red-600 bg-cover bg-no-repeat text-white"
                 style={{
                   backgroundImage: "url('/images/fiber-4814456_1920.jpg')",
                 }}
@@ -228,7 +227,7 @@ function overview() {
                 </div>
               </div>
               <div
-                className="col-span-4 rounded-md border aspect-w-16 aspect-h-9 bg-red-600 bg-cover bg-no-repeat text-white"
+                className="col-span-12 mobile:col-span-6 laptopxl:col-span-4 rounded-md border aspect-w-16 aspect-h-9 bg-red-600 bg-cover bg-no-repeat text-white"
                 style={{
                   backgroundImage: "url('/images/fiber-4814456_1920.jpg')",
                 }}
@@ -244,7 +243,7 @@ function overview() {
                 </div>
               </div>
               <div
-                className="col-span-4 rounded-md border aspect-w-16 aspect-h-9 bg-red-600 bg-cover bg-no-repeat text-white"
+                className="col-span-12 mobile:col-span-6 laptopxl:col-span-4 rounded-md border aspect-w-16 aspect-h-9 bg-red-600 bg-cover bg-no-repeat text-white"
                 style={{
                   backgroundImage: "url('/images/fiber-4814456_1920.jpg')",
                 }}
@@ -270,32 +269,32 @@ function overview() {
               servicing the world's largest and most innovative organizations.
             </p>
             <div className="grid grid-cols-12 gap-4 items-start mt-4">
-              <div className="col-span-4 grid gap-y-6">
+              <div className="col-span-12 mobile:col-span-6 laptopxl:col-span-4 grid gap-y-6">
                 <i className="fa-solid fa-hands-bound text-2xl text-blue-600"></i>
                 <p>Founded in 1990 and privately held for more than 30 years</p>
               </div>
-              <div className="col-span-4 grid gap-y-6">
+              <div className="col-span-12 mobile:col-span-6 laptopxl:col-span-4 grid gap-y-6">
                 <i className="fa-solid fa-people-group text-blue-600 text-2xl"></i>
                 <p>Approximately 9,000 employees globally</p>
               </div>
-              <div className="col-span-4 grid gap-y-6">
+              <div className="col-span-12 mobile:col-span-6 laptopxl:col-span-4 grid gap-y-6">
                 <i className="fa-solid fa-money-bill-1-wave text-2xl text-blue-600"></i>
                 <p>$17 billion in annual revenue</p>
               </div>
-              <div className="col-span-4 grid gap-y-6">
+              <div className="col-span-12 mobile:col-span-6 laptopxl:col-span-4 grid gap-y-6">
                 <i className="fa-solid fa-dna text-2xl text-blue-600"></i>
                 <p>
                   Solution provider for more than 70 of Fortune 100 companies
                 </p>
               </div>
-              <div className="col-span-4 grid gap-y-6">
+              <div className="col-span-12 mobile:col-span-6 laptopxl:col-span-4 grid gap-y-6">
                 <i className="fa-solid fa-handshake-angle text-2xl text-blue-600"></i>
                 <p>
                   Top Partner with Cisco, HPE, Dell Technologies, NetApp, F5,
                   Intel, VMware and many others
                 </p>
               </div>
-              <div className="col-span-4 grid gap-y-6">
+              <div className="col-span-12 mobile:col-span-6 laptopxl:col-span-4 grid gap-y-6">
                 <i className="fa-solid fa-award text-2xl text-blue-600"></i>
                 <p>"Great Place to Work" 11 years in a row</p>
               </div>

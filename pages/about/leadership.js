@@ -31,8 +31,8 @@ function leadership() {
                 inclusivity.
               </p>
             </div>
-            <div className="grid grid-cols-12 mt-2 gap-4">
-              <div className="grid col-span-4 gap-y-2">
+            <div className="grid grid-cols-12  mt-2 gap-4">
+              <div className="grid justify-center col-span-12 tablet:col-span-6 laptop:col-span-4 gap-y-2">
                 <img
                   src="/images/Dave Steward 1_400x400.webp"
                   className="rounded-md"
@@ -45,7 +45,7 @@ function leadership() {
                   <h3 className="text-gray-600">Founder & Director</h3>
                 </div>
               </div>
-              <div className="grid col-span-4 gap-y-2">
+              <div className="grid justify-center col-span-12 tablet:col-span-6 laptop:col-span-4 gap-y-2">
                 <img
                   src="/images/Jim Kavanaugh_400x400.webp"
                   className="rounded-md"

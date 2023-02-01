@@ -8,12 +8,14 @@ module.exports = {
   ],
   theme: {
     screens: {
+      mobile: '600px',
       tablet: '740px',
       // => @media (min-width: 640px) { ... }
-
+      tabletxl: '900px',
       laptop: '1002px',
       // => @media (min-width: 1024px) { ... }
-
+      laptopxl: '1200px',
+      // => @media (min-width: 1024px) { ... }
       desktop: '1310px',
       // => @media (min-width: 1310px) { ... }
     },
