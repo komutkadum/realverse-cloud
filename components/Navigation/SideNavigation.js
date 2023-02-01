@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
 
-function SideNavigation({ navOpen, setNavOpen }) {
+function SideNavigation() {
   return (
     <>
       {/* // header with text */}
