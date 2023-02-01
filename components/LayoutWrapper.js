@@ -1,4 +1,6 @@
-import React, { useState } from 'react';
+import Link from 'next/link';
+import { useRouter } from 'next/router';
+import React, { useEffect, useState } from 'react';
 import Footer from './Navigation/Footer';
 import Header from './Navigation/Header';
 import SideNavigation from './Navigation/SideNavigation';
@@ -7,6 +9,10 @@ function LayoutWrapper({ children }) {
   const [navOpen, setNavOpen] = useState(false);
   const [firstAccordion, setFirstAccordion] = useState(false);
   const [secondAccordion, setSecondAccordion] = useState(false);
+  const router = useRouter();
+  useEffect(() => {
+    setNavOpen(false);
+  }, [router]);
   return (
     <>
       <Header navOpen={navOpen} setNavOpen={setNavOpen} />
@@ -42,22 +48,32 @@ function LayoutWrapper({ children }) {
             </li>
             {firstAccordion && (
               <>
-                <li className="bg-gray-200 px-2 py-4 font-thin text-gray-700">
-                  Automation & Orchestration
-                </li>
-                <li className="bg-gray-200 px-2 py-4 font-thin text-gray-700">
-                  Cloud
-                </li>
-                <li className="bg-gray-200 px-2 py-4 font-thin text-gray-700">
-                  Data Center
-                </li>
-                <li className="bg-gray-200 px-2 py-4 font-thin text-gray-700">
-                  Networking
-                </li>
-                <li className="bg-gray-200 px-2 py-4 font-medium rounded-b-md text-blue-500">
-                  See all Solutions&nbsp;&nbsp;
-                  <i className="fa-solid fa-angle-right"></i>
-                </li>
+                <Link href="/category/automation-and-orchestration/overview">
+                  <li className="bg-gray-200 px-2 py-4 font-thin text-gray-700">
+                    Automation & Orchestration
+                  </li>
+                </Link>
+                <Link href="/category/cloud/overview">
+                  <li className="bg-gray-200 px-2 py-4 font-thin text-gray-700">
+                    Cloud
+                  </li>
+                </Link>
+                <Link href="/category/data-center/overview">
+                  <li className="bg-gray-200 px-2 py-4 font-thin text-gray-700">
+                    Data Center
+                  </li>
+                </Link>
+                <Link href="/category/networking/overview">
+                  <li className="bg-gray-200 px-2 py-4 font-thin text-gray-700">
+                    Networking
+                  </li>
+                </Link>
+                <Link href="/explore/solutions">
+                  <li className="bg-gray-200 px-2 py-4 font-medium rounded-b-md text-blue-500">
+                    See all Solutions&nbsp;&nbsp;
+                    <i className="fa-solid fa-angle-right"></i>
+                  </li>
+                </Link>
               </>
             )}
             <li
@@ -74,16 +90,22 @@ function LayoutWrapper({ children }) {
             </li>
             {secondAccordion && (
               <>
-                <li className="bg-gray-200 px-2 py-4 font-thin text-gray-700">
-                  Construction Services
-                </li>
-                <li className="bg-gray-200 px-2 py-4 font-thin text-gray-700">
-                  Infrastructure Services
-                </li>
-                <li className="bg-gray-200 px-2 py-4 font-medium rounded-b-md text-blue-500">
-                  See all Services&nbsp;&nbsp;
-                  <i className="fa-solid fa-angle-right"></i>
-                </li>
+                <Link href="/service/consulting-service/overview">
+                  <li className="bg-gray-200 px-2 py-4 font-thin text-gray-700">
+                    Consulting Services
+                  </li>
+                </Link>
+                <Link href="/service/infrastructure-service/overview">
+                  <li className="bg-gray-200 px-2 py-4 font-thin text-gray-700">
+                    Infrastructure Services
+                  </li>
+                </Link>
+                <Link href="/explore/services">
+                  <li className="bg-gray-200 px-2 py-4 font-medium rounded-b-md text-blue-500">
+                    See all Services&nbsp;&nbsp;
+                    <i className="fa-solid fa-angle-right"></i>
+                  </li>
+                </Link>
               </>
             )}
           </ul>

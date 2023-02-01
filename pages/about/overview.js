@@ -90,7 +90,7 @@ function overview() {
               We operate at the forefront of innovation and progress, working
               with our clients all over the world to take them into the future.
             </p>
-            <div className="grid grid-cols-12 gap-y-4">
+            <div className="grid grid-cols-12 gap-y-4 gap-x-6">
               {/* <!-- grid --> */}
               <div className="col-span-12 mobile:col-span-6 tabletxl:col-span-4 flex items-start justify-center gap-x-2">
                 <i className="fa-brands fa-react text-3xl"></i>
