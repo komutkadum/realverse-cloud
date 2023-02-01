@@ -90,12 +90,12 @@ function LayoutWrapper({ children }) {
             </li>
             {secondAccordion && (
               <>
-                <Link href="/service/consulting-service/overview">
+                <Link href="/service/consulting-services/overview">
                   <li className="bg-gray-200 px-2 py-4 font-thin text-gray-700">
                     Consulting Services
                   </li>
                 </Link>
-                <Link href="/service/infrastructure-service/overview">
+                <Link href="/service/infrastructure-services/overview">
                   <li className="bg-gray-200 px-2 py-4 font-thin text-gray-700">
                     Infrastructure Services
                   </li>
