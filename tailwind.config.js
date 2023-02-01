@@ -13,6 +13,7 @@ module.exports = {
       // => @media (min-width: 640px) { ... }
       tabletxl: '900px',
       laptop: '1002px',
+      laptoplg: '1140px',
       // => @media (min-width: 1024px) { ... }
       laptopxl: '1200px',
       // => @media (min-width: 1024px) { ... }
