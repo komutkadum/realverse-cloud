@@ -1,19 +1,29 @@
 import React from 'react';
 
-function Header() {
+function Header({ navOpen, setNavOpen }) {
   return (
-    <header class="">
-      <nav class="flex justify-between h-14 px-5 backdrop-opacity-25 w-full z-50 items-center">
-        <div class="flex items-center gap-x-2 font-semibold">
-          <i class="fa-solid fa-bars text-lg desktop:text-sm"></i>
-          <span>Menu</span>
+    <header className="">
+      <nav className="flex justify-between h-14 px-5 backdrop-opacity-25 w-full z-50 items-center">
+        <div className="flex items-center gap-x-2 font-semibold">
+          {navOpen ? (
+            <i
+              className="fa-regular fa-rectangle-xmark text-lg desktop:text-sm animate__animated animate__fadeIn duration-300"
+              onClick={() => setNavOpen((prev) => !prev)}
+            ></i>
+          ) : (
+            <i
+              className="fa-solid fa-bars text-lg desktop:text-sm animate__animated animate__fadeIn duration-300"
+              onClick={() => setNavOpen((prev) => !prev)}
+            ></i>
+          )}
+          <span className="hidden mobile:inline">Menu</span>
         </div>
-        <div class="flex items-center text-2xl font-extrabold r-font gap-x-1 tracking-wide">
-          <img src="/images/night.png" class="w-10 h-10" alt="" />
+        <div className="flex items-center text-xl mobile:text-2xl  font-extrabold r-font gap-x-1 tracking-wide">
+          <img src="/images/night.png" className="w-10 h-10" alt="" />
           <h1>Realverse Cloud</h1>
         </div>
-        <div class="invisible">
-          <button class=" px-3 rounded bg-blue-600 hover:bg-blue-700 text-white py-1.5">
+        <div className="hidden tablet:inline">
+          <button className=" px-3 rounded bg-blue-600 hover:bg-blue-700 text-white py-1.5">
             Login
           </button>
         </div>

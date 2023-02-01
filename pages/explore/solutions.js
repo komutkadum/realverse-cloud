@@ -24,6 +24,7 @@ function solutions() {
       </p>
       <div className="grid gap-y-4">
         <h4 className="text-2xl font-bold">Featured Solutions</h4>
+
         {/* grid done */}
         <div className="grid grid-cols-12 gap-2">
           <div

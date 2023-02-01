@@ -1,13 +1,16 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Footer from './Navigation/Footer';
 import Header from './Navigation/Header';
 import SideNavigation from './Navigation/SideNavigation';
 
 function LayoutWrapper({ children }) {
+  const [navOpen, setNavOpen] = useState(false);
+  const [firstAccordion, setFirstAccordion] = useState(false);
+  const [secondAccordion, setSecondAccordion] = useState(false);
   return (
     <>
-      <Header />
-      <SideNavigation />
+      <Header navOpen={navOpen} setNavOpen={setNavOpen} />
+      <SideNavigation navOpen={navOpen} setNavOpen={setNavOpen} />
       <main className="left-0 tablet:left-[70px] desktop:left-56 absolute overflow-y-scroll top-14 text-gray-800 right-0 bottom-0 pt-10 px-5 tablet:p-10 tablet:px-5 desktop:px-10">
         {children}
         <div>
@@ -15,6 +18,92 @@ function LayoutWrapper({ children }) {
           <Footer />
         </div>
       </main>
+
+      <ul
+        class={`w-full h-screen text-sm flex-col gap-y-4 px-3 pt-5 bg-white overflow-y-auto fixed animate__animated  animate__bounceInUp animate__fast  ${
+          navOpen ? 'flex' : 'hidden'
+        }`}
+      >
+        <li className="flex px-2 items-center">
+          <i className="fa-solid fa-house"></i>&nbsp;&nbsp;&nbsp;Home
+        </li>
+        <hr className="h-[1.2px] bg-neutral-500" />
+        <li className="text-xs px-2">Solutions & Services</li>
+        <li>
+          <ul className="grid">
+            <li
+              className="flex px-2 items-center rounded-t-md justify-between bg-gray-200 text-pink-600 font-bold py-3"
+              onClick={() => setFirstAccordion((prev) => !prev)}
+            >
+              <span>
+                <i className="fa-solid  fa-gear"></i>&nbsp;&nbsp;&nbsp;Solutions
+              </span>
+              <i className="fa-solid fa-angle-down text-right"></i>
+            </li>
+            {firstAccordion && (
+              <>
+                <li className="bg-gray-200 px-2 py-4 font-thin text-gray-700">
+                  Automation & Orchestration
+                </li>
+                <li className="bg-gray-200 px-2 py-4 font-thin text-gray-700">
+                  Cloud
+                </li>
+                <li className="bg-gray-200 px-2 py-4 font-thin text-gray-700">
+                  Data Center
+                </li>
+                <li className="bg-gray-200 px-2 py-4 font-thin text-gray-700">
+                  Networking
+                </li>
+                <li className="bg-gray-200 px-2 py-4 font-medium rounded-b-md text-blue-500">
+                  See all Solutions&nbsp;&nbsp;
+                  <i className="fa-solid fa-angle-right"></i>
+                </li>
+              </>
+            )}
+            <li
+              className={`flex px-2 mt-1 items-center justify-between  py-3 ${
+                secondAccordion && 'bg-gray-200'
+              }`}
+              onClick={() => setSecondAccordion((prev) => !prev)}
+            >
+              <span>
+                <i className="fa-solid  fa-users-gear"></i>
+                &nbsp;&nbsp;&nbsp;Services
+              </span>
+              <i className="fa-solid fa-angle-down text-right"></i>
+            </li>
+            {secondAccordion && (
+              <>
+                <li className="bg-gray-200 px-2 py-4 font-thin text-gray-700">
+                  Construction Services
+                </li>
+                <li className="bg-gray-200 px-2 py-4 font-thin text-gray-700">
+                  Infrastructure Services
+                </li>
+                <li className="bg-gray-200 px-2 py-4 font-medium rounded-b-md text-blue-500">
+                  See all Services&nbsp;&nbsp;
+                  <i className="fa-solid fa-angle-right"></i>
+                </li>
+              </>
+            )}
+          </ul>
+        </li>
+        <hr className="h-[2px] bg-neutral-500" />
+        <li className="flex px-2 items-center">
+          <i className="fa-solid fa-hashtag"></i>&nbsp;&nbsp;&nbsp;
+          <span>About</span>
+        </li>
+        <hr className="h-[1.5px] bg-neutral-500" />
+        <li>
+          <ul className="py-4 flex text-xs text-gray-900 font-thin px-2 flex-wrap gap-y-3 gap-x-6">
+            <li>Careers</li>
+            <li>Contact Us</li>
+            <li>Diversity & Inclusion</li>
+            <li>Locations</li>
+            <li>Sustainability</li>
+          </ul>
+        </li>
+      </ul>
     </>
   );
 }
