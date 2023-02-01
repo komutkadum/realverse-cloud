@@ -18,12 +18,12 @@ function SideNavigation() {
             </p>
             <ul className="text-sm grid">
               <Link href="/explore/solutions">
-                <li className="flex items-center cursor-pointer hover:font-bold justify-start gap-x-2  py-3">
+                <li className="flex items-center cursor-pointer hover:font-bold justify-start gap-x-2  py-3 link">
                   <i className="fa-solid fa-gear"></i> Solutions
                 </li>
               </Link>
               <Link href="/explore/services">
-                <li className="flex items-center cursor-pointer hover:font-bold justify-start gap-x-2 py-3">
+                <li className="flex items-center cursor-pointer hover:font-bold justify-start gap-x-2 py-3 link">
                   <i className="fa-solid fa-users-gear"></i> Services
                 </li>
               </Link>
@@ -36,13 +36,15 @@ function SideNavigation() {
           <hr className="h-0.5 bg-gray-300" />
           <div className="text-sm py-4 gap-x-2 flex items-center rounded-md text-pink-600 font-bold">
             <Link href="/about/overview">
-              <i className="fa-solid fa-info"></i> <span>About</span>
+              <i className="fa-solid fa-hashtag"></i> <span>About</span>
             </Link>
           </div>
           <hr className="h-0.5 bg-gray-300" />
           <ul className="py-4 flex flex-wrap gap-2">
             <li>Careers</li>
-            <li>Contact Us</li>
+            <Link href="/contact-us" className="link">
+              <li>Contact Us</li>
+            </Link>
             <li>Diversity & Inclusion</li>
             <li>Locations</li>
             <li>Sustainability</li>
@@ -64,7 +66,7 @@ function SideNavigation() {
               </li>
               <a href="./services.html">
                 <li className="flex items-center cursor-pointer hover:font-bold justify-start gap-x-2 py-3">
-                  <i className="fa-solid fa-users-gear text-lg"></i>
+                  <i className="fa-solid fa-hashtag text-lg"></i>
                 </li>
               </a>
             </ul>

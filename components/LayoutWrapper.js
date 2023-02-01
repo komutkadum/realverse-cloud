@@ -111,10 +111,12 @@ function LayoutWrapper({ children }) {
           </ul>
         </li>
         <hr className="h-[2px] bg-neutral-500" />
-        <li className="flex px-2 items-center">
-          <i className="fa-solid fa-hashtag"></i>&nbsp;&nbsp;&nbsp;
-          <span>About</span>
-        </li>
+        <Link href="/about/overview">
+          <li className="flex px-2 items-center">
+            <i className="fa-solid fa-hashtag"></i>&nbsp;&nbsp;&nbsp;
+            <span>About</span>
+          </li>
+        </Link>
         <hr className="h-[1.5px] bg-neutral-500" />
         <li>
           <ul className="py-4 flex text-xs text-gray-900 font-thin px-2 flex-wrap gap-y-3 gap-x-6">

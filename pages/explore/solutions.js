@@ -27,7 +27,8 @@ function solutions() {
 
         {/* grid done */}
         <div className="grid grid-cols-12 gap-2">
-          <div
+          <Link
+            href="/category/automation-and-orchestration/overview"
             className="col-span-12 mobile:col-span-6 tabletxl:col-span-4 laptopxl:col-span-3 rounded-md border aspect-w-16 aspect-h-9 bg-red-600 bg-cover bg-no-repeat text-white"
             style={{
               backgroundImage: "url('/images/turn-on-2923046_1920.jpg')",
@@ -41,8 +42,9 @@ function solutions() {
                 Learn about automated infrastructure, platforms & operations.
               </p>
             </div>
-          </div>
-          <div
+          </Link>
+          <Link
+            href="/category/cloud/overview"
             className="col-span-12 mobile:col-span-6 tabletxl:col-span-4 laptopxl:col-span-3 rounded-md border aspect-w-16 aspect-h-9 bg-red-600 bg-cover bg-no-repeat text-white"
             style={{
               backgroundImage: "url('/images/businessman-1176006_1920.jpg')",
@@ -57,8 +59,9 @@ function solutions() {
                 strategy through implementation and beyond...
               </p>
             </div>
-          </div>
-          <div
+          </Link>
+          <Link
+            href="/category/data-center/overview"
             className="col-span-12 mobile:col-span-6 tabletxl:col-span-4 laptopxl:col-span-3 rounded-md border aspect-w-16 aspect-h-9 bg-red-600 bg-cover bg-no-repeat text-white"
             style={{
               backgroundImage: "url('/images/electrical-2476782_1920.jpg')",
@@ -73,8 +76,9 @@ function solutions() {
                 converged & hyperconverged infrastructure.
               </p>
             </div>
-          </div>
-          <div
+          </Link>
+          <Link
+            href="/category/networking/overview"
             className="col-span-12 mobile:col-span-6 tabletxl:col-span-4 laptopxl:col-span-3 rounded-md border aspect-w-16 aspect-h-9 bg-red-600 bg-cover bg-no-repeat text-white"
             style={{
               backgroundImage: "url('/images/fiber-4814456_1920.jpg')",
@@ -89,7 +93,7 @@ function solutions() {
                 architechture that enforces security...
               </p>
             </div>
-          </div>
+          </Link>
         </div>
       </div>
 

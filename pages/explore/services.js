@@ -27,7 +27,8 @@ function services() {
       <div className="grid gap-y-4">
         <h4 className="text-2xl font-bold">Realverse Cloud Services</h4>
         <div className="grid grid-cols-12 gap-2">
-          <div
+          <Link
+            href="/service/consulting-services/overview"
             className="col-span-12 mobile:col-span-6 tabletxl:col-span-4 laptopxl:col-span-3 rounded-md border aspect-w-16 aspect-h-9 bg-red-600 bg-cover bg-no-repeat text-white"
             style={{
               backgroundImage: "url('/images/turn-on-2923046_1920.jpg')",
@@ -42,8 +43,9 @@ function services() {
                 ability to execute complex infrastructure solutions.
               </p>
             </div>
-          </div>
-          <div
+          </Link>
+          <Link
+            href="/service/infrastructure-services/overview"
             className="col-span-12 mobile:col-span-6 tabletxl:col-span-4 laptopxl:col-span-3 rounded-md border aspect-w-16 aspect-h-9 bg-red-600 bg-cover bg-no-repeat text-white"
             style={{
               backgroundImage: "url('/images/businessman-1176006_1920.jpg')",
@@ -58,7 +60,7 @@ function services() {
                 seamlessly deploying critical invest....
               </p>
             </div>
-          </div>
+          </Link>
         </div>
       </div>
 
