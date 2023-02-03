@@ -2,6 +2,7 @@
 import React from 'react';
 import RightNavigationAbove from '../../components/Navigation/RightNavigationAbove';
 import RightNavigationBelow from '../../components/Navigation/RightNavigationBelow';
+import AboutNavigation from '../../components/utility/AboutNavigation';
 
 function ourwork() {
   return (
@@ -9,20 +10,7 @@ function ourwork() {
       <div className="grid grid-flow-row laptop:grid-flow-col">
         <RightNavigationAbove />
         <div>
-          <ul className="flex border-b border-gray-400 w-full">
-            {/* <Link href="/about/overview">
-              <li className="px-5  py-1.5">Overview</li>
-            </Link> */}
-            <li className="px-5 py-1.5 border-b-4 border-blue-600 font-bold">
-              Our Work
-            </li>
-            {/* <Link href="/about/culture">
-              <li className="px-5 py-1.5">Culture</li>
-            </Link>
-            <Link href="/about/leadership">
-              <li className="px-5 py-1.5">Leadership</li>
-            </Link> */}
-          </ul>
+          <AboutNavigation />
           <div className="py-6 grid gap-y-4">
             <div className="grid gap-y-2">
               <h4 className="text-xl font-bold">
@@ -67,13 +55,10 @@ function ourwork() {
           </div>
 
           <div className="py-6 grid gap-y-4">
-            <div>
-              <h4 className="text-xl font-bold">
-                In a world that is less end to end, we connect everything
-                together
-              </h4>
-              <img src="/images/wwt-venn-diagrams.png" alt="" />
-            </div>
+            <h4 className="text-xl font-bold">
+              In a world that is less end to end, we connect everything together
+            </h4>
+            <img src="/images/wwt-venn-diagrams.png" alt="" />
             <div className="grid gap-y-2">
               <p className=" leading-relaxed  text-justify">
                 Our ambition is to create a brighter future for all. So, our
@@ -102,7 +87,7 @@ function ourwork() {
               a case study below.
             </p>
             <div>
-              <button className="px-6 rounded-lg py-3 text-white bg-blue-600 hover:bg-blue-800">
+              <button className="px-6 py-3 bg-button">
                 Access all case studies
               </button>
             </div>

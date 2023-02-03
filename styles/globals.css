@@ -9,10 +9,7 @@ body {
   height: 100%;
 }
 body {
-  font-family: 'Roboto Slab', serif;
-}
-.r-font {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .scroll {
@@ -24,7 +21,6 @@ body {
 .scroll::-webkit-scrollbar {
   display: none;
 }
-
 ::-webkit-scrollbar {
   width: 8px;
 }
@@ -51,6 +47,9 @@ body {
 
 @layer components {
   .link {
-    @apply hover:text-blue-800 hover:font-bold hover:-translate-y-1 duration-200;
+    @apply hover:text-sky-700 hover:font-bold hover:-translate-y-1 duration-200;
+  }
+  .bg-button {
+    @apply text-white rounded-md bg-sky-600 hover:bg-sky-700 duration-200;
   }
 }

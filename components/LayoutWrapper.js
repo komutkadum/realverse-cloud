@@ -24,9 +24,8 @@ function LayoutWrapper({ children }) {
           <Footer />
         </div>
       </main>
-
       <ul
-        class={`w-full h-screen text-sm flex-col gap-y-4 px-3 pt-5 bg-white overflow-y-auto fixed animate__animated  animate__bounceInUp animate__fast  ${
+        className={`w-full h-screen text-sm flex-col gap-y-4 px-3 pt-5 bg-white overflow-y-auto fixed animate__animated  animate__bounceInUp animate__fast  ${
           navOpen ? 'flex' : 'hidden'
         }`}
       >

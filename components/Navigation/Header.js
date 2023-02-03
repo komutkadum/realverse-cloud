@@ -23,9 +23,7 @@ function Header({ navOpen, setNavOpen }) {
           <h1>Realverse Cloud</h1>
         </div>
         <div className="hidden tablet:inline">
-          <button className=" px-3 rounded bg-blue-600 hover:bg-blue-700 text-white py-1.5">
-            Login
-          </button>
+          <button className=" px-3 rounded-md bg-button py-1.5">Login</button>
         </div>
       </nav>
     </header>

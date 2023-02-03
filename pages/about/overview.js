@@ -2,27 +2,15 @@
 import React from 'react';
 import RightNavigationAbove from '../../components/Navigation/RightNavigationAbove';
 import RightNavigationBelow from '../../components/Navigation/RightNavigationBelow';
+import AboutNavigation from '../../components/utility/AboutNavigation';
 
 function overview() {
   return (
     <>
-      <div class="grid grid-flow-row laptop:grid-flow-col">
+      <div className="grid grid-flow-row laptop:grid-flow-col">
         <RightNavigationAbove />
         <div>
-          <ul className="flex border-b border-gray-400 w-full">
-            <li className="px-5 border-b-4 border-blue-600 font-bold py-1.5">
-              Overview
-            </li>
-            {/* <Link href="/about/our-work">
-              <li className="px-5 py-1.5">Our Work</li>
-            </Link>
-            <Link href="/about/culture">
-              <li className="px-5 py-1.5">Culture</li>
-            </Link>
-            <Link href="/about/leadership">
-              <li className="px-5 py-1.5">Leadership</li>
-            </Link> */}
-          </ul>
+          <AboutNavigation />
           <div className="py-6 grid gap-y-2">
             <h4 className="text-xl font-bold">Make a new world happen.</h4>
             <p className=" leading-relaxed  text-justify">
@@ -45,13 +33,10 @@ function overview() {
             </p>
           </div>
           <div className="py-6 grid gap-y-4">
-            <div>
-              <h4 className="text-xl font-bold">
-                In a world that is less end to end, we connect everything
-                together
-              </h4>
-              <img src="/images/wwt-venn-diagrams.png" alt="" />
-            </div>
+            <h4 className="text-xl font-bold">
+              In a world that is less end to end, we connect everything together
+            </h4>
+            <img src="/images/wwt-venn-diagrams.png" alt="" />
             <div className="grid gap-y-2">
               <p className=" leading-relaxed  text-justify">
                 We look at the entire process -- from beginning to end -- by
@@ -307,9 +292,7 @@ function overview() {
               Don't see what you're looking for or want to learn more?
             </p>
             <div>
-              <button className="px-6 rounded-lg py-3 text-white bg-blue-600 hover:bg-blue-800">
-                Contact us
-              </button>
+              <button className="px-6 py-3 bg-button">Contact us</button>
             </div>
           </div>
         </div>

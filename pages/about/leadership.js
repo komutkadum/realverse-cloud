@@ -1,7 +1,9 @@
 /* eslint-disable react/no-unescaped-entities */
+import Image from 'next/image';
 import React from 'react';
 import RightNavigationAbove from '../../components/Navigation/RightNavigationAbove';
 import RightNavigationBelow from '../../components/Navigation/RightNavigationBelow';
+import AboutNavigation from '../../components/utility/AboutNavigation';
 
 function leadership() {
   return (
@@ -9,14 +11,7 @@ function leadership() {
       <div className="grid grid-flow-row laptop:grid-flow-col">
         <RightNavigationAbove />
         <div>
-          <ul className="flex border-b border-gray-400 w-full">
-            {/* <!-- <li className="px-5  py-1.5">Overview</li>
-                    <li className="px-5 py-1.5 ">Our Work</li>
-                    <li className="px-5 py-1.5 ">Culture</li> --> */}
-            <li className="px-5 py-1.5 border-b-4 border-blue-600 font-bold">
-              Leadership
-            </li>
-          </ul>
+          <AboutNavigation />
           <div className="py-6 grid gap-y-4">
             <div className="grid gap-y-2">
               <h4 className="text-xl font-bold">
@@ -33,10 +28,12 @@ function leadership() {
             </div>
             <div className="grid grid-cols-12  mt-2 gap-4">
               <div className="grid justify-center col-span-12 tablet:col-span-6 laptop:col-span-4 gap-y-2">
-                <img
+                <Image
                   src="/images/Dave Steward 1_400x400.webp"
                   className="rounded-md"
-                  alt=""
+                  alt="akshay mishra"
+                  width={400}
+                  height={400}
                 />
                 <div>
                   <h1 className="text-2xl font-extrabold r-font">
@@ -46,10 +43,12 @@ function leadership() {
                 </div>
               </div>
               <div className="grid justify-center col-span-12 tablet:col-span-6 laptop:col-span-4 gap-y-2">
-                <img
+                <Image
                   src="/images/Jim Kavanaugh_400x400.webp"
                   className="rounded-md"
-                  alt=""
+                  alt="kadum komut"
+                  width={400}
+                  height={400}
                 />
                 <div>
                   <h1 className="text-2xl font-extrabold r-font">

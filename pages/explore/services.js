@@ -16,7 +16,7 @@ function services() {
         {/* <!-- <li className="px-5 py-1.5">Industries</li>
             <li className="px-5 py-1.5">Partners</li> --> */}
       </ul>
-      <p className="py-6 leading-relaxed text-neutral-500 text-justify">
+      <p className="py-6 leading-relaxed  text-justify">
         Our comprehensive services portfolio is designed to help at every stage
         of your journey to digital transformation. From idea to outcome, you
         won't find another partner who combines strategic consulting expertise

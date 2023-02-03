@@ -2,6 +2,7 @@
 import React from 'react';
 import RightNavigationAbove from '../../components/Navigation/RightNavigationAbove';
 import RightNavigationBelow from '../../components/Navigation/RightNavigationBelow';
+import AboutNavigation from '../../components/utility/AboutNavigation';
 
 function culture() {
   return (
@@ -9,14 +10,7 @@ function culture() {
       <div className="grid grid-flow-row laptop:grid-flow-col">
         <RightNavigationAbove />
         <div>
-          <ul className="flex border-b border-gray-400 w-full">
-            {/* <li className="px-5  py-1.5">Overview</li>
-            <li className="px-5 py-1.5 ">Our Work</li> */}
-            <li className="px-5 py-1.5 border-b-4 border-blue-600 font-bold">
-              Culture
-            </li>
-            {/* <li className="px-5 py-1.5">Leadership</li> */}
-          </ul>
+          <AboutNavigation />
           <div className="py-6 grid gap-y-4">
             <div className="grid gap-y-2">
               <h4 className="text-xl font-bold">

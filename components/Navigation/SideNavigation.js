@@ -1,7 +1,9 @@
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 import React from 'react';
 
 function SideNavigation() {
+  const router = useRouter();
   return (
     <>
       {/* // header with text */}
@@ -18,12 +20,16 @@ function SideNavigation() {
             </p>
             <ul className="text-sm grid">
               <Link href="/explore/solutions">
-                <li className="flex items-center cursor-pointer hover:font-bold justify-start gap-x-2  py-3 link">
+                <li
+                  className={`flex items-center cursor-pointer hover:font-bold justify-start gap-x-2  py-3 link`}
+                >
                   <i className="fa-solid fa-gear"></i> Solutions
                 </li>
               </Link>
               <Link href="/explore/services">
-                <li className="flex items-center cursor-pointer hover:font-bold justify-start gap-x-2 py-3 link">
+                <li
+                  className={`flex items-center cursor-pointer hover:font-bold justify-start gap-x-2 py-3 text-pink-600 font-bold link`}
+                >
                   <i className="fa-solid fa-users-gear"></i> Services
                 </li>
               </Link>
@@ -34,8 +40,8 @@ function SideNavigation() {
 
         <div>
           <hr className="h-0.5 bg-gray-300" />
-          <div className="text-sm py-4 gap-x-2 flex items-center rounded-md text-pink-600 font-bold">
-            <Link href="/about/overview">
+          <div className={`text-sm py-4 gap-x-2 flex items-center rounded-md `}>
+            <Link href="/about/overview" className="link">
               <i className="fa-solid fa-hashtag"></i> <span>About</span>
             </Link>
           </div>
