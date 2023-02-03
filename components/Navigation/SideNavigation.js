@@ -40,8 +40,10 @@ function SideNavigation() {
               <ul className={`${sidebarAccordion ? 'grid' : 'hidden'}`}>
                 <li
                   className={`bg-gray-200 px-2 py-2 font-thin ${
-                    router.pathname ==
-                    '/category/automation-and-orchestration/overview'
+                    [
+                      '/category/automation-and-orchestration/overview',
+                      '/category/automation-and-orchestration/services',
+                    ].indexOf(router.pathname) !== -1
                       ? 'active-link'
                       : 'text-gray-600'
                   }`}
@@ -56,7 +58,10 @@ function SideNavigation() {
 
                 <li
                   className={`bg-gray-200 px-2 py-2 font-thin ${
-                    router.pathname == '/category/cloud/overview'
+                    [
+                      '/category/cloud/overview',
+                      '/category/cloud/services',
+                    ].indexOf(router.pathname) !== -1
                       ? 'active-link'
                       : 'text-gray-600'
                   }`}
@@ -78,7 +83,10 @@ function SideNavigation() {
                 </li>
                 <li
                   className={`bg-gray-200 px-2 py-2 font-thin ${
-                    router.pathname == '/category/networking/overview'
+                    [
+                      '/category/networking/overview',
+                      '/category/networking/services',
+                    ].indexOf(router.pathname) !== -1
                       ? 'active-link'
                       : 'text-gray-600'
                   }`}

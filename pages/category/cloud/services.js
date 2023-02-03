@@ -37,7 +37,7 @@ function services() {
               and solutions, accelerating your business today while sculpting
               where it can go tomorrow.
             </p>
-            <img src="/images/wwt - your cloud partner.png" />
+            <img src="/images/wwt - your cloud partner.png" className="mt-2" />
           </div>
 
           <div className="py-10">

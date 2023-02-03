@@ -6,7 +6,7 @@ import CategoryNavigationBelow from '../../../components/utility/CategoryNavigat
 function overview() {
   return (
     <>
-      <div class="grid grid-flow-row laptop:grid-flow-col">
+      <div className="grid grid-flow-row laptop:grid-flow-col">
         <CategoryNavigationAbove
           text="Data Center"
           desc="Learn about data protection, facilities infrastructure, hyper-converged infrastructure (HCI), primary storage and server infrastructure."
@@ -16,7 +16,6 @@ function overview() {
             <li className="px-5 border-b-4 border-blue-600 font-bold py-1.5">
               Overview
             </li>
-            <li className="px-5 py-1.5">Services</li>
           </ul>
           <div className="py-6 grid gap-y-2">
             <h4 className="text-xl font-bold">
