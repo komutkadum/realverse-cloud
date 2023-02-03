@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react';
 
 function Header({ navOpen, setNavOpen }) {
@@ -19,11 +20,16 @@ function Header({ navOpen, setNavOpen }) {
           <span className="hidden mobile:inline">Menu</span>
         </div>
         <div className="flex items-center text-xl mobile:text-2xl  font-extrabold r-font gap-x-1 tracking-wide">
-          <img src="/images/night.png" className="w-10 h-10" alt="" />
-          <h1>Realverse Cloud</h1>
+          <Image
+            src="/images/night.png"
+            width={40}
+            height={40}
+            alt="realverse cloud icon"
+          />
+          <h1>RealverseCloud</h1>
         </div>
         <div className="hidden tablet:inline">
-          <button className=" px-3 rounded-md bg-button py-1.5">Login</button>
+          <button className=" px-3 text-sm bg-button py-1">Log in</button>
         </div>
       </nav>
     </header>

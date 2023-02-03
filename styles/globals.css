@@ -12,6 +12,10 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+.scroll-hidden::-webkit-scrollbar {
+  display: none;
+}
+
 .scroll {
   white-space: nowrap; /* [1] */
   overflow-x: auto; /* [2] */
@@ -47,7 +51,10 @@ body {
 
 @layer components {
   .link {
-    @apply hover:text-sky-700 hover:font-bold hover:-translate-y-1 duration-200;
+    @apply hover:text-sky-700 cursor-pointer hover:font-bold  duration-200;
+  }
+  .active-link {
+    @apply text-pink-600;
   }
   .bg-button {
     @apply text-white rounded-md bg-sky-600 hover:bg-sky-700 duration-200;

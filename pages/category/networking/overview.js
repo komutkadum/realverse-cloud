@@ -1,4 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
+import Link from 'next/link';
 import React from 'react';
 import CategoryNavigationAbove from '../../../components/utility/CategoryNavigationAbove';
 import CategoryNavigationBelow from '../../../components/utility/CategoryNavigationBelow';
@@ -16,7 +17,9 @@ function overview() {
             <li className="px-5 border-b-4 border-blue-600 font-bold py-1.5">
               Overview
             </li>
-            <li className="px-5 py-1.5">Services</li>
+            <Link href="/category/networking/services">
+              <li className="px-5 py-1.5">Services</li>
+            </Link>
           </ul>
           <div className="py-6 grid gap-y-2">
             <h4 className="text-xl font-bold">

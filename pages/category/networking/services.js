@@ -1,4 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
+import Link from 'next/link';
 import React from 'react';
 import CallToAction from '../../../components/utility/CallToAction';
 import CategoryNavigationAbove from '../../../components/utility/CategoryNavigationAbove';
@@ -14,7 +15,9 @@ function services() {
         />
         <div>
           <ul className="flex border-b border-gray-400 w-full">
-            <li className="px-5 py-1.5">Overview</li>
+            <Link href="/category/networking/overview">
+              <li className="px-5 py-1.5">Overview</li>
+            </Link>
             <li className="px-5 border-b-4 border-blue-600 font-bold py-1.5">
               Services
             </li>
