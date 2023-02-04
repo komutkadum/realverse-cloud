@@ -14,7 +14,7 @@ function leadership() {
           <AboutNavigation />
           <div className="py-6 grid gap-y-4">
             <div className="grid gap-y-2">
-              <h4 className="text-xl font-bold">
+              <h4 className="text-2xl font-bold">
                 Strong leadership is what matters most.
               </h4>
               <p className="leading-relaxed text-justify">

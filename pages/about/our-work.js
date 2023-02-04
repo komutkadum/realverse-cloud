@@ -13,7 +13,7 @@ function ourwork() {
           <AboutNavigation />
           <div className="py-6 grid gap-y-4">
             <div className="grid gap-y-2">
-              <h4 className="text-xl font-bold">
+              <h4 className="text-2xl font-bold">
                 Disruption is unavoidable and change is hard.
               </h4>
               <p className="leading-relaxed text-justify">
@@ -55,7 +55,7 @@ function ourwork() {
           </div>
 
           <div className="py-6 grid gap-y-4">
-            <h4 className="text-xl font-bold">
+            <h4 className="text-2xl font-bold">
               In a world that is less end to end, we connect everything together
             </h4>
             <img src="/images/wwt-venn-diagrams.png" alt="" />
@@ -77,7 +77,7 @@ function ourwork() {
           </div>
 
           <div className="py-6 grid gap-y-2">
-            <h4 className="text-xl font-bold">
+            <h4 className="text-2xl font-bold">
               Looking for more success stories?
             </h4>
             <p className=" leading-relaxed  text-justify">

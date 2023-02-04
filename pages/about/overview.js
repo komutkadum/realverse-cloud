@@ -12,7 +12,7 @@ function overview() {
         <div>
           <AboutNavigation />
           <div className="py-6 grid gap-y-2">
-            <h4 className="text-xl font-bold">Make a new world happen.</h4>
+            <h4 className="text-2xl font-bold">Make a new world happen.</h4>
             <p className=" leading-relaxed  text-justify">
               This simple phrase encapsulates our ambition and what we do -- not
               just for our customers, but for our people and communities across
@@ -33,7 +33,7 @@ function overview() {
             </p>
           </div>
           <div className="py-6 grid gap-y-4">
-            <h4 className="text-xl font-bold">
+            <h4 className="text-2xl font-bold">
               In a world that is less end to end, we connect everything together
             </h4>
             <img src="/images/wwt-venn-diagrams.png" alt="" />
@@ -70,7 +70,7 @@ function overview() {
           </div>
 
           <div className="py-6 grid gap-y-2">
-            <h4 className="text-xl font-bold">What we do</h4>
+            <h4 className="text-2xl font-bold">What we do</h4>
             <p className=" leading-relaxed  text-justify">
               We operate at the forefront of innovation and progress, working
               with our clients all over the world to take them into the future.
@@ -144,7 +144,9 @@ function overview() {
           </div>
 
           <div className="py-6 grid gap-y-2">
-            <h4 className="text-xl font-bold">Key services and capabilities</h4>
+            <h4 className="text-2xl font-bold">
+              Key services and capabilities
+            </h4>
             <div className="grid grid-cols-12 gap-2">
               <div
                 className="col-span-12 mobile:col-span-6 laptopxl:col-span-4 rounded-md border aspect-w-16 aspect-h-9 bg-red-600 bg-cover bg-no-repeat text-white"
@@ -247,7 +249,7 @@ function overview() {
           </div>
 
           <div className="py-6 grid gap-y-2">
-            <h4 className="text-xl font-bold">Realverse Cloud at a glance</h4>
+            <h4 className="text-2xl font-bold">Realverse Cloud at a glance</h4>
             <p className=" leading-relaxed  text-justify">
               Realverse Cloud is a financially strong, privately held global
               technology service provider with over 30 years experience
@@ -287,7 +289,7 @@ function overview() {
           </div>
 
           <div className="py-6 grid gap-y-2">
-            <h4 className="text-xl font-bold">Get started today</h4>
+            <h4 className="text-2xl font-bold">Get started today</h4>
             <p className=" leading-relaxed  text-justify">
               Don't see what you're looking for or want to learn more?
             </p>

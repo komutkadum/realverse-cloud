@@ -17,12 +17,12 @@ function overview() {
             <li className="px-5 border-b-4 border-blue-600 font-bold py-1.5">
               Overview
             </li>
-            <Link href="/category/networking/services">
+            <Link href="/category/networking/services#top">
               <li className="px-5 py-1.5">Services</li>
             </Link>
           </ul>
           <div className="py-6 grid gap-y-2">
-            <h4 className="text-xl font-bold">
+            <h4 className="text-2xl font-bold">
               Connecting the distributed enterprise
             </h4>
             <p className=" leading-relaxed  text-justify">
@@ -76,9 +76,10 @@ function overview() {
           </div>
 
           <div className="py-6 grid gap-y-4">
-            <h4 className="text-xl font-bold">Networking Topics</h4>
+            <h4 className="text-2xl font-bold">Networking Topics</h4>
             <div className="grid grid-cols-12 gap-2">
-              <div
+              <Link
+                href="/topic/data-center-networking/overview#top"
                 className="col-span-12 mobile:col-span-6 laptopxl:col-span-4 rounded-md border aspect-w-16 aspect-h-9 bg-red-600 bg-cover bg-no-repeat text-white"
                 style={{
                   backgroundImage: "url('/images/turn-on-2923046_1920.jpg')",
@@ -93,7 +94,7 @@ function overview() {
                     applications critical to the business.
                   </p>
                 </div>
-              </div>
+              </Link>
             </div>
           </div>
         </div>

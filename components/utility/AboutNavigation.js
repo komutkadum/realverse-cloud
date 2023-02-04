@@ -9,7 +9,7 @@ function AboutNavigation() {
     <>
       <ul className="flex border-b relative border-gray-400 w-full">
         <Link
-          href="/about/overview"
+          href="/about/overview#top"
           className={`px-5 hover:font-bold ${
             router.pathname == '/about/overview'
               ? 'border-blue-600 border-b-4 font-bold'
@@ -19,7 +19,7 @@ function AboutNavigation() {
           <li>Overview</li>
         </Link>
         <Link
-          href="/about/our-work"
+          href="/about/our-work#top"
           className={`px-5 hover:font-bold ${
             router.pathname == '/about/our-work'
               ? 'border-blue-600 border-b-4 font-bold'
@@ -29,7 +29,7 @@ function AboutNavigation() {
           <li>Our&nbsp;Work</li>
         </Link>
         <Link
-          href="/about/culture"
+          href="/about/culture#top"
           className={`px-5 hover:font-bold ${
             router.pathname == '/about/culture'
               ? 'border-blue-600 border-b-4 font-bold'
@@ -39,7 +39,7 @@ function AboutNavigation() {
           <li>Culture</li>
         </Link>
         <Link
-          href="/about/leadership"
+          href="/about/leadership#top"
           className={`px-5 hover:font-bold ${
             router.pathname == '/about/leadership'
               ? 'border-blue-600 border-b-4 font-bold'
@@ -53,7 +53,12 @@ function AboutNavigation() {
             className="hover:font-bold"
             onClick={() => setMoreDropdown((prev) => !prev)}
           >
-            More&nbsp;&nbsp;<i className="fa-solid fa-ellipsis"></i>
+            More&nbsp;&nbsp;
+            {moreDropdown ? (
+              <i className="fa-solid fa-xmark"></i>
+            ) : (
+              <i className="fa-solid fa-ellipsis"></i>
+            )}
           </button>
           <div
             className={`${
@@ -61,7 +66,7 @@ function AboutNavigation() {
             } absolute top-10 bg-gray-100 left-0 w-full px-5 py-5 gap-y-3 shadow-2xl border`}
           >
             <Link
-              href="/about/overview"
+              href="/about/overview#top"
               className={`${
                 router.pathname == '/about/overview' ? 'hidden' : 'inline'
               }`}
@@ -69,7 +74,7 @@ function AboutNavigation() {
               Overview
             </Link>
             <Link
-              href="/about/our-work"
+              href="/about/our-work#top"
               className={`${
                 router.pathname == '/about/our-work' ? 'hidden' : 'inline'
               }`}
@@ -77,7 +82,7 @@ function AboutNavigation() {
               Our Work
             </Link>
             <Link
-              href="/about/culture"
+              href="/about/culture#top"
               className={`${
                 router.pathname == '/about/culture' ? 'hidden' : 'inline'
               }`}
@@ -85,7 +90,7 @@ function AboutNavigation() {
               Culture
             </Link>
             <Link
-              href="/about/leadership"
+              href="/about/leadership#top"
               className={`${
                 router.pathname == '/about/leadership' ? 'hidden' : 'inline'
               }`}

@@ -49,7 +49,7 @@ function SideNavigation() {
                   }`}
                 >
                   <Link
-                    href="/category/automation-and-orchestration/overview"
+                    href="/category/automation-and-orchestration/overview#top"
                     className="link"
                   >
                     Automation & Orchestration
@@ -66,7 +66,7 @@ function SideNavigation() {
                       : 'text-gray-600'
                   }`}
                 >
-                  <Link href="/category/cloud/overview" className="link">
+                  <Link href="/category/cloud/overview#top" className="link">
                     Cloud
                   </Link>
                 </li>
@@ -77,7 +77,10 @@ function SideNavigation() {
                       : 'text-gray-600'
                   }`}
                 >
-                  <Link href="/category/data-center/overview" className="link">
+                  <Link
+                    href="/category/data-center/overview#top"
+                    className="link"
+                  >
                     Data Center
                   </Link>
                 </li>
@@ -91,13 +94,16 @@ function SideNavigation() {
                       : 'text-gray-600'
                   }`}
                 >
-                  <Link href="/category/networking/overview" className="link">
+                  <Link
+                    href="/category/networking/overview#top"
+                    className="link"
+                  >
                     Networking
                   </Link>
                 </li>
 
                 <li className="bg-gray-200 px-2 py-2 font-medium rounded-b-md text-blue-500">
-                  <Link href="/explore/solutions" className="link">
+                  <Link href="/explore/solutions#top" className="link">
                     See all Solutions&nbsp;&nbsp;
                     <i className="fa-solid fa-angle-right"></i>
                   </Link>
@@ -129,7 +135,7 @@ function SideNavigation() {
                   }`}
                 >
                   <Link
-                    href="/service/consulting-services/overview"
+                    href="/service/consulting-services/overview#top"
                     className="link"
                   >
                     Consulting Services
@@ -145,7 +151,7 @@ function SideNavigation() {
                   }`}
                 >
                   <Link
-                    href="/service/infrastructure-services/overview"
+                    href="/service/infrastructure-services/overview#top"
                     className="link"
                   >
                     Infrastructure Services
@@ -153,7 +159,7 @@ function SideNavigation() {
                 </li>
 
                 <li className="bg-gray-200 px-2 py-2 font-medium rounded-b-md text-blue-500">
-                  <Link href="/explore/services" className="link">
+                  <Link href="/explore/services#top" className="link">
                     See all Services&nbsp;&nbsp;
                     <i className="fa-solid fa-angle-right"></i>
                   </Link>
@@ -168,7 +174,7 @@ function SideNavigation() {
           <hr className="h-0.5 bg-gray-300" />
           <div className={`text-sm py-4 gap-x-2 flex items-center rounded-md `}>
             <Link
-              href="/about/overview"
+              href="/about/overview#top"
               className={`${
                 [
                   '/about/overview',
@@ -186,7 +192,7 @@ function SideNavigation() {
           <hr className="h-0.5 bg-gray-300" />
           <ul className="py-4 flex flex-wrap gap-2">
             <li>Careers</li>
-            <Link href="/contact-us" className="link">
+            <Link href="/contact-us#top" className="link">
               <li>Contact Us</li>
             </Link>
             <li>Diversity & Inclusion</li>

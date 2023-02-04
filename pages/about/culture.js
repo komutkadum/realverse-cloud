@@ -13,7 +13,7 @@ function culture() {
           <AboutNavigation />
           <div className="py-6 grid gap-y-4">
             <div className="grid gap-y-2">
-              <h4 className="text-xl font-bold">
+              <h4 className="text-2xl font-bold">
                 Our culture is what makes WWT a great place to work for all
               </h4>
               <p className="leading-relaxed  text-justify">
@@ -58,7 +58,7 @@ function culture() {
           </div>
 
           <div className="py-6 grid gap-y-2">
-            <h4 className="text-xl font-bold">
+            <h4 className="text-2xl font-bold">
               Where does our culture come from?
             </h4>
             <p className=" leading-relaxed  text-justify">
@@ -72,7 +72,7 @@ function culture() {
           <img src="/images/MicrosoftTeams-image 78.webp" alt="" />
 
           <div className="py-6 grid gap-y-2">
-            <h4 className="text-xl font-bold">Our history</h4>
+            <h4 className="text-2xl font-bold">Our history</h4>
             <p className=" leading-relaxed  text-justify">
               Founded in 1990, World Wide Technology (WWT) is a global systems
               integrator with $14.5 billion in annual revenue that provides

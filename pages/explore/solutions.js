@@ -9,7 +9,7 @@ function solutions() {
         <li className="px-5 border-b-4 border-blue-600 font-bold py-1.5">
           Solutions
         </li>
-        <Link href="/explore/services">
+        <Link href="/explore/services#top">
           <li className="px-5 py-1.5">Services</li>
         </Link>
         {/* <!-- <li className="px-5 py-1.5">Industries</li>
@@ -28,7 +28,7 @@ function solutions() {
         {/* grid done */}
         <div className="grid grid-cols-12 gap-2">
           <Link
-            href="/category/automation-and-orchestration/overview"
+            href="/category/automation-and-orchestration/overview#top"
             className="col-span-12 mobile:col-span-6 tabletxl:col-span-4 laptopxl:col-span-3 rounded-md border aspect-w-16 aspect-h-9 bg-red-600 bg-cover bg-no-repeat text-white"
             style={{
               backgroundImage: "url('/images/turn-on-2923046_1920.jpg')",
@@ -44,7 +44,7 @@ function solutions() {
             </div>
           </Link>
           <Link
-            href="/category/cloud/overview"
+            href="/category/cloud/overview#top"
             className="col-span-12 mobile:col-span-6 tabletxl:col-span-4 laptopxl:col-span-3 rounded-md border aspect-w-16 aspect-h-9 bg-red-600 bg-cover bg-no-repeat text-white"
             style={{
               backgroundImage: "url('/images/businessman-1176006_1920.jpg')",
@@ -61,7 +61,7 @@ function solutions() {
             </div>
           </Link>
           <Link
-            href="/category/data-center/overview"
+            href="/category/data-center/overview#top"
             className="col-span-12 mobile:col-span-6 tabletxl:col-span-4 laptopxl:col-span-3 rounded-md border aspect-w-16 aspect-h-9 bg-red-600 bg-cover bg-no-repeat text-white"
             style={{
               backgroundImage: "url('/images/electrical-2476782_1920.jpg')",
@@ -78,7 +78,7 @@ function solutions() {
             </div>
           </Link>
           <Link
-            href="/category/networking/overview"
+            href="/category/networking/overview#top"
             className="col-span-12 mobile:col-span-6 tabletxl:col-span-4 laptopxl:col-span-3 rounded-md border aspect-w-16 aspect-h-9 bg-red-600 bg-cover bg-no-repeat text-white"
             style={{
               backgroundImage: "url('/images/fiber-4814456_1920.jpg')",

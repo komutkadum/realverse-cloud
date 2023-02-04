@@ -1,4 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
+import Link from 'next/link';
 import React from 'react';
 import CategoryNavigationAbove from '../../../components/utility/CategoryNavigationAbove';
 import CategoryNavigationBelow from '../../../components/utility/CategoryNavigationBelow';
@@ -18,7 +19,7 @@ function overview() {
             </li>
           </ul>
           <div className="py-6 grid gap-y-2">
-            <h4 className="text-xl font-bold">
+            <h4 className="text-2xl font-bold">
               Data centers in a modern world
             </h4>
             <p className=" leading-relaxed  text-justify">
@@ -35,10 +36,11 @@ function overview() {
           </div>
 
           <div className="py-6 grid gap-y-6">
-            <h4 className="text-xl font-bold">Data center topics</h4>
+            <h4 className="text-2xl font-bold">Data center topics</h4>
 
             <div className="grid grid-cols-12 gap-2">
-              <div
+              <Link
+                href="/topic/data-protection/overview#top"
                 className="col-span-12 mobile:col-span-6 laptopxl:col-span-4 rounded-md border aspect-w-16 aspect-h-9 bg-red-600 bg-cover bg-no-repeat text-white"
                 style={{
                   backgroundImage: "url('/images/turn-on-2923046_1920.jpg')",
@@ -53,8 +55,9 @@ function overview() {
                     storage tiers.
                   </p>
                 </div>
-              </div>
-              <div
+              </Link>
+              <Link
+                href="/topic/facilities-infrastructure/overview#top"
                 className="col-span-12 mobile:col-span-6 laptopxl:col-span-4 rounded-md border aspect-w-16 aspect-h-9 bg-red-600 bg-cover bg-no-repeat text-white"
                 style={{
                   backgroundImage:
@@ -70,8 +73,9 @@ function overview() {
                     ensure facilities are operating at optimal effieciency.
                   </p>
                 </div>
-              </div>
-              <div
+              </Link>
+              <Link
+                href="/topic/hyper-converged-infrastructure/overview#top"
                 className="col-span-12 mobile:col-span-6 laptopxl:col-span-4 rounded-md border aspect-w-16 aspect-h-9 bg-red-600 bg-cover bg-no-repeat text-white"
                 style={{
                   backgroundImage:
@@ -87,8 +91,9 @@ function overview() {
                     infrastructure managed software into one optimization
                   </p>
                 </div>
-              </div>
-              <div
+              </Link>
+              <Link
+                href="/topic/server-infrastructure/overview#top"
                 className="col-span-12 mobile:col-span-6 laptopxl:col-span-4 rounded-md border aspect-w-16 aspect-h-9 bg-red-600 bg-cover bg-no-repeat text-white"
                 style={{
                   backgroundImage:
@@ -104,7 +109,7 @@ function overview() {
                     includeds physical and virtual resources.
                   </p>
                 </div>
-              </div>
+              </Link>
             </div>
           </div>
         </div>

@@ -19,7 +19,7 @@ function overview() {
             </li>
           </ul>
           <div className="py-6 grid gap-y-2">
-            <h4 className="text-xl font-bold">Time to market is critical</h4>
+            <h4 className="text-2xl font-bold">Time to market is critical</h4>
             <p className=" leading-relaxed  text-justify">
               Whether you're deploying technology at scale, managing existing IT
               systems or hiring qualified professionals to accelerate outcomes
@@ -95,7 +95,7 @@ function overview() {
 
           <div className="py-6 grid gap-y-6">
             <div className="grid gap-y-4">
-              <h4 className="text-xl font-bold">Our core capabilities</h4>
+              <h4 className="text-2xl font-bold">Our core capabilities</h4>
               <p className=" leading-relaxed  text-justify">
                 From deployment and implementation through flexible services
                 management, we offer multiple capabilities to meet your needs.
@@ -148,7 +148,7 @@ function overview() {
             </div>
           </div>
           <div className="py-6 grid gap-y-2">
-            <h4 className="text-xl font-bold">Our vision and strategy</h4>
+            <h4 className="text-2xl font-bold">Our vision and strategy</h4>
             <p className=" leading-relaxed  text-justify">
               Our vision is to provide a level of service that far exceeds
               industry standards. The strategy we employ to achieve this vision

@@ -1,4 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
+import Link from 'next/link';
 import React from 'react';
 import CallToAction from '../../../components/utility/CallToAction';
 import CategoryNavigationAbove from '../../../components/utility/CategoryNavigationAbove';
@@ -19,7 +20,7 @@ function overview() {
             </li>
           </ul>
           <div className="py-6 grid gap-y-2">
-            <h4 className="text-xl font-bold">
+            <h4 className="text-2xl font-bold">
               The difference of strategy plus execution
             </h4>
             <p className=" leading-relaxed  text-justify">
@@ -46,14 +47,17 @@ function overview() {
 
           <div className="py-6 grid gap-y-6">
             <div className="grid gap-y-4">
-              <h4 className="text-xl font-bold">Key consulting capabilities</h4>
+              <h4 className="text-2xl font-bold">
+                Key consulting capabilities
+              </h4>
               <p className=" leading-relaxed  text-justify">
                 Driving digital and business transformation, wherever and
                 whenever you need it
               </p>
             </div>
             <div className="grid grid-cols-12 gap-2">
-              <div
+              <Link
+                href="/category/cloud/overview#top"
                 className="col-span-12 mobile:col-span-6 laptopxl:col-span-4 rounded-md border aspect-w-16 aspect-h-9 bg-red-600 bg-cover bg-no-repeat text-white"
                 style={{
                   backgroundImage: "url('/images/turn-on-2923046_1920.jpg')",
@@ -64,8 +68,9 @@ function overview() {
                     Cloud Services
                   </p>
                 </div>
-              </div>
-              <div
+              </Link>
+              <Link
+                href="/enterprise-architecture#top"
                 className="col-span-12 mobile:col-span-6 laptopxl:col-span-4 rounded-md border aspect-w-16 aspect-h-9 bg-red-600 bg-cover bg-no-repeat text-white"
                 style={{
                   backgroundImage:
@@ -77,11 +82,11 @@ function overview() {
                     Enterprise Architechture Services
                   </p>
                 </div>
-              </div>
+              </Link>
             </div>
           </div>
           <div className="py-6 grid gap-y-2">
-            <h4 className="text-xl font-bold">Borderless thinking</h4>
+            <h4 className="text-2xl font-bold">Borderless thinking</h4>
             <p className=" leading-relaxed  text-justify">
               True digital transformation takes vision, a collaborative approach
               and delivery power. WWT calls this Borderless Thinking.
@@ -102,7 +107,7 @@ function overview() {
           </div>
 
           <div className="py-6 grid gap-y-2">
-            <h4 className="text-xl font-bold">
+            <h4 className="text-2xl font-bold">
               Bigger vision. Better outcomes.
             </h4>
             <p className=" leading-relaxed  text-justify">

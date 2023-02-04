@@ -18,12 +18,12 @@ function overview() {
             <li className="px-5 border-b-4 border-blue-600 font-bold py-1.5">
               Overview
             </li>
-            <Link href="/category/automation-and-orchestration/services">
+            <Link href="/category/automation-and-orchestration/services#top">
               <li className="px-5 py-1.5">Services</li>
             </Link>
           </ul>
           <div className="py-6 grid gap-y-2">
-            <h4 className="text-xl font-bold">Automate everything right</h4>
+            <h4 className="text-2xl font-bold">Automate everything right</h4>
             <p className=" leading-relaxed  text-justify">
               Organizations across every industry are looking to automation to
               give their business a competitive advantage. In many cases,
@@ -48,9 +48,10 @@ function overview() {
           />
 
           <div className="py-6 grid gap-y-6">
-            <h4 className="text-xl font-bold">Topics</h4>
+            <h4 className="text-2xl font-bold">Topics</h4>
             <div className="grid grid-cols-12 gap-2">
-              <div
+              <Link
+                href="/topic/devops/overview#top"
                 className="col-span-12 mobile:col-span-6 laptopxl:col-span-4 rounded-md border aspect-w-16 aspect-h-9 bg-red-600 bg-cover bg-no-repeat text-white"
                 style={{
                   backgroundImage: "url('/images/turn-on-2923046_1920.jpg')",
@@ -61,8 +62,9 @@ function overview() {
                     DevOps
                   </p>
                 </div>
-              </div>
-              <div
+              </Link>
+              <Link
+                href="/topic/infrastructure-automation/overview#top"
                 className="col-span-12 mobile:col-span-6 laptopxl:col-span-4 rounded-md border aspect-w-16 aspect-h-9 bg-red-600 bg-cover bg-no-repeat text-white"
                 style={{
                   backgroundImage:
@@ -74,7 +76,7 @@ function overview() {
                     Infrastructure Automation
                   </p>
                 </div>
-              </div>
+              </Link>
             </div>
           </div>
         </div>

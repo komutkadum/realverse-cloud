@@ -14,12 +14,12 @@ function Footer() {
         </div>
         <div className="col-span-12 laptop:col-span-8 grid grid-cols-12 gap-y-6">
           <ul className="grid  gap-y-6 col-span-6 laptop:col-span-12 laptop:flex laptop:flex-wrap gap-x-6 laptop:gap-y-6 laptop:justify-end">
-            <Link href="/about/overview" className="link">
+            <Link href="/about/overview#top" className="link">
               <li>About</li>
             </Link>
             <li>Careers</li>
             <li>Locations</li>
-            <Link href="/contact-us" className="link">
+            <Link href="/contact-us#top" className="link">
               <li>Contact Us</li>
             </Link>
           </ul>

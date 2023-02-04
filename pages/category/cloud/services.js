@@ -15,7 +15,7 @@ function services() {
         />
         <div>
           <ul className="flex border-b border-gray-400 w-full">
-            <Link href="/category/cloud/overview">
+            <Link href="/category/cloud/overview#top">
               <li className="px-5 py-1.5">Overview</li>
             </Link>
             <li className="px-5 border-b-4 border-blue-600 font-bold py-1.5">
@@ -23,7 +23,7 @@ function services() {
             </li>
           </ul>
           <div className="py-6 grid gap-y-2">
-            <h4 className="text-xl font-bold">Cloud services</h4>
+            <h4 className="text-2xl font-bold">Cloud services</h4>
             <h5 className="text-lg font-bold">It all starts with strategy</h5>
             <p className=" leading-relaxed  text-justify">
               Cloud technologies have made it easier for businesses to become
@@ -37,7 +37,7 @@ function services() {
               and solutions, accelerating your business today while sculpting
               where it can go tomorrow.
             </p>
-            <img src="/images/wwt - your cloud partner.png" className="mt-2" />
+            <img src="/images/wwt - your cloud partner.png" className="mt-4" />
           </div>
 
           <div className="py-10">
@@ -48,7 +48,7 @@ function services() {
           </div>
 
           <div className="py-6 grid gap-y-2">
-            <h4 className="text-xl font-bold">Cloud Maturity Model</h4>
+            <h4 className="text-2xl font-bold">Cloud Maturity Model</h4>
             <h5 className="text-lg font-bold">
               An easier way to scale and optimize capabilities
             </h5>
