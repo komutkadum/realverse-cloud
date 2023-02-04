@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import React, { useEffect, useState } from 'react';
@@ -40,7 +41,7 @@ function LayoutWrapper({ children }) {
       >
         <li className="flex px-2 items-center">
           {/* <i className="fa-solid fa-house"></i> */}
-          <img src="/icons/home.png" className="w-5 h-5" />
+          <img src="/icons/home.png" alt="home icon" className="w-5 h-5" />
           &nbsp;&nbsp;&nbsp;Home
         </li>
         <hr className="h-[1.2px] bg-neutral-500" />
@@ -57,6 +58,7 @@ function LayoutWrapper({ children }) {
                   src="/icons/solutions.png"
                   width={18}
                   height={18}
+                  alt="solutions icon"
                   className=" inline"
                 />
                 &nbsp;&nbsp;&nbsp;Solutions
@@ -105,6 +107,7 @@ function LayoutWrapper({ children }) {
                   src="/icons/services.png"
                   width={20}
                   height={20}
+                  alt="services icon"
                   className=" inline"
                 />
                 &nbsp;&nbsp;&nbsp;Services
@@ -137,7 +140,11 @@ function LayoutWrapper({ children }) {
         <Link href="/about/overview#top">
           <li className="flex px-2 items-center">
             {/* <i className="fa-solid fa-hashtag"></i> */}
-            <img src="/icons/about.png" className="w-4 h-4 inline" />
+            <img
+              src="/icons/about.png"
+              alt="about icon"
+              className="w-4 h-4 inline"
+            />
             &nbsp;&nbsp;&nbsp;
             <span>About</span>
           </li>
