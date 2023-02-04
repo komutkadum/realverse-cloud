@@ -29,7 +29,7 @@ function leadership() {
             <div className="grid grid-cols-12  mt-2 gap-4">
               <div className="grid justify-center col-span-12 tablet:col-span-6 laptop:col-span-4 gap-y-2">
                 <Image
-                  src="/images/Dave Steward 1_400x400.webp"
+                  src="/images/akshaymishra.jpeg"
                   className="rounded-md"
                   alt="akshay mishra"
                   width={400}
@@ -44,7 +44,7 @@ function leadership() {
               </div>
               <div className="grid justify-center col-span-12 tablet:col-span-6 laptop:col-span-4 gap-y-2">
                 <Image
-                  src="/images/Jim Kavanaugh_400x400.webp"
+                  src="/images/kadumkomut.jpeg"
                   className="rounded-md"
                   alt="kadum komut"
                   width={400}

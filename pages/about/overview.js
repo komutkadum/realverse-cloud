@@ -257,32 +257,32 @@ function overview() {
             </p>
             <div className="grid grid-cols-12 gap-4 items-start mt-4">
               <div className="col-span-12 mobile:col-span-6 laptopxl:col-span-4 grid gap-y-6">
-                <i className="fa-solid fa-hands-bound text-2xl text-blue-600"></i>
+                <i className="fa-solid fa-hands-bound text-2xl text-sky-600"></i>
                 <p>Founded in 1990 and privately held for more than 30 years</p>
               </div>
               <div className="col-span-12 mobile:col-span-6 laptopxl:col-span-4 grid gap-y-6">
-                <i className="fa-solid fa-people-group text-blue-600 text-2xl"></i>
+                <i className="fa-solid fa-people-group text-sky-600 text-2xl"></i>
                 <p>Approximately 9,000 employees globally</p>
               </div>
               <div className="col-span-12 mobile:col-span-6 laptopxl:col-span-4 grid gap-y-6">
-                <i className="fa-solid fa-money-bill-1-wave text-2xl text-blue-600"></i>
+                <i className="fa-solid fa-money-bill-1-wave text-2xl text-sky-600"></i>
                 <p>$17 billion in annual revenue</p>
               </div>
               <div className="col-span-12 mobile:col-span-6 laptopxl:col-span-4 grid gap-y-6">
-                <i className="fa-solid fa-dna text-2xl text-blue-600"></i>
+                <i className="fa-solid fa-dna text-2xl text-sky-600"></i>
                 <p>
                   Solution provider for more than 70 of Fortune 100 companies
                 </p>
               </div>
               <div className="col-span-12 mobile:col-span-6 laptopxl:col-span-4 grid gap-y-6">
-                <i className="fa-solid fa-handshake-angle text-2xl text-blue-600"></i>
+                <i className="fa-solid fa-handshake-angle text-2xl text-sky-600"></i>
                 <p>
                   Top Partner with Cisco, HPE, Dell Technologies, NetApp, F5,
                   Intel, VMware and many others
                 </p>
               </div>
               <div className="col-span-12 mobile:col-span-6 laptopxl:col-span-4 grid gap-y-6">
-                <i className="fa-solid fa-award text-2xl text-blue-600"></i>
+                <i className="fa-solid fa-award text-2xl text-sky-600"></i>
                 <p>"Great Place to Work" 11 years in a row</p>
               </div>
             </div>

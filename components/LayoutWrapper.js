@@ -14,6 +14,8 @@ function LayoutWrapper({ children }) {
 
   useEffect(() => {
     setNavOpen(false);
+    setFirstAccordion(false);
+    setSecondAccordion(false);
   }, [router]);
 
   return (
@@ -26,17 +28,20 @@ function LayoutWrapper({ children }) {
         <div id="top" className="-top-10 absolute"></div>
         {children}
         <div>
-          <hr className="h-1.5 my-32 mb-20 bg-gradient-to-r from-red-600 to-blue-600" />
+          <hr className="h-1.5 my-32 mb-20 bg-gradient-to-r from-pink-600 to-sky-600" />
           <Footer />
         </div>
       </main>
+      {/* mobile navigation menu */}
       <ul
-        className={`w-full h-screen text-sm flex-col gap-y-4 px-3 pt-5 bg-white overflow-y-auto fixed animate__animated  animate__bounceInUp animate__fast  ${
+        className={`w-full h-screen text-sm flex-col gap-y-4 px-3 pt-5 bg-white overflow-y-auto fixed animate__animated  animate__slideInUp  animate__faster  ${
           navOpen ? 'flex' : 'hidden'
         }`}
       >
         <li className="flex px-2 items-center">
-          <i className="fa-solid fa-house"></i>&nbsp;&nbsp;&nbsp;Home
+          {/* <i className="fa-solid fa-house"></i> */}
+          <img src="/icons/home.png" className="w-5 h-5" />
+          &nbsp;&nbsp;&nbsp;Home
         </li>
         <hr className="h-[1.2px] bg-neutral-500" />
         <li className="text-xs px-2">Solutions & Services</li>
@@ -47,33 +52,40 @@ function LayoutWrapper({ children }) {
               onClick={() => setFirstAccordion((prev) => !prev)}
             >
               <span>
-                <i className="fa-solid  fa-gear"></i>&nbsp;&nbsp;&nbsp;Solutions
+                {/* <i className="fa-solid  fa-gear"></i> */}
+                <img
+                  src="/icons/solutions.png"
+                  width={18}
+                  height={18}
+                  className=" inline"
+                />
+                &nbsp;&nbsp;&nbsp;Solutions
               </span>
               <i className="fa-solid fa-angle-down text-right"></i>
             </li>
             {firstAccordion && (
               <>
-                <Link href="/category/automation-and-orchestration/overview">
+                <Link href="/category/automation-and-orchestration/overview#top">
                   <li className="bg-gray-200 px-2 py-4 font-thin text-gray-700">
                     Automation & Orchestration
                   </li>
                 </Link>
-                <Link href="/category/cloud/overview">
+                <Link href="/category/cloud/overview#top">
                   <li className="bg-gray-200 px-2 py-4 font-thin text-gray-700">
                     Cloud
                   </li>
                 </Link>
-                <Link href="/category/data-center/overview">
+                <Link href="/category/data-center/overview#top">
                   <li className="bg-gray-200 px-2 py-4 font-thin text-gray-700">
                     Data Center
                   </li>
                 </Link>
-                <Link href="/category/networking/overview">
+                <Link href="/category/networking/overview#top">
                   <li className="bg-gray-200 px-2 py-4 font-thin text-gray-700">
                     Networking
                   </li>
                 </Link>
-                <Link href="/explore/solutions">
+                <Link href="/explore/solutions#top">
                   <li className="bg-gray-200 px-2 py-4 font-medium rounded-b-md text-blue-500">
                     See all Solutions&nbsp;&nbsp;
                     <i className="fa-solid fa-angle-right"></i>
@@ -88,24 +100,30 @@ function LayoutWrapper({ children }) {
               onClick={() => setSecondAccordion((prev) => !prev)}
             >
               <span>
-                <i className="fa-solid  fa-users-gear"></i>
+                {/* <i className="fa-solid  fa-users-gear"></i> */}
+                <img
+                  src="/icons/services.png"
+                  width={20}
+                  height={20}
+                  className=" inline"
+                />
                 &nbsp;&nbsp;&nbsp;Services
               </span>
               <i className="fa-solid fa-angle-down text-right"></i>
             </li>
             {secondAccordion && (
               <>
-                <Link href="/service/consulting-services/overview">
+                <Link href="/service/consulting-services/overview#top">
                   <li className="bg-gray-200 px-2 py-4 font-thin text-gray-700">
                     Consulting Services
                   </li>
                 </Link>
-                <Link href="/service/infrastructure-services/overview">
+                <Link href="/service/infrastructure-services/overview#top">
                   <li className="bg-gray-200 px-2 py-4 font-thin text-gray-700">
                     Infrastructure Services
                   </li>
                 </Link>
-                <Link href="/explore/services">
+                <Link href="/explore/services#top">
                   <li className="bg-gray-200 px-2 py-4 font-medium rounded-b-md text-blue-500">
                     See all Services&nbsp;&nbsp;
                     <i className="fa-solid fa-angle-right"></i>
@@ -116,15 +134,17 @@ function LayoutWrapper({ children }) {
           </ul>
         </li>
         <hr className="h-[2px] bg-neutral-500" />
-        <Link href="/about/overview">
+        <Link href="/about/overview#top">
           <li className="flex px-2 items-center">
-            <i className="fa-solid fa-hashtag"></i>&nbsp;&nbsp;&nbsp;
+            {/* <i className="fa-solid fa-hashtag"></i> */}
+            <img src="/icons/about.png" className="w-4 h-4 inline" />
+            &nbsp;&nbsp;&nbsp;
             <span>About</span>
           </li>
         </Link>
         <hr className="h-[1.5px] bg-neutral-500" />
         <li>
-          <ul className="py-4 flex text-xs text-gray-900 font-thin px-2 flex-wrap gap-y-3 gap-x-6">
+          <ul className="py-4 flex text-xs pb-20 text-gray-900 font-thin px-2 flex-wrap gap-y-3 gap-x-6">
             <li>Careers</li>
             <li>Contact Us</li>
             <li>Diversity & Inclusion</li>

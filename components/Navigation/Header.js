@@ -8,7 +8,7 @@ function Header({ navOpen, setNavOpen }) {
         <div className="flex items-center gap-x-2 font-semibold">
           {navOpen ? (
             <i
-              className="fa-regular fa-rectangle-xmark text-lg desktop:text-sm animate__animated animate__fadeIn duration-300"
+              className="fa-regular fa-circle-xmark text-lg desktop:text-sm animate__animated animate__fadeIn duration-300"
               onClick={() => setNavOpen((prev) => !prev)}
             ></i>
           ) : (
@@ -21,12 +21,12 @@ function Header({ navOpen, setNavOpen }) {
         </div>
         <div className="flex items-center text-xl mobile:text-2xl  font-extrabold r-font gap-x-1 tracking-wide">
           <Image
-            src="/images/night.png"
-            width={40}
-            height={40}
+            src="/icons/cloud.png"
+            width={35}
+            height={35}
             alt="realverse cloud icon"
           />
-          <h1>RealverseCloud</h1>
+          <h1>REALVERSE&nbsp;CLOUD</h1>
         </div>
         <div className="hidden tablet:inline">
           <button className=" px-3 text-sm bg-button py-1">Log in</button>

@@ -14,7 +14,7 @@ function overview() {
         />
         <div>
           <ul className="flex border-b border-gray-400 w-full">
-            <li className="px-5 border-b-4 border-blue-600 font-bold py-1.5">
+            <li className="px-5 border-b-4 border-sky-600 font-bold py-1.5">
               Overview
             </li>
             <Link href="/category/networking/services#top">
@@ -34,39 +34,39 @@ function overview() {
             </p>
             <div className="grid grid-cols-12 gap-4 items-start mt-2">
               <div className="col-span-12 mobile:col-span-6 laptopxl:col-span-4 grid gap-y-4">
-                <i className="fa-solid fa-globe text-2xl text-blue-600"></i>
+                <i className="fa-solid fa-globe text-2xl text-sky-600"></i>
                 <p>
                   Apply consistent networking and security policies across
                   cloud, SaaS and private data center workloads
                 </p>
               </div>
               <div className="col-span-12 mobile:col-span-6 laptopxl:col-span-4 grid gap-y-4">
-                <i className="fa-solid fa-traffic-light text-blue-600 text-2xl"></i>
+                <i className="fa-solid fa-traffic-light text-sky-600 text-2xl"></i>
                 <p>Optimize traffic flows for remote and hybrid work</p>
               </div>
               <div className="col-span-12 mobile:col-span-6 laptopxl:col-span-4 grid gap-y-4">
-                <i className="fa-solid fa-building text-2xl text-blue-600"></i>
+                <i className="fa-solid fa-building text-2xl text-sky-600"></i>
                 <p>
                   Boost employee satisfaction by enabling flexible,
                   collaborative workspaces
                 </p>
               </div>
               <div className="col-span-12 mobile:col-span-6 laptopxl:col-span-4 grid gap-y-4">
-                <i className="fa-solid fa-gauge text-2xl text-blue-600"></i>
+                <i className="fa-solid fa-gauge text-2xl text-sky-600"></i>
                 <p>
                   Gain greater visibility into network performance for faster
                   root-cause analysis
                 </p>
               </div>
               <div className="col-span-12 mobile:col-span-6 laptopxl:col-span-4 grid gap-y-4">
-                <i className="fa-solid fa-brain text-2xl text-blue-600"></i>
+                <i className="fa-solid fa-brain text-2xl text-sky-600"></i>
                 <p>
                   Train staff on the tools and skills they need to efficiently
                   manage complex networks
                 </p>
               </div>
               <div className="col-span-12 mobile:col-span-6 laptopxl:col-span-4 grid gap-y-4">
-                <i className="fa-solid fa-check text-2xl text-blue-600"></i>
+                <i className="fa-solid fa-check text-2xl text-sky-600"></i>
                 <p>
                   Prioritize device connectivity to further innovative business
                   initiatives

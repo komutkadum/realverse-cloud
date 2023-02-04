@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 
@@ -5,8 +6,14 @@ function Footer() {
   return (
     <div>
       <div className="grid grid-cols-12 items-center gap-y-10 justify-between text-sm">
-        <div className="col-span-12 laptop:col-span-4">
-          <img src="/images/hello.png" className="" alt="" />
+        <div className="col-span-12 laptop:col-span-4 grid gap-y-4">
+          {/* <img src="/images/hello.png" className="" alt="" /> */}
+          <div className="flex items-center gap-x-2">
+            <Image src="/icons/cloud.png" width={50} height={50} alt="icon" />
+            <h2 className="text-xl mobile:text-3xl font-extrabold tracking-widest">
+              Realverse&nbsp;Cloud
+            </h2>
+          </div>
           <div className="block laptop:hidden">
             © 2023 Realverse Cloud - Realverse Proptech Pvt Limited. All Rights
             Reserved

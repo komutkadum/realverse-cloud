@@ -18,7 +18,7 @@ function services() {
             <Link href="/category/cloud/overview#top">
               <li className="px-5 py-1.5">Overview</li>
             </Link>
-            <li className="px-5 border-b-4 border-blue-600 font-bold py-1.5">
+            <li className="px-5 border-b-4 border-sky-600 font-bold py-1.5">
               Services
             </li>
           </ul>

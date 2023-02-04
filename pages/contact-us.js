@@ -68,7 +68,7 @@ function contactus() {
               <textarea rows="6" className="rounded" />
             </div>
             <div className="flex justify-end">
-              <button className="border py-2 px-4 tablet:py-4 tablet:px-8 text-white inline-flex bg-blue-600 hover:bg-blue-800 rounded">
+              <button className="border py-2 px-4 tablet:py-4 tablet:px-8 text-white inline-flex bg-sky-600 hover:bg-sky-800 rounded">
                 Sumbit
               </button>
             </div>

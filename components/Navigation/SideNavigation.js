@@ -13,7 +13,8 @@ function SideNavigation() {
         <div className="grid mt-4 gap-y-4 relative">
           <Link href="/">
             <div className="text-sm flex items-center gap-x-2 link cursor-pointer">
-              <i className="fa-solid fa-house"></i> Home
+              {/* <i className="fa-solid fa-house"></i> */}
+              <img src="/icons/home.png" className="w-4 h-4" /> Home
             </div>
           </Link>
           <hr className="border-b bg-gray-600" />
@@ -29,7 +30,9 @@ function SideNavigation() {
                 onClick={() => setSideBarAccordion((prev) => !prev)}
               >
                 <span className="grid grid-flow-col items-center gap-x-2">
-                  <i className="fa-solid fa-gear"></i> Solutions{' '}
+                  {/* <i className="fa-solid fa-gear"></i> */}
+                  <img src="/icons/solutions.png" className="w-4 h-4" />{' '}
+                  Solutions{' '}
                 </span>
                 <i
                   className={`fa-solid fa-angle-${
@@ -39,7 +42,7 @@ function SideNavigation() {
               </li>
               <ul className={`${sidebarAccordion ? 'grid' : 'hidden'}`}>
                 <li
-                  className={`bg-gray-200 px-2 py-2 font-thin ${
+                  className={`bg-zinc-100 px-2 py-2 font-thin ${
                     [
                       '/category/automation-and-orchestration/overview',
                       '/category/automation-and-orchestration/services',
@@ -57,7 +60,7 @@ function SideNavigation() {
                 </li>
 
                 <li
-                  className={`bg-gray-200 px-2 py-2 font-thin ${
+                  className={`bg-zinc-100 px-2 py-2 font-thin ${
                     [
                       '/category/cloud/overview',
                       '/category/cloud/services',
@@ -71,7 +74,7 @@ function SideNavigation() {
                   </Link>
                 </li>
                 <li
-                  className={`bg-gray-200 px-2 py-2 font-thin ${
+                  className={`bg-zinc-100 px-2 py-2 font-thin ${
                     router.pathname == '/category/data-center/overview'
                       ? 'active-link'
                       : 'text-gray-600'
@@ -85,7 +88,7 @@ function SideNavigation() {
                   </Link>
                 </li>
                 <li
-                  className={`bg-gray-200 px-2 py-2 font-thin ${
+                  className={`bg-zinc-100 px-2 py-2 font-thin ${
                     [
                       '/category/networking/overview',
                       '/category/networking/services',
@@ -102,7 +105,7 @@ function SideNavigation() {
                   </Link>
                 </li>
 
-                <li className="bg-gray-200 px-2 py-2 font-medium rounded-b-md text-blue-500">
+                <li className="bg-zinc-100 px-2 py-2 font-medium rounded-b-md text-sky-600">
                   <Link href="/explore/solutions#top" className="link">
                     See all Solutions&nbsp;&nbsp;
                     <i className="fa-solid fa-angle-right"></i>
@@ -117,7 +120,8 @@ function SideNavigation() {
                 onClick={() => setSideBarAccordion((prev) => !prev)}
               >
                 <span className="grid grid-flow-col items-center gap-x-2">
-                  <i className="fa-solid fa-users-gear"></i> Services
+                  {/* <i className="fa-solid fa-users-gear"></i> */}
+                  <img src="/icons/services.png" className="w-4 h-4" /> Services
                 </span>
                 <i
                   className={`fa-solid fa-angle-${
@@ -128,7 +132,7 @@ function SideNavigation() {
 
               <ul className={`${sidebarAccordion ? 'hidden' : 'grid'}`}>
                 <li
-                  className={`bg-gray-200 px-2 py-2 font-thin ${
+                  className={`bg-zinc-100 px-2 py-2 font-thin ${
                     router.pathname == '/service/consulting-services/overview'
                       ? 'active-link'
                       : 'text-gray-600'
@@ -143,7 +147,7 @@ function SideNavigation() {
                 </li>
 
                 <li
-                  className={`bg-gray-200 px-2 py-2 font-thin ${
+                  className={`bg-zinc-100 px-2 py-2 font-thin ${
                     router.pathname ==
                     '/service/infrastructure-services/overview'
                       ? 'active-link'
@@ -158,7 +162,7 @@ function SideNavigation() {
                   </Link>
                 </li>
 
-                <li className="bg-gray-200 px-2 py-2 font-medium rounded-b-md text-blue-500">
+                <li className="bg-zinc-100 px-2 py-2 font-medium rounded-b-md text-sky-600">
                   <Link href="/explore/services#top" className="link">
                     See all Services&nbsp;&nbsp;
                     <i className="fa-solid fa-angle-right"></i>
@@ -184,9 +188,10 @@ function SideNavigation() {
                 ].indexOf(router.pathname) !== -1
                   ? 'active-link'
                   : ''
-              } link `}
+              } link flex gap-x-2 items-center`}
             >
-              <i className="fa-solid fa-hashtag"></i> <span>About</span>
+              {/* <i className="fa-solid fa-hashtag"></i> */}
+              <img src="/icons/about.png" className="w-4 h-4 inline" /> About
             </Link>
           </div>
           <hr className="h-0.5 bg-gray-300" />

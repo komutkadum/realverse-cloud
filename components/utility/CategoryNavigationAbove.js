@@ -9,7 +9,7 @@ function CategoryNavigationAbove({ text, desc }) {
       </div>
       <p>{desc}</p>
       <hr className="border-b bg-gray-600" />
-      <div className="flex gap-x-6 text-xl px-4">
+      <div className="flex gap-x-6 justify-center text-xl px-4">
         <div>
           <i className="fa-brands fa-linkedin cursor-pointer hover:text-blue-500 duration-300"></i>
         </div>

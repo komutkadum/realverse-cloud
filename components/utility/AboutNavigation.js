@@ -12,7 +12,7 @@ function AboutNavigation() {
           href="/about/overview#top"
           className={`px-5 hover:font-bold ${
             router.pathname == '/about/overview'
-              ? 'border-blue-600 border-b-4 font-bold'
+              ? 'border-sky-600 border-b-4 font-bold'
               : 'hidden mobilesm:inline-flex'
           } py-1.5`}
         >
@@ -22,7 +22,7 @@ function AboutNavigation() {
           href="/about/our-work#top"
           className={`px-5 hover:font-bold ${
             router.pathname == '/about/our-work'
-              ? 'border-blue-600 border-b-4 font-bold'
+              ? 'border-sky-600 border-b-4 font-bold'
               : 'hidden mobilesm:inline-flex'
           } py-1.5`}
         >
@@ -32,7 +32,7 @@ function AboutNavigation() {
           href="/about/culture#top"
           className={`px-5 hover:font-bold ${
             router.pathname == '/about/culture'
-              ? 'border-blue-600 border-b-4 font-bold'
+              ? 'border-sky-600 border-b-4 font-bold'
               : 'hidden mobilesm:inline-flex'
           } py-1.5`}
         >
@@ -42,7 +42,7 @@ function AboutNavigation() {
           href="/about/leadership#top"
           className={`px-5 hover:font-bold ${
             router.pathname == '/about/leadership'
-              ? 'border-blue-600 border-b-4 font-bold'
+              ? 'border-sky-600 border-b-4 font-bold'
               : 'hidden mobilesm:inline-flex'
           } py-1.5`}
         >
