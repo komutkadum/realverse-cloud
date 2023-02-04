@@ -34,7 +34,7 @@ function LayoutWrapper({ children }) {
       </main>
       {/* mobile navigation menu */}
       <ul
-        className={`w-full h-screen text-sm flex-col gap-y-4 px-3 pt-5 bg-white overflow-y-auto fixed animate__animated  animate__slideInUp  animate__faster  ${
+        className={`w-full h-screen text-sm flex-col gap-y-4 px-3 pt-5 bg-white overflow-y-scroll absolute animate__animated  animate__slideInUp  animate__faster ${
           navOpen ? 'flex' : 'hidden'
         }`}
       >
@@ -144,7 +144,7 @@ function LayoutWrapper({ children }) {
         </Link>
         <hr className="h-[1.5px] bg-neutral-500" />
         <li>
-          <ul className="py-4 flex text-xs pb-20 text-gray-900 font-thin px-2 flex-wrap gap-y-3 gap-x-6">
+          <ul className="py-4 flex text-xs text-gray-900 font-thin px-2 flex-wrap gap-y-3 gap-x-6">
             <li>Careers</li>
             <li>Contact Us</li>
             <li>Diversity & Inclusion</li>
