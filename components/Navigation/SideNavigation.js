@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import React, { useState } from 'react';
@@ -14,7 +15,12 @@ function SideNavigation() {
           <Link href="/">
             <div className="text-sm flex items-center gap-x-2 link cursor-pointer">
               {/* <i className="fa-solid fa-house"></i> */}
-              <img src="/icons/home.png" className="w-4 h-4" /> Home
+              <img
+                src="/icons/home.png"
+                alt="home icon"
+                className="w-4 h-4"
+              />{' '}
+              Home
             </div>
           </Link>
           <hr className="border-b bg-gray-600" />
@@ -31,7 +37,11 @@ function SideNavigation() {
               >
                 <span className="grid grid-flow-col items-center gap-x-2">
                   {/* <i className="fa-solid fa-gear"></i> */}
-                  <img src="/icons/solutions.png" className="w-4 h-4" />{' '}
+                  <img
+                    src="/icons/solutions.png"
+                    alt="solutions icon"
+                    className="w-4 h-4"
+                  />{' '}
                   Solutions{' '}
                 </span>
                 <i
@@ -121,7 +131,13 @@ function SideNavigation() {
               >
                 <span className="grid grid-flow-col items-center gap-x-2">
                   {/* <i className="fa-solid fa-users-gear"></i> */}
-                  <img src="/icons/services.png" className="w-4 h-4" /> Services
+                  <img
+                    src="/icons/services.png"
+                    width={20}
+                    height={20}
+                    alt="services icon"
+                  />{' '}
+                  Services
                 </span>
                 <i
                   className={`fa-solid fa-angle-${
@@ -191,7 +207,12 @@ function SideNavigation() {
               } link flex gap-x-2 items-center`}
             >
               {/* <i className="fa-solid fa-hashtag"></i> */}
-              <img src="/icons/about.png" className="w-4 h-4 inline" /> About
+              <img
+                src="/icons/about.png"
+                alt="about icon"
+                className="w-4 h-4 inline"
+              />{' '}
+              About
             </Link>
           </div>
           <hr className="h-0.5 bg-gray-300" />
