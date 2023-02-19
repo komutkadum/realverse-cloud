@@ -1,4 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
+import Link from 'next/link';
 import React from 'react';
 import RightNavigationAbove from '../../components/Navigation/RightNavigationAbove';
 import RightNavigationBelow from '../../components/Navigation/RightNavigationBelow';
@@ -153,7 +154,8 @@ function overview() {
               Key services and capabilities
             </h4>
             <div className="grid grid-cols-12 gap-2">
-              <div
+              <Link
+                href="/category/automation-and-orchestration/overview#top"
                 className="col-span-12 mobile:col-span-6 laptopxl:col-span-4 rounded-md border aspect-w-16 aspect-h-9 bg-red-600 bg-cover bg-no-repeat text-white"
                 style={{
                   backgroundImage: "url('/images/turn-on-2923046_1920.jpg')",
@@ -168,8 +170,9 @@ function overview() {
                     operations.
                   </p>
                 </div>
-              </div>
-              <div
+              </Link>
+              <Link
+                href="/category/cloud/overview#top"
                 className="col-span-12 mobile:col-span-6 laptopxl:col-span-4 rounded-md border aspect-w-16 aspect-h-9 bg-red-600 bg-cover bg-no-repeat text-white"
                 style={{
                   backgroundImage:
@@ -185,8 +188,9 @@ function overview() {
                     strategy through implementation and beyond...
                   </p>
                 </div>
-              </div>
-              <div
+              </Link>
+              <Link
+                href="/category/data-center/overview#top"
                 className="col-span-12 mobile:col-span-6 laptopxl:col-span-4 rounded-md border aspect-w-16 aspect-h-9 bg-red-600 bg-cover bg-no-repeat text-white"
                 style={{
                   backgroundImage: "url('/images/electrical-2476782_1920.jpg')",
@@ -201,8 +205,9 @@ function overview() {
                     converged & hyperconverged infrastructure.
                   </p>
                 </div>
-              </div>
-              <div
+              </Link>
+              <Link
+                href="/category/networking/overview#top"
                 className="col-span-12 mobile:col-span-6 laptopxl:col-span-4 rounded-md border aspect-w-16 aspect-h-9 bg-red-600 bg-cover bg-no-repeat text-white"
                 style={{
                   backgroundImage: "url('/images/fiber-4814456_1920.jpg')",
@@ -217,39 +222,7 @@ function overview() {
                     architechture that enforces security...
                   </p>
                 </div>
-              </div>
-              <div
-                className="col-span-12 mobile:col-span-6 laptopxl:col-span-4 rounded-md border aspect-w-16 aspect-h-9 bg-red-600 bg-cover bg-no-repeat text-white"
-                style={{
-                  backgroundImage: "url('/images/fiber-4814456_1920.jpg')",
-                }}
-              >
-                <div className="flex flex-col items-center justify-end group hover:backdrop-blur cursor-pointer">
-                  <p className="w-full py-2.5 px-4 font-bold transparent-background">
-                    Networking
-                  </p>
-                  <p className="hidden py-2 px-4 text-sm transparent-background group-hover:block animate__animated animate__fadeInUp animate__fast">
-                    Accelerate your organization's path to a global connectivity
-                    architechture that enforces security...
-                  </p>
-                </div>
-              </div>
-              <div
-                className="col-span-12 mobile:col-span-6 laptopxl:col-span-4 rounded-md border aspect-w-16 aspect-h-9 bg-red-600 bg-cover bg-no-repeat text-white"
-                style={{
-                  backgroundImage: "url('/images/fiber-4814456_1920.jpg')",
-                }}
-              >
-                <div className="flex flex-col items-center justify-end group hover:backdrop-blur cursor-pointer">
-                  <p className="w-full py-2.5 px-4 font-bold transparent-background">
-                    Networking
-                  </p>
-                  <p className="hidden py-2 px-4 transparent-background text-sm group-hover:block animate__animated animate__fadeInUp animate__fast">
-                    Accelerate your organization's path to a global connectivity
-                    architechture that enforces security...
-                  </p>
-                </div>
-              </div>
+              </Link>
             </div>
           </div>
 
@@ -263,32 +236,27 @@ function overview() {
             <div className="grid grid-cols-12 gap-4 items-start mt-4">
               <div className="col-span-12 mobile:col-span-6 laptopxl:col-span-4 grid gap-y-6">
                 <i className="fa-solid fa-hands-bound text-2xl text-sky-600"></i>
-                <p>Founded in 1990 and privately held for more than 30 years</p>
+                <p>Founded in 2021.</p>
               </div>
               <div className="col-span-12 mobile:col-span-6 laptopxl:col-span-4 grid gap-y-6">
                 <i className="fa-solid fa-people-group text-sky-600 text-2xl"></i>
-                <p>Approximately 9,000 employees globally</p>
+                <p>Leading tech specialist working.</p>
               </div>
               <div className="col-span-12 mobile:col-span-6 laptopxl:col-span-4 grid gap-y-6">
                 <i className="fa-solid fa-money-bill-1-wave text-2xl text-sky-600"></i>
-                <p>$17 billion in annual revenue</p>
+                <p>Outstanding Revenue</p>
               </div>
               <div className="col-span-12 mobile:col-span-6 laptopxl:col-span-4 grid gap-y-6">
                 <i className="fa-solid fa-dna text-2xl text-sky-600"></i>
-                <p>
-                  Solution provider for more than 70 of Fortune 100 companies
-                </p>
+                <p>Solution provider for more than dozen of companies</p>
               </div>
               <div className="col-span-12 mobile:col-span-6 laptopxl:col-span-4 grid gap-y-6">
                 <i className="fa-solid fa-handshake-angle text-2xl text-sky-600"></i>
-                <p>
-                  Top Partner with Cisco, HPE, Dell Technologies, NetApp, F5,
-                  Intel, VMware and many others
-                </p>
+                <p>Huge reliable partners</p>
               </div>
               <div className="col-span-12 mobile:col-span-6 laptopxl:col-span-4 grid gap-y-6">
                 <i className="fa-solid fa-award text-2xl text-sky-600"></i>
-                <p>"Great Place to Work" 11 years in a row</p>
+                <p>"Great Place to Work"</p>
               </div>
             </div>
           </div>
@@ -299,7 +267,9 @@ function overview() {
               Don't see what you're looking for or want to learn more?
             </p>
             <div>
-              <button className="px-6 py-3 bg-button">Contact us</button>
+              <Link href="/contact-us#top">
+                <button className="px-6 py-3 bg-button">Contact us</button>
+              </Link>
             </div>
           </div>
         </div>
