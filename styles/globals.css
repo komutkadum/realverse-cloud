@@ -12,6 +12,9 @@ body {
 body {
   font-family: 'Open Sans', sans-serif;
 }
+.nav-font {
+  font-family: 'Labrada', serif;
+}
 
 .scroll-hidden::-webkit-scrollbar {
   display: none;
@@ -59,5 +62,11 @@ body {
   }
   .bg-button {
     @apply text-white rounded-md bg-sky-600 hover:bg-sky-700 duration-200;
+  }
+  .page-padding-inline {
+    @apply px-5 tablet:px-5 desktop:px-10;
+  }
+  .page-padding {
+    @apply pt-10 px-5 tablet:p-10 tablet:px-5 desktop:px-10;
   }
 }

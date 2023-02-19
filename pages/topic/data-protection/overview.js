@@ -1,12 +1,17 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
+import { PageSEO } from '../../../components/Seo';
 import CategoryNavigationAbove from '../../../components/utility/CategoryNavigationAbove';
 import CategoryNavigationBelow from '../../../components/utility/CategoryNavigationBelow';
 
 function overview() {
   return (
     <>
-      <div class="grid grid-flow-row laptop:grid-flow-col">
+      <PageSEO
+        description="Eliminate complexity across physical, virtual and cloud storage tiers while developing strategies to control data volume growth and streamline how you store, manage and leverage data assets."
+        title="Data Protection - Overview - Realverse Cloud"
+      />
+      <div class="grid grid-flow-row laptop:grid-flow-col page-padding">
         <CategoryNavigationAbove
           text="Data Protection"
           desc="Eliminate complexity across physical, virtual and cloud storage tiers while developing strategies to control data volume growth and streamline how you store, manage and leverage data assets."

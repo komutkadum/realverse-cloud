@@ -1,5 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
+import { PageSEO } from '../components/Seo';
 import Accordion from '../components/utility/Accordion';
 import CallToAction from '../components/utility/CallToAction';
 import CategoryNavigationAbove from '../components/utility/CategoryNavigationAbove';
@@ -8,7 +9,11 @@ import CategoryNavigationBelow from '../components/utility/CategoryNavigationBel
 function enterprisearchitecture() {
   return (
     <>
-      <div class="grid grid-flow-row laptop:grid-flow-col">
+      <PageSEO
+        description="Achieve an agile, supported, service-oriented enterprise architecture that empowers IT and the business."
+        title="Enterprise Architechture - Realverse Cloud"
+      />
+      <div class="grid grid-flow-row laptop:grid-flow-col page-padding">
         <CategoryNavigationAbove
           text="Enterprise Architecture"
           desc="Aligning business strategy to IT decision-making"

@@ -4,7 +4,7 @@ import React from 'react';
 
 function Footer() {
   return (
-    <div>
+    <div className="page-padding-inline">
       <div className="grid grid-cols-12 items-center gap-y-10 justify-between text-sm">
         <div className="col-span-12 laptop:col-span-4 grid gap-y-4">
           {/* <img src="/images/hello.png" className="" alt="" /> */}
@@ -22,7 +22,7 @@ function Footer() {
         <div className="col-span-12 laptop:col-span-8 grid grid-cols-12 gap-y-6">
           <ul className="grid  gap-y-6 col-span-6 laptop:col-span-12 laptop:flex laptop:flex-wrap gap-x-6 laptop:gap-y-6 laptop:justify-end">
             <Link href="/about/overview#top" className="link">
-              <li>About</li>
+              <li>About Us</li>
             </Link>
             <li>Careers</li>
             <li>Locations</li>

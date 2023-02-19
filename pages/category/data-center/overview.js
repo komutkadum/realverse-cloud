@@ -1,13 +1,18 @@
 /* eslint-disable react/no-unescaped-entities */
 import Link from 'next/link';
 import React from 'react';
+import { PageSEO } from '../../../components/Seo';
 import CategoryNavigationAbove from '../../../components/utility/CategoryNavigationAbove';
 import CategoryNavigationBelow from '../../../components/utility/CategoryNavigationBelow';
 
 function overview() {
   return (
     <>
-      <div className="grid grid-flow-row laptop:grid-flow-col">
+      <PageSEO
+        description="Learn about data protection, facilities infrastructure, hyper-converged infrastructure (HCI), primary storage and server infrastructure."
+        title="Data Center - Overview - Realverse Cloud"
+      />
+      <div className="grid grid-flow-row laptop:grid-flow-col page-padding">
         <CategoryNavigationAbove
           text="Data Center"
           desc="Learn about data protection, facilities infrastructure, hyper-converged infrastructure (HCI), primary storage and server infrastructure."

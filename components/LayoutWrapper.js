@@ -24,12 +24,12 @@ function LayoutWrapper({ children }) {
       <ScrollToTop />
       <Header navOpen={navOpen} setNavOpen={setNavOpen} />
       <SideNavigation navOpen={navOpen} setNavOpen={setNavOpen} />
-      <main className="left-0 tablet:left-[70px] desktop:left-56 absolute overflow-y-scroll top-14 text-gray-800 right-0 bottom-0 pt-10 px-5 tablet:p-10 tablet:px-5 desktop:px-10">
+      <main className="left-0 tablet:left-[70px] desktop:left-56 absolute overflow-y-scroll top-14 text-gray-800 right-0 bottom-0 ">
         {/* top div for scrolltotop button */}
         <div id="top" className="-top-10 absolute"></div>
         {children}
         <div>
-          <hr className="h-1.5 my-32 mb-20 bg-gradient-to-r from-pink-600 to-sky-600" />
+          <hr className="h-1.5 my-32 mb-20 bg-gradient-to-r from-sky-600 to-red-800" />
           <Footer />
         </div>
       </main>

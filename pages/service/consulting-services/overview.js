@@ -1,6 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import Link from 'next/link';
 import React from 'react';
+import { PageSEO } from '../../../components/Seo';
 import CallToAction from '../../../components/utility/CallToAction';
 import CategoryNavigationAbove from '../../../components/utility/CategoryNavigationAbove';
 import CategoryNavigationBelow from '../../../components/utility/CategoryNavigationBelow';
@@ -8,7 +9,11 @@ import CategoryNavigationBelow from '../../../components/utility/CategoryNavigat
 function overview() {
   return (
     <>
-      <div class="grid grid-flow-row laptop:grid-flow-col">
+      <PageSEO
+        description="Combining the insights of a traditional consulting firm with the ability to execute complex infrastructure solutions at scale globally."
+        title="Consulting Services - Overview - Realverse Cloud"
+      />
+      <div class="grid grid-flow-row laptop:grid-flow-col page-padding">
         <CategoryNavigationAbove
           text="Consulting Services"
           desc="Combining the insights of a traditional consulting firm with the ability to execute complex infrastructure solutions at scale globally."

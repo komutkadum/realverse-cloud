@@ -10,7 +10,7 @@ function SideNavigation() {
   return (
     <>
       {/* // header with text */}
-      <aside className="invisible desktop:visible scroll-hidden px-5 w-56 absolute flex  flex-col text-xs justify-between left-0 top-14 bottom-0 hover:overflow-y-auto ">
+      <aside className="invisible desktop:visible scroll-hidden px-5 w-56 absolute flex flex-col text-xs justify-between left-0 top-14 bottom-0 hover:overflow-y-auto ">
         <div className="grid mt-4 gap-y-4 relative">
           <Link href="/">
             <div className="text-sm flex items-center gap-x-2 link cursor-pointer">
@@ -212,7 +212,7 @@ function SideNavigation() {
                 alt="about icon"
                 className="w-4 h-4 inline"
               />{' '}
-              About
+              About Us
             </Link>
           </div>
           <hr className="h-0.5 bg-gray-300" />

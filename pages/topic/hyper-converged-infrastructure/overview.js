@@ -1,11 +1,16 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
+import { PageSEO } from '../../../components/Seo';
 import CategoryNavigationAbove from '../../../components/utility/CategoryNavigationAbove';
 import CategoryNavigationBelow from '../../../components/utility/CategoryNavigationBelow';
 
 function overview() {
   return (
     <>
+      <PageSEO
+        description="Seamlessly integrate compute, storage, networking and infrastructure management software into one optimized platform."
+        title="Converged &amp; Hyper-Converged Infrastructure - Overview - Realverse Cloud"
+      />
       <div class="grid grid-flow-row laptop:grid-flow-col">
         <CategoryNavigationAbove
           text="Converged & Hyper-Converged Infrastructure"

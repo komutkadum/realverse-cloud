@@ -2,12 +2,17 @@
 import React from 'react';
 import RightNavigationAbove from '../../components/Navigation/RightNavigationAbove';
 import RightNavigationBelow from '../../components/Navigation/RightNavigationBelow';
+import { PageSEO } from '../../components/Seo';
 import AboutNavigation from '../../components/utility/AboutNavigation';
 
 function culture() {
   return (
     <>
-      <div className="grid grid-flow-row laptop:grid-flow-col">
+      <PageSEO
+        description="We play a vital role in changing the world for the better."
+        title="About Us - Culture - Realverse Cloud"
+      />
+      <div className="grid grid-flow-row laptop:grid-flow-col page-padding">
         <RightNavigationAbove />
         <div>
           <AboutNavigation />

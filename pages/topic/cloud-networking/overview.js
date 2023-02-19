@@ -1,12 +1,17 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
+import { PageSEO } from '../../../components/Seo';
 import CategoryNavigationAbove from '../../../components/utility/CategoryNavigationAbove';
 import CategoryNavigationBelow from '../../../components/utility/CategoryNavigationBelow';
 
 function overview() {
   return (
     <>
-      <div class="grid grid-flow-row laptop:grid-flow-col">
+      <PageSEO
+        description="Paving the way for connectivity across multiple cloud environments."
+        title="Cloud Networking - Overview - Realverse Cloud"
+      />
+      <div class="grid grid-flow-row laptop:grid-flow-col page-padding">
         <CategoryNavigationAbove
           text="Cloud Networking"
           desc="Paving the way for connectivity across multiple cloud environments."

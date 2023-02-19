@@ -1,12 +1,17 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
+import { PageSEO } from '../../../components/Seo';
 import CategoryNavigationAbove from '../../../components/utility/CategoryNavigationAbove';
 import CategoryNavigationBelow from '../../../components/utility/CategoryNavigationBelow';
 
 function overview() {
   return (
     <>
-      <div class="grid grid-flow-row laptop:grid-flow-col">
+      <PageSEO
+        description="The foundation that holds IT/ICT systems together. Server infrastructure includes physical and virtual resources across hardware, software, network resources and related services."
+        title="Server Infrastructure - Overview - Realverse Cloud"
+      />
+      <div class="grid grid-flow-row laptop:grid-flow-col page-padding">
         <CategoryNavigationAbove
           text="Server Infrastructure"
           desc="The foundation that holds IT/ICT systems together. Server infrastructure includes physical and virtual resources across hardware, software, network resources and related services."

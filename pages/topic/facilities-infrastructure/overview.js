@@ -1,12 +1,17 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
+import { PageSEO } from '../../../components/Seo';
 import CategoryNavigationAbove from '../../../components/utility/CategoryNavigationAbove';
 import CategoryNavigationBelow from '../../../components/utility/CategoryNavigationBelow';
 
 function overview() {
   return (
     <>
-      <div class="grid grid-flow-row laptop:grid-flow-col">
+      <PageSEO
+        description="Turn-key assessment and installation services designed to ensure facilities are operating at optimal efficiency and can support organizational growth needs."
+        title="Facilities Infrastructure - Overview - Realverse Cloud"
+      />
+      <div class="grid grid-flow-row laptop:grid-flow-col page-padding page-padding">
         <CategoryNavigationAbove
           text="Facilities Infrastructure"
           desc="Turn-key assessment and installation services designed to ensure facilities are operating at optimal efficiency and can support organizational growth needs."

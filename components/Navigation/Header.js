@@ -29,7 +29,7 @@ function Header({ navOpen, setNavOpen }) {
           <h1>REALVERSE&nbsp;CLOUD</h1>
         </div>
         <div className="hidden tablet:inline">
-          <button className=" px-3 text-sm bg-button py-1">Log in</button>
+          <button className=" px-3 text-sm bg-button py-1.5">Contact us</button>
         </div>
       </nav>
     </header>
