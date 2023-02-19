@@ -1,4 +1,4 @@
-import { PageSEO } from '../components/Seo';
+import { PageSEO } from '../components/SEO';
 
 export default function Home() {
   return (

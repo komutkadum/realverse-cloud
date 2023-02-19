@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import Link from 'next/link';
 import React from 'react';
-import { PageSEO } from '../../../components/Seo';
+import { PageSEO } from '../../../components/SEO';
 import CallToAction from '../../../components/utility/CallToAction';
 import CategoryNavigationAbove from '../../../components/utility/CategoryNavigationAbove';
 import CategoryNavigationBelow from '../../../components/utility/CategoryNavigationBelow';

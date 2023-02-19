@@ -1,5 +1,5 @@
 import React from 'react';
-import { PageSEO } from '../components/Seo';
+import { PageSEO } from '../components/SEO';
 
 function contactus() {
   return (

@@ -3,7 +3,7 @@ import Image from 'next/image';
 import React from 'react';
 import RightNavigationAbove from '../../components/Navigation/RightNavigationAbove';
 import RightNavigationBelow from '../../components/Navigation/RightNavigationBelow';
-import { PageSEO } from '../../components/Seo';
+import { PageSEO } from '../../components/SEO';
 import AboutNavigation from '../../components/utility/AboutNavigation';
 
 function leadership() {
