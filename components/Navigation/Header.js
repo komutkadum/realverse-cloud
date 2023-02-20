@@ -37,7 +37,7 @@ function Header({ navOpen, setNavOpen }) {
         </Link>
 
         <div className="">
-          <Link href="/contact-us">
+          <Link href="/contact-us" aria-label="contact us">
             <button className="hidden tablet:inline px-4 text-sm bg-button py-1.5">
               Contact us
             </button>
