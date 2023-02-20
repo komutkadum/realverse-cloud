@@ -66,7 +66,7 @@ function SideNavigation() {
                 >
                   <CustomLink
                     text="Automation & Orchestration"
-                    href="/category/automation-and-orchestration/overview#top"
+                    href="/category/automation-and-orchestration/overview"
                   />
                 </li>
 
@@ -80,10 +80,7 @@ function SideNavigation() {
                       : 'text-gray-600'
                   }`}
                 >
-                  <CustomLink
-                    href="/category/cloud/overview#top"
-                    text="Cloud"
-                  />
+                  <CustomLink href="/category/cloud/overview" text="Cloud" />
                 </li>
                 <li
                   className={`bg-zinc-100 px-2 py-2 font-thin ${
@@ -93,7 +90,7 @@ function SideNavigation() {
                   }`}
                 >
                   <CustomLink
-                    href="/category/data-center/overview#top"
+                    href="/category/data-center/overview"
                     text="Data Center"
                   />
                 </li>
@@ -108,14 +105,14 @@ function SideNavigation() {
                   }`}
                 >
                   <CustomLink
-                    href="/category/networking/overview#top"
+                    href="/category/networking/overview"
                     text="Networking"
                   />
                 </li>
 
                 <li className="bg-zinc-100 px-2 py-2 font-medium rounded-b-md text-sky-600">
                   <Link
-                    href="/explore/solutions#top"
+                    href="/explore/solutions"
                     className="group link-underline-animation-top"
                   >
                     See all Solutions&nbsp;&nbsp;
@@ -161,7 +158,7 @@ function SideNavigation() {
                   }`}
                 >
                   <CustomLink
-                    href="/service/consulting-services/overview#top"
+                    href="/service/consulting-services/overview"
                     text="Consulting Services"
                   />
                 </li>
@@ -175,14 +172,14 @@ function SideNavigation() {
                   }`}
                 >
                   <CustomLink
-                    href="/service/infrastructure-services/overview#top"
+                    href="/service/infrastructure-services/overview"
                     text="Infrastructure Services"
                   />
                 </li>
 
                 <li className="bg-zinc-100 px-2 py-2 font-medium rounded-b-md text-sky-600">
                   <Link
-                    href="/explore/services#top"
+                    href="/explore/services"
                     className="group link-underline-animation-top"
                   >
                     See all Services&nbsp;&nbsp;
@@ -200,7 +197,7 @@ function SideNavigation() {
           <hr className="border-b bg-gray-300" />
           <div className={`text-sm py-4 gap-x-2 flex items-center rounded-md `}>
             <Link
-              href="/about/overview#top"
+              href="/about/overview"
               className={`${
                 [
                   '/about/overview',
@@ -224,7 +221,7 @@ function SideNavigation() {
           <hr className="border-b bg-gray-300" />
           <ul className="py-4 flex flex-wrap gap-2">
             <li>Careers</li>
-            <CustomLink text="Contact Us" href="/contact-us#top" />
+            <CustomLink text="Contact Us" href="/contact-us" />
             <li>Diversity & Inclusion</li>
             <li>Locations</li>
             <li>Sustainability</li>

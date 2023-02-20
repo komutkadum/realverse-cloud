@@ -21,7 +21,7 @@ function Header({ navOpen, setNavOpen }) {
           <span className="hidden mobile:inline">Menu</span>
         </div>
 
-        <Link href="/#top">
+        <Link href="/">
           <div className="flex items-center text-sm hover:text-primary-blue duration-200 mobilesm:text-xl mobile:text-2xl  font-extrabold rb-font gap-x-2 tracking-wide">
             <Image
               src="/icons/cloud.png"
@@ -37,7 +37,7 @@ function Header({ navOpen, setNavOpen }) {
         </Link>
 
         <div className="">
-          <Link href="/contact-us#top">
+          <Link href="/contact-us">
             <button className="hidden tablet:inline px-4 text-sm bg-button py-1.5">
               Contact us
             </button>

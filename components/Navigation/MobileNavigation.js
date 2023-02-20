@@ -16,7 +16,7 @@ function MobileNavigation({
       }`}
     >
       <li>
-        <Link href="/#top" className="flex px-2 items-center">
+        <Link href="/" className="flex px-2 items-center">
           {/* <i className="fa-solid fa-house"></i> */}
           <img src="/icons/home.png" alt="home icon" className="w-5 h-5" />
           &nbsp;&nbsp;&nbsp;Home
@@ -44,27 +44,27 @@ function MobileNavigation({
           </li>
           {firstAccordion && (
             <>
-              <Link href="/category/automation-and-orchestration/overview#top">
+              <Link href="/category/automation-and-orchestration/overview">
                 <li className="bg-gray-200 px-2 py-4 font-thin text-gray-700">
                   Automation & Orchestration
                 </li>
               </Link>
-              <Link href="/category/cloud/overview#top">
+              <Link href="/category/cloud/overview">
                 <li className="bg-gray-200 px-2 py-4 font-thin text-gray-700">
                   Cloud
                 </li>
               </Link>
-              <Link href="/category/data-center/overview#top">
+              <Link href="/category/data-center/overview">
                 <li className="bg-gray-200 px-2 py-4 font-thin text-gray-700">
                   Data Center
                 </li>
               </Link>
-              <Link href="/category/networking/overview#top">
+              <Link href="/category/networking/overview">
                 <li className="bg-gray-200 px-2 py-4 font-thin text-gray-700">
                   Networking
                 </li>
               </Link>
-              <Link href="/explore/solutions#top">
+              <Link href="/explore/solutions">
                 <li className="bg-gray-200 px-2 py-4 font-medium rounded-b-md text-blue-500">
                   See all Solutions&nbsp;&nbsp;
                   <i className="fa-solid fa-angle-right"></i>
@@ -93,17 +93,17 @@ function MobileNavigation({
           </li>
           {secondAccordion && (
             <>
-              <Link href="/service/consulting-services/overview#top">
+              <Link href="/service/consulting-services/overview">
                 <li className="bg-gray-200 px-2 py-4 font-thin text-gray-700">
                   Consulting Services
                 </li>
               </Link>
-              <Link href="/service/infrastructure-services/overview#top">
+              <Link href="/service/infrastructure-services/overview">
                 <li className="bg-gray-200 px-2 py-4 font-thin text-gray-700">
                   Infrastructure Services
                 </li>
               </Link>
-              <Link href="/explore/services#top">
+              <Link href="/explore/services">
                 <li className="bg-gray-200 px-2 py-4 font-medium rounded-b-md text-blue-500">
                   See all Services&nbsp;&nbsp;
                   <i className="fa-solid fa-angle-right"></i>
@@ -114,7 +114,7 @@ function MobileNavigation({
         </ul>
       </li>
       <hr className="h-[2px] bg-neutral-500" />
-      <Link href="/about/overview#top">
+      <Link href="/about/overview">
         <li className="flex px-2 items-center">
           {/* <i className="fa-solid fa-hashtag"></i> */}
           <img
@@ -131,7 +131,7 @@ function MobileNavigation({
         <ul className="py-4 flex text-xs text-gray-900 font-thin px-2 flex-wrap gap-y-3 gap-x-6">
           <li>Careers</li>
           <li>
-            <Link href="/contact-us#top">Contact Us</Link>
+            <Link href="/contact-us">Contact Us</Link>
           </li>
           <li>Diversity & Inclusion</li>
           <li>Locations</li>

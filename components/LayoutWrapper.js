@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import { useRouter } from 'next/router';
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import Footer from './Navigation/Footer';
 import Header from './Navigation/Header';
 import MobileNavigation from './Navigation/MobileNavigation';
@@ -12,11 +12,13 @@ function LayoutWrapper({ children }) {
   const [firstAccordion, setFirstAccordion] = useState(false);
   const [secondAccordion, setSecondAccordion] = useState(false);
   const router = useRouter();
+  const topref = useRef();
 
   useEffect(() => {
     setNavOpen(false);
     setFirstAccordion(false);
     setSecondAccordion(false);
+    topref.current.scrollIntoView(true);
   }, [router]);
 
   return (
@@ -24,9 +26,9 @@ function LayoutWrapper({ children }) {
       <ScrollToTop />
       <Header navOpen={navOpen} setNavOpen={setNavOpen} />
       <SideNavigation navOpen={navOpen} setNavOpen={setNavOpen} />
-      <main className="left-0 tablet:left-[70px] desktop:left-56 absolute overflow-y-scroll top-14 text-gray-800 right-0 bottom-0 ">
+      <main className="left-0  tablet:left-[70px] desktop:left-56 absolute overflow-y-scroll top-14 text-gray-800 right-0 bottom-0 ">
         {/* top div for scrolltotop button */}
-        <div id="top" className="-top-20 absolute"></div>
+        <div id="top" ref={topref} className="-top-20 absolute"></div>
         {children}
         <div>
           <hr className="h-1.5 my-32 mb-20 bg-gradient-to-r from-sky-600 to-red-800" />

@@ -9,7 +9,7 @@ function AboutNavigation() {
     <>
       <ul className="flex border-b relative border-gray-400 w-full">
         <Link
-          href="/about/overview#top"
+          href="/about/overview"
           className={`px-5 hover:font-bold ${
             router.pathname == '/about/overview'
               ? 'border-sky-700 border-b-4 font-bold'
@@ -19,7 +19,7 @@ function AboutNavigation() {
           <li>Overview</li>
         </Link>
         <Link
-          href="/about/our-work#top"
+          href="/about/our-work"
           className={`px-5 hover:font-bold ${
             router.pathname == '/about/our-work'
               ? 'border-sky-700 border-b-4 font-bold'
@@ -29,7 +29,7 @@ function AboutNavigation() {
           <li>Our&nbsp;Work</li>
         </Link>
         <Link
-          href="/about/culture#top"
+          href="/about/culture"
           className={`px-5 hover:font-bold ${
             router.pathname == '/about/culture'
               ? 'border-sky-700 border-b-4 font-bold'
@@ -39,7 +39,7 @@ function AboutNavigation() {
           <li>Culture</li>
         </Link>
         <Link
-          href="/about/leadership#top"
+          href="/about/leadership"
           className={`px-5 hover:font-bold ${
             router.pathname == '/about/leadership'
               ? 'border-sky-700 border-b-4 font-bold'
@@ -66,7 +66,7 @@ function AboutNavigation() {
             } absolute top-10 bg-gray-100 left-0 w-full px-5 py-5 gap-y-3 shadow-2xl border`}
           >
             <Link
-              href="/about/overview#top"
+              href="/about/overview"
               className={`${
                 router.pathname == '/about/overview' ? 'hidden' : 'inline'
               }`}
@@ -74,7 +74,7 @@ function AboutNavigation() {
               Overview
             </Link>
             <Link
-              href="/about/our-work#top"
+              href="/about/our-work"
               className={`${
                 router.pathname == '/about/our-work' ? 'hidden' : 'inline'
               }`}
@@ -82,7 +82,7 @@ function AboutNavigation() {
               Our Work
             </Link>
             <Link
-              href="/about/culture#top"
+              href="/about/culture"
               className={`${
                 router.pathname == '/about/culture' ? 'hidden' : 'inline'
               }`}
@@ -90,7 +90,7 @@ function AboutNavigation() {
               Culture
             </Link>
             <Link
-              href="/about/leadership#top"
+              href="/about/leadership"
               className={`${
                 router.pathname == '/about/leadership' ? 'hidden' : 'inline'
               }`}
