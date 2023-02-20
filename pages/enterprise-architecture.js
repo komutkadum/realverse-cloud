@@ -7,9 +7,9 @@ import CallToAction from '../components/utility/CallToAction';
 import CategoryNavigationAbove from '../components/utility/CategoryNavigationAbove';
 import CategoryNavigationBelow from '../components/utility/CategoryNavigationBelow';
 // images
-import eaDiagram from '../public/images/ea-diagram.png';
-import eaMaturityImage from '../public/images/ea-maturity-old.png';
-import eaPicture from '../public/images/ea-pic.png';
+import eaDiagram from '../public/images/ea-diagram.webp';
+import eaMaturityImage from '../public/images/ea-maturity-old.webp';
+import eaPicture from '../public/images/ea-pic.webp';
 
 function enterprisearchitecture() {
   return (

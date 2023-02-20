@@ -6,7 +6,7 @@ import { PageSEO } from '../../../components/SEO';
 import CallToAction from '../../../components/utility/CallToAction';
 import CategoryNavigationAbove from '../../../components/utility/CategoryNavigationAbove';
 import CategoryNavigationBelow from '../../../components/utility/CategoryNavigationBelow';
-import cloudMaturityGif from '../../../public/images/03 061722 Cloud Maturity Curve.gif';
+import cloudMaturityGif from '../../../public/images/03 061722 Cloud Maturity Curve.webp';
 import cloudServiceImage from '../../../public/images/wwt - your cloud partner.png';
 
 function services() {
@@ -23,7 +23,7 @@ function services() {
         />
         <div>
           <ul className="flex border-b border-gray-400 w-full">
-            <Link href="/category/cloud/overview#top">
+            <Link href="/category/cloud/overview">
               <li className="px-5 py-1.5">Overview</li>
             </Link>
             <li className="px-5 border-b-4 border-sky-700 font-bold py-1.5">

@@ -16,7 +16,7 @@ function services() {
       <div className="page-padding">
         <h1 className="text-4xl pb-6">Explore</h1>
         <ul className="flex border-b border-gray-400 w-full">
-          <Link href="/explore/solutions#top">
+          <Link href="/explore/solutions">
             <li className="px-5  py-1.5">Solutions</li>
           </Link>
           <li className="px-5 py-1.5 border-b-4 border-sky-700 font-bold">
@@ -37,15 +37,15 @@ function services() {
             title="Consulting Services"
             content="Combining the insights of a traditional consulting firm with
             the ability to execute complex infrastructure solutions."
-            bgImage="/images/turn-on-2923046_1920.jpg"
-            href="/service/consulting-services/overview#top"
+            bgImage="/bgImages/consulting-services.webp"
+            href="/service/consulting-services/overview"
           />
           <FourColumnContent
             title="Infrastructure Services"
             content="Assessing today's technology, designing tommorow's solutions
             and seamlessly deploying critical invest...."
-            bgImage="/images/businessman-1176006_1920.jpg"
-            href="/service/infrastructure-services/overview#top"
+            bgImage="/bgImages/infrastructure-services.webp"
+            href="/service/infrastructure-services/overview"
           />
         </FourColumn>
 
@@ -54,29 +54,29 @@ function services() {
         <div className="grid gap-y-12">
           <FourColumn title="Consulting Services">
             <FourColumnContent
-              bgImage="/images/devops-3155972_1920.jpg"
+              bgImage="/bgImages/cloud.webp"
               title="Cloud Services"
-              href="/category/cloud/overview#top"
+              href="/category/cloud/overview"
             />
             <FourColumnContent
-              bgImage="/images/maxim-hopman-IayKLkmz6g0-unsplash.jpg"
+              bgImage="/bgImages/enterprise-architecture.webp"
               title="Enterprise Architechture Services"
-              href="/enterprise-architecture#top"
+              href="/enterprise-architecture"
             />
           </FourColumn>
           <FourColumn title="Infrastructure Services">
             <FourColumnContent
-              bgImage="/images/wuz-vTBqLytx6SQ-unsplash.jpg"
+              bgImage="/bgImages/command-center.webp"
               title="Command Center"
               href=""
             />
             <FourColumnContent
-              bgImage="/images/kabiur-rahman-riyad-YzZJUXjb9aw-unsplash.jpg"
+              bgImage="/bgImages/sdn.webp"
               title="Service Delivery Management"
               href=""
             />
             <FourColumnContent
-              bgImage="/images/kabiur-rahman-riyad-YzZJUXjb9aw-unsplash.jpg"
+              bgImage="/bgImages/it-management-services.webp"
               title="IT Managed Services"
               href=""
             />

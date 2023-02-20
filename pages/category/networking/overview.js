@@ -25,7 +25,7 @@ function overview() {
             <li className="px-5 border-b-4 border-sky-700 font-bold py-1.5">
               Overview
             </li>
-            <Link href="/category/networking/services#top">
+            <Link href="/category/networking/services">
               <li className="px-5 py-1.5">Services</li>
             </Link>
           </ul>
@@ -86,8 +86,8 @@ function overview() {
           <ThreeColumn title="Networking Topics">
             <ThreeColumnContent
               title="Data Center Networking"
-              href="/topic/data-center-networking/overview#top"
-              bgImage="/images/turn-on-2923046_1920.jpg"
+              href="/topic/data-center-networking/overview"
+              bgImage="/bgImages/data-center-networking.webp"
               content="It provides the connectivity between servers and data for
                     applications critical to the business."
             />

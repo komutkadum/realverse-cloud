@@ -58,13 +58,13 @@ function overview() {
                 whenever you need it"
           >
             <ThreeColumnContent
-              bgImage="/images/turn-on-2923046_1920.jpg"
-              href="/category/cloud/overview#top"
+              bgImage="/bgImages/cloud.webp"
+              href="/category/cloud/overview"
               title="Cloud Services"
             />
             <ThreeColumnContent
-              bgImage="/images/businessman-1176006_1920.jpg"
-              href="/enterprise-architecture#top"
+              bgImage="/bgImages/enterprise-architecture.webp"
+              href="/enterprise-architecture"
               title="Enterprise Architechture Services"
             />
           </ThreeColumn>

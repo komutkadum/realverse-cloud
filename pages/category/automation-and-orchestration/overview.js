@@ -26,7 +26,7 @@ function overview() {
             <li className="px-5 border-b-4 border-sky-700 font-bold py-1.5">
               Overview
             </li>
-            <Link href="/category/automation-and-orchestration/services#top">
+            <Link href="/category/automation-and-orchestration/services">
               <li className="px-5 py-1.5">Services</li>
             </Link>
           </ul>
@@ -56,13 +56,13 @@ function overview() {
           />
           <ThreeColumn title="Topics">
             <ThreeColumnContent
-              href="/topic/devops/overview#top"
-              bgImage="/images/turn-on-2923046_1920.jpg"
+              href="/topic/devops/overview"
+              bgImage="/bgImages/devops.webp"
               title="DevOps"
             />
             <ThreeColumnContent
-              href="/topic/infrastructure-automation/overview#top"
-              bgImage="/images/businessman-1176006_1920.jpg"
+              href="/topic/infrastructure-automation/overview"
+              bgImage="/bgImages/infrastructure-automation.webp"
               title="Infrastructure Automation"
             />
           </ThreeColumn>

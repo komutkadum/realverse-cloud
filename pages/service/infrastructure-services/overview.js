@@ -114,17 +114,17 @@ function overview() {
             <ThreeColumnContent
               title="Command Center"
               href=""
-              bgImage="/images/turn-on-2923046_1920.jpg"
+              bgImage="/bgImages/command-center.webp"
             />
             <ThreeColumnContent
               title="Service Delivery Management"
               href=""
-              bgImage="/images/turn-on-2923046_1920.jpg"
+              bgImage="/bgImages/sdn.webp"
             />
             <ThreeColumnContent
               title="IT Managed Services"
               href=""
-              bgImage="/images/turn-on-2923046_1920.jpg"
+              bgImage="/bgImages/it-management-services.webp"
             />
           </ThreeColumn>
 

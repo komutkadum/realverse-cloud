@@ -26,7 +26,7 @@ function overview() {
             <li className="px-5 border-b-4 border-sky-700 font-bold py-1.5">
               Overview
             </li>
-            <Link href="/category/cloud/services#top">
+            <Link href="/category/cloud/services">
               <li className="px-5 py-1.5">Services</li>
             </Link>
           </ul>
@@ -86,15 +86,15 @@ function overview() {
           >
             <ThreeColumnContent
               title="Cloud Migration"
-              href="/topic/cloud-migration/overview#top"
-              bgImage="/images/turn-on-2923046_1920.jpg"
+              href="/topic/cloud-migration/overview"
+              bgImage="/bgImages/cloud-migration.webp"
               content="Simplify the process of migrating applications and workloads
               to the right cloud environment for your business."
             />
             <ThreeColumnContent
               title="Cloud Networking"
-              href="/topic/cloud-networking/overview#top"
-              bgImage="/images/businessman-1176006_1920.jpg"
+              href="/topic/cloud-networking/overview"
+              bgImage="/bgImages/cloud-networking.webp"
               content="Paving the way for connectivity across multiple cloud
               environments."
             />

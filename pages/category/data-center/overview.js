@@ -44,29 +44,29 @@ function overview() {
 
           <ThreeColumn title="Data Center Topics">
             <ThreeColumnContent
-              href="/topic/data-protection/overview#top"
-              bgImage="/images/turn-on-2923046_1920.jpg"
+              href="/topic/data-protection/overview"
+              bgImage="/bgImages/data-protection.webp"
               title="Data Protection"
               content="Eliminate complexity across physical, virtual and cloud
               storage tiers."
             />
             <ThreeColumnContent
-              href="/topic/facilities-infrastructure/overview#top"
-              bgImage="/images/turn-on-2923046_1920.jpg"
+              href="/topic/facilities-infrastructure/overview"
+              bgImage="/bgImages/facilities-infrastructure.webp"
               title="Facilities Infrastructure"
               content="Turn-key assessment and installation services designed to
               ensure facilities are operating at optimal effieciency."
             />
             <ThreeColumnContent
-              href="/topic/hyper-converged-infrastructure/overview#top"
-              bgImage="/images/businessman-1176006_1920.jpg"
+              href="/topic/hyper-converged-infrastructure/overview"
+              bgImage="/bgImages/hyper-converged-infrastructure.webp"
               title="Converged & Hyper-Converged Infrastructure"
               content="Seamless integrate compute, storage, networking and
               infrastructure managed software into one optimization"
             />
             <ThreeColumnContent
-              href="/topic/server-infrastructure/overview#top"
-              bgImage="/images/businessman-1176006_1920.jpg"
+              href="/topic/server-infrastructure/overview"
+              bgImage="/bgImages/server-infrastructure.webp"
               title="Server Infrastructure"
               content="The foundation that holds It/ICT systems together. It
               includeds physical and virtual resources."

@@ -20,7 +20,7 @@ function services() {
         />
         <div>
           <ul className="flex border-b border-gray-400 w-full">
-            <Link href="/category/networking/overview#top">
+            <Link href="/category/networking/overview">
               <li className="px-5 py-1.5">Overview</li>
             </Link>
             <li className="px-5 border-b-4 border-sky-700 font-bold py-1.5">

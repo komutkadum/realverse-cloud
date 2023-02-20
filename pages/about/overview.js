@@ -157,29 +157,29 @@ function overview() {
 
           <ThreeColumn title="Key services and capabilities">
             <ThreeColumnContent
-              href="/category/automation-and-orchestration/overview#top"
-              bgImage="/images/turn-on-2923046_1920.jpg"
+              href="/category/automation-and-orchestration/overview"
+              bgImage="/bgImages/automation-and-orchestration.webp"
               title="Automation and orchestration"
               content="Learn about automated infrastructure, platforms &
                     operations."
             />
             <ThreeColumnContent
-              href="/category/cloud/overview#top"
-              bgImage="/images/businessman-1176006_1920.jpg"
+              href="/category/cloud/overview"
+              bgImage="/bgImages/cloud.webp"
               title="Cloud"
               content="Unlock cloud's potential to transform your business, from
                     strategy through implementation and beyond..."
             />
             <ThreeColumnContent
-              href="/category/data-center/overview#top"
-              bgImage="/images/electrical-2476782_1920.jpg"
+              href="/category/data-center/overview"
+              bgImage="/bgImages/data-center.webp"
               title="Data Center"
               content="Learn about data protection, facilities infrastructure,
                     converged & hyperconverged infrastructure."
             />
             <ThreeColumnContent
-              href="/category/networking/overview#top"
-              bgImage="/images/fiber-4814456_1920.jpg"
+              href="/category/networking/overview"
+              bgImage="/bgImages/networking.webp"
               title="Networking"
               content="Accelerate your organization's path to a global connectivity
                     architechture that enforces security..."
@@ -227,7 +227,7 @@ function overview() {
               Don't see what you're looking for or want to learn more?
             </p>
             <div>
-              <Link href="/contact-us#top">
+              <Link href="/contact-us">
                 <button className="px-6 py-2 bg-button">Contact us</button>
               </Link>
             </div>
