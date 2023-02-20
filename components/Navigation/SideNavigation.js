@@ -110,14 +110,14 @@ function SideNavigation() {
                   />
                 </li>
 
-                <li className="bg-zinc-100 px-2 py-2 font-medium rounded-b-md text-sky-600">
+                <li className="bg-zinc-100 px-2 py-2 font-bold rounded-b-md text-sky-700">
                   <Link
                     href="/explore/solutions"
                     className="group link-underline-animation-top"
                   >
                     See all Solutions&nbsp;&nbsp;
                     <i className="fa-solid fa-angle-right group-hover:translate-x-2 duration-300"></i>
-                    <div class="link-underline-animation-body"></div>
+                    <div className="link-underline-animation-body"></div>
                   </Link>
                 </li>
               </ul>
@@ -177,14 +177,14 @@ function SideNavigation() {
                   />
                 </li>
 
-                <li className="bg-zinc-100 px-2 py-2 font-medium rounded-b-md text-sky-600">
+                <li className="bg-zinc-100 px-2 py-2 font-bold  rounded-b-md text-sky-700">
                   <Link
                     href="/explore/services"
                     className="group link-underline-animation-top"
                   >
                     See all Services&nbsp;&nbsp;
                     <i className="fa-solid fa-angle-right group-hover:translate-x-2 duration-300"></i>
-                    <div class="link-underline-animation-body"></div>
+                    <div className="link-underline-animation-body"></div>
                   </Link>
                 </li>
               </ul>

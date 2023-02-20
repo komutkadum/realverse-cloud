@@ -2,6 +2,7 @@ import Router from 'next/router';
 import NProgress from 'nprogress'; //nprogress module
 import 'nprogress/nprogress.css'; //styles of nprogress
 import LayoutWrapper from '../components/LayoutWrapper';
+import '../styles/animate.css';
 import '../styles/globals.css';
 
 //Binding events.

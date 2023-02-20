@@ -9,7 +9,7 @@ function Header({ navOpen, setNavOpen }) {
         <div className="flex items-center gap-x-2 font-semibold">
           {navOpen ? (
             <i
-              className="fa-solid fa-xmark text-lg desktop:text-sm animate__animated animate__rotateIn animate__faster duration-300"
+              className={`fa-solid fa-xmark text-lg desktop:text-sm animate__animated animate__rotateIn animate__faster duration-300`}
               onClick={() => setNavOpen((prev) => !prev)}
             ></i>
           ) : (

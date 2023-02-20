@@ -1,9 +1,11 @@
 /* eslint-disable react/no-unescaped-entities */
+import Image from 'next/image';
 import React from 'react';
 import RightNavigationAbove from '../../components/Navigation/RightNavigationAbove';
 import RightNavigationBelow from '../../components/Navigation/RightNavigationBelow';
 import { PageSEO } from '../../components/SEO';
 import AboutNavigation from '../../components/utility/AboutNavigation';
+import coreValueImage from '../../public/images/MicrosoftTeams-image 78.webp';
 
 function culture() {
   return (
@@ -74,7 +76,7 @@ function culture() {
             </p>
           </div>
 
-          <img src="/images/MicrosoftTeams-image 78.webp" alt="" />
+          <Image src={coreValueImage} alt="core values" />
 
           <div className="py-6 grid gap-y-2">
             <h4 className="text-2xl font-bold">Our history</h4>

@@ -1,10 +1,15 @@
 /* eslint-disable react/no-unescaped-entities */
+import Image from 'next/image';
 import React from 'react';
 import { PageSEO } from '../components/SEO';
 import Accordion from '../components/utility/Accordion';
 import CallToAction from '../components/utility/CallToAction';
 import CategoryNavigationAbove from '../components/utility/CategoryNavigationAbove';
 import CategoryNavigationBelow from '../components/utility/CategoryNavigationBelow';
+// images
+import eaDiagram from '../public/images/ea-diagram.png';
+import eaMaturityImage from '../public/images/ea-maturity-old.png';
+import eaPicture from '../public/images/ea-pic.png';
 
 function enterprisearchitecture() {
   return (
@@ -60,7 +65,7 @@ function enterprisearchitecture() {
           </div>
 
           <div className="py-6 grid gap-y-2">
-            <img src="/images/ea-diagram.png" />
+            <Image src={eaDiagram} alt="ea diagram" />
           </div>
 
           <div className="py-6 grid gap-y-2">
@@ -78,7 +83,7 @@ function enterprisearchitecture() {
               chart a path toward a fully-integrated Enterprise Architecture
               function.
             </p>
-            <img src="/images/ea-maturity-old.png" className="mt-4" />
+            <Image src={eaMaturityImage} className="mt-4" alt="ea maturity" />
           </div>
 
           <div className="py-6 grid">
@@ -171,7 +176,7 @@ function enterprisearchitecture() {
               Our experts are ready to help, wherever your organization is in
               the journey to a mature Enterprise Architecture.
             </p>
-            <img src="/images/ea-pic.png" className="mt-4" />
+            <Image src={eaPicture} className="mt-4" alt="ea picture" />
           </div>
 
           <div className="py-6 grid gap-y-2">

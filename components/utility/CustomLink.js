@@ -5,7 +5,7 @@ function CustomLink({ href, text }) {
   return (
     <Link href={href} className="link-underline-animation-top group">
       {text}
-      <span class="link-underline-animation-body"></span>
+      <span className="link-underline-animation-body"></span>
     </Link>
   );
 }

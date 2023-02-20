@@ -48,6 +48,7 @@ function AboutNavigation() {
         >
           <li>Leadership</li>
         </Link>
+
         <li className="px-5 py-1.5  inline-flex mobilesm:hidden">
           <button
             className="hover:font-bold"

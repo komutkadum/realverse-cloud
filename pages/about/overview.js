@@ -1,4 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
+import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 import ThreeColumn, {
@@ -8,6 +9,7 @@ import RightNavigationAbove from '../../components/Navigation/RightNavigationAbo
 import RightNavigationBelow from '../../components/Navigation/RightNavigationBelow';
 import { PageSEO } from '../../components/SEO';
 import AboutNavigation from '../../components/utility/AboutNavigation';
+import vennDiagram from '../../public/images/wwt-venn-diagrams.png';
 
 function overview() {
   return (
@@ -45,7 +47,8 @@ function overview() {
             <h4 className="text-2xl font-bold">
               In a world that is less end to end, we connect everything together
             </h4>
-            <img src="/images/wwt-venn-diagrams.png" alt="" />
+
+            <Image src={vennDiagram} alt="venn diagram" />
             <div className="grid gap-y-2">
               <p className=" leading-relaxed  ">
                 We look at the entire process -- from beginning to end -- by

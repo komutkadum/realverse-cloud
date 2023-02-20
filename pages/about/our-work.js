@@ -1,9 +1,11 @@
 /* eslint-disable react/no-unescaped-entities */
+import Image from 'next/image';
 import React from 'react';
 import RightNavigationAbove from '../../components/Navigation/RightNavigationAbove';
 import RightNavigationBelow from '../../components/Navigation/RightNavigationBelow';
 import { PageSEO } from '../../components/SEO';
 import AboutNavigation from '../../components/utility/AboutNavigation';
+import vennDiagram from '../../public/images/wwt-venn-diagrams.png';
 
 function ourwork() {
   return (
@@ -63,7 +65,7 @@ function ourwork() {
             <h4 className="text-2xl font-bold">
               In a world that is less end to end, we connect everything together
             </h4>
-            <img src="/images/wwt-venn-diagrams.png" alt="" />
+            <Image src={vennDiagram} alt="venn diagram" />
             <div className="grid gap-y-2">
               <p className=" leading-relaxed  ">
                 Our ambition is to create a brighter future for all. So, our

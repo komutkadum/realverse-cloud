@@ -1,10 +1,13 @@
 /* eslint-disable react/no-unescaped-entities */
+import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 import { PageSEO } from '../../../components/SEO';
 import CallToAction from '../../../components/utility/CallToAction';
 import CategoryNavigationAbove from '../../../components/utility/CategoryNavigationAbove';
 import CategoryNavigationBelow from '../../../components/utility/CategoryNavigationBelow';
+import cloudMaturityGif from '../../../public/images/03 061722 Cloud Maturity Curve.gif';
+import cloudServiceImage from '../../../public/images/wwt - your cloud partner.png';
 
 function services() {
   return (
@@ -42,7 +45,11 @@ function services() {
               and solutions, accelerating your business today while sculpting
               where it can go tomorrow.
             </p>
-            <img src="/images/wwt - your cloud partner.png" className="mt-4" />
+            <Image
+              src={cloudServiceImage}
+              className="mt-4"
+              alt="cloud partner"
+            />
           </div>
 
           <div className="py-10">
@@ -85,7 +92,7 @@ function services() {
               </li>
               <li>And more!</li>
             </ul>
-            <img src="/images/03 061722 Cloud Maturity Curve.gif" />
+            <Image src={cloudMaturityGif} alt="cloud maturity gif" />
           </div>
         </div>
         <CategoryNavigationBelow
