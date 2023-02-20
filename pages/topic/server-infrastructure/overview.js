@@ -26,7 +26,7 @@ function overview() {
             <h4 className="text-2xl font-bold">
               What is server infrastructure?
             </h4>
-            <p className=" leading-relaxed  text-justify">
+            <p className=" leading-relaxed  ">
               Comprised of CPUs, memory, storage and management tools, server
               infrastructure is the backbone of any organization's data center.
               Ensure your servers can accommodate the increasing need to store,
@@ -36,7 +36,7 @@ function overview() {
 
           <div className="py-6 grid gap-y-2">
             <h4 className="text-2xl font-bold">Get started today</h4>
-            <p className=" leading-relaxed  text-justify">
+            <p className=" leading-relaxed  ">
               Don't see what you're looking for or want to learn more?
             </p>
             <div>

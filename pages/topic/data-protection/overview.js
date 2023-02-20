@@ -24,7 +24,7 @@ function overview() {
           </ul>
           <div className="py-6 grid gap-y-2">
             <h4 className="text-2xl font-bold">What is data protection?</h4>
-            <p className=" leading-relaxed  text-justify">
+            <p className=" leading-relaxed  ">
               Exponential data growth is a challenge for all organizations.
               Instead of backing up and warehousing cold data, a more holistic
               approach to storage can improve data recovery and facilitate cloud
@@ -38,7 +38,7 @@ function overview() {
 
           <div className="py-6 grid gap-y-2">
             <h4 className="text-2xl font-bold">How do I get started?</h4>
-            <p className=" leading-relaxed  text-justify">
+            <p className=" leading-relaxed  ">
               We know it's hard to consider the future implications of
               infrastructure decisions when it's often a struggle just to
               maintain your current state. Get the relevant information you need
@@ -50,7 +50,7 @@ function overview() {
 
           <div className="py-6 grid gap-y-2">
             <h4 className="text-2xl font-bold">Evaluate</h4>
-            <p className=" leading-relaxed  text-justify">
+            <p className=" leading-relaxed  ">
               Our storage engagement methodology begins with understanding your
               unique environment and requirements. Our evaluation capabilities
               include in-depth infrastructure assessments, hands-on workshops,
@@ -63,7 +63,7 @@ function overview() {
 
           <div className="py-6 grid gap-y-2">
             <h4 className="text-2xl font-bold">Design</h4>
-            <p className=" leading-relaxed  text-justify">
+            <p className=" leading-relaxed  ">
               We understand the significant transformation associated with
               modern, software-defined data centers. Our engineers can help you
               develop a client-specific design that simplifies the protection of
@@ -76,7 +76,7 @@ function overview() {
 
           <div className="py-6 grid gap-y-2">
             <h4 className="text-2xl font-bold">Implement</h4>
-            <p className=" leading-relaxed  text-justify">
+            <p className=" leading-relaxed  ">
               Once your data protection solution has been designed and
               optimized, we can integrate and accelerate deployment through our
               global network of Integration Centers. Our proven supply chain
@@ -89,7 +89,7 @@ function overview() {
 
           <div className="py-6 grid gap-y-2">
             <h4 className="text-2xl font-bold">Operate</h4>
-            <p className=" leading-relaxed  text-justify">
+            <p className=" leading-relaxed  ">
               Organizations with large IT environments often experience
               unpredictable maintenance bills that are tough to manage. Storage
               enterprise license agreements (ELAs) provide the right to specific
@@ -102,7 +102,7 @@ function overview() {
 
           <div className="py-6 grid gap-y-2">
             <h4 className="text-2xl font-bold">Get started today</h4>
-            <p className=" leading-relaxed  text-justify">
+            <p className=" leading-relaxed  ">
               Don't see what you're looking for or want to learn more?
             </p>
             <div>

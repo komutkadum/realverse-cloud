@@ -1,6 +1,9 @@
 /* eslint-disable react/no-unescaped-entities */
 import Link from 'next/link';
 import React from 'react';
+import ThreeColumn, {
+  ThreeColumnContent,
+} from '../../../components/layout/ThreeColumn';
 import { PageSEO } from '../../../components/SEO';
 import CallToAction from '../../../components/utility/CallToAction';
 import CategoryNavigationAbove from '../../../components/utility/CategoryNavigationAbove';
@@ -29,21 +32,21 @@ function overview() {
           </ul>
           <div className="py-6 grid gap-y-2">
             <h4 className="text-2xl font-bold">Rise above the cloud</h4>
-            <p className=" leading-relaxed  text-justify">
+            <p className=" leading-relaxed  ">
               Organizations everywhere have turned to cloud in the name of
               digital transformation. Yet many are struggling to harness cloud's
               full potential. That's because optimizing and securing cloud
               environments has become more complex than ever.
             </p>
-            <p className=" leading-relaxed text-justify font-semibold">
+            <p className=" leading-relaxed  font-semibold">
               We believe today's digital world demands a new approach to cloud.
             </p>
-            <p className=" leading-relaxed  text-justify">
+            <p className=" leading-relaxed  ">
               One where your people, processes and technologies work together in
               harmony. Where you have the visibility and resiliency needed to
               scale at the speed of your business.
             </p>
-            <p className=" leading-relaxed  text-justify">
+            <p className=" leading-relaxed  ">
               It's time to rise above the cloud.
             </p>
           </div>
@@ -53,18 +56,18 @@ function overview() {
             <h5 className="text-lg font-bold">
               The difference of cloud strategy plus execution
             </h5>
-            <p className=" leading-relaxed  text-justify">
+            <p className=" leading-relaxed  ">
               Unlike traditional consulting organizations, boutique firms and
               cloud service providers (CSPs), WWT offers independent expertise
               across all areas of cloud, from strategy through execution.
             </p>
-            <p className=" leading-relaxed text-justify">
+            <p className=" leading-relaxed ">
               Our expertise is informed by three decades of building the
               infrastructure on which clouds run. We've designed, deployed and
               secured complex multicloud, data center and networking solutions
               for some of the largest businesses in the world.
             </p>
-            <p className=" leading-relaxed  text-justify">
+            <p className=" leading-relaxed  ">
               We bring the leading CSPs, OEMs, independent software vendors
               (ISVs) and technology platforms together in a collaborative
               ecosystem where clients can learn about and test cutting-edge
@@ -77,52 +80,25 @@ function overview() {
             buttonText="Contact us"
           />
 
-          <div className="py-6 grid gap-y-6">
-            <div className="grid gap-y-2">
-              <h4 className="text-2xl font-bold">Topics</h4>
-              <p className="leading-relaxed text-justify">
-                Explore specific capabilities and offerings across our cloud
-                practice.
-              </p>
-            </div>
-            <div className="grid grid-cols-12 gap-2">
-              <Link
-                href="/topic/cloud-migration/overview#top"
-                className="col-span-12 mobile:col-span-6 laptopxl:col-span-4 rounded-md border aspect-w-16 aspect-h-9 bg-red-600 bg-cover bg-no-repeat text-white"
-                style={{
-                  backgroundImage: "url('/images/turn-on-2923046_1920.jpg')",
-                }}
-              >
-                <div className="flex flex-col items-center justify-end group hover:backdrop-blur cursor-pointer">
-                  <p className="w-full py-2.5 px-4 font-bold transparent-background">
-                    Cloud Migration
-                  </p>
-                  <p className="hidden text-sm py-2 px-4 transparent-background group-hover:block animate__animated animate__fadeInUp animate__fast">
-                    Simplify the process of migrating applications and workloads
-                    to the right cloud environment for your business.
-                  </p>
-                </div>
-              </Link>
-              <Link
-                href="/topic/cloud-networking/overview#top"
-                className="col-span-12 mobile:col-span-6 laptopxl:col-span-4 rounded-md border aspect-w-16 aspect-h-9 bg-red-600 bg-cover bg-no-repeat text-white"
-                style={{
-                  backgroundImage:
-                    "url('/images/businessman-1176006_1920.jpg')",
-                }}
-              >
-                <div className="flex flex-col items-center justify-end group hover:backdrop-blur cursor-pointer">
-                  <p className="w-full py-2.5 px-4 font-bold transparent-background">
-                    Cloud Networking
-                  </p>
-                  <p className="hidden text-sm py-2 px-4 transparent-background group-hover:block animate__animated animate__fadeInUp animate__fast">
-                    Paving the way for connectivity across multiple cloud
-                    environments.
-                  </p>
-                </div>
-              </Link>
-            </div>
-          </div>
+          <ThreeColumn
+            title="Topics"
+            content="Explore specific capabilities and offerings across our cloud practice."
+          >
+            <ThreeColumnContent
+              title="Cloud Migration"
+              href="/topic/cloud-migration/overview#top"
+              bgImage="/images/turn-on-2923046_1920.jpg"
+              content="Simplify the process of migrating applications and workloads
+              to the right cloud environment for your business."
+            />
+            <ThreeColumnContent
+              title="Cloud Networking"
+              href="/topic/cloud-networking/overview#top"
+              bgImage="/images/businessman-1176006_1920.jpg"
+              content="Paving the way for connectivity across multiple cloud
+              environments."
+            />
+          </ThreeColumn>
         </div>
         <CategoryNavigationBelow
           text="Cloud"

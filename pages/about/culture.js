@@ -21,7 +21,7 @@ function culture() {
               <h4 className="text-2xl font-bold">
                 Our culture is what makes WWT a great place to work for all
               </h4>
-              <p className="leading-relaxed  text-justify">
+              <p className="leading-relaxed  ">
                 Our culture is the foundation of who we are, how we act and how
                 we treat others. It is built atop our vision, mission, core
                 values and leadership philosophies, and enables us to deliver
@@ -30,7 +30,7 @@ function culture() {
               </p>
             </div>
 
-            <p className=" leading-relaxed  text-justify">
+            <p className=" leading-relaxed  ">
               The success we've experienced over the last three decades is a
               direct result of our culture of grit and determination, and the
               courage to do the right thing. We embrace change and adopt a
@@ -66,7 +66,7 @@ function culture() {
             <h4 className="text-2xl font-bold">
               Where does our culture come from?
             </h4>
-            <p className=" leading-relaxed  text-justify">
+            <p className=" leading-relaxed  ">
               Our ability to make a positive impact on our people, communities
               and customers is directly related to our culture and leadership
               philosophies, collectively known as our Integrated Management and
@@ -78,13 +78,13 @@ function culture() {
 
           <div className="py-6 grid gap-y-2">
             <h4 className="text-2xl font-bold">Our history</h4>
-            <p className=" leading-relaxed  text-justify">
+            <p className=" leading-relaxed  ">
               Founded in 1990, World Wide Technology (WWT) is a global systems
               integrator with $14.5 billion in annual revenue that provides
               digital strategy, innovative technology and supply chain solutions
               to large public and private organizations.
             </p>
-            <p className=" leading-relaxed  text-justify">
+            <p className=" leading-relaxed  ">
               Based in St. Louis, WWT employs approximately 8,000 people and
               operates over 4 million square feet of warehousing, distribution
               and integration space in more than 20 facilities throughout the

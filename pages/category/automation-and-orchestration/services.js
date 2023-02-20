@@ -29,7 +29,7 @@ function services() {
           </ul>
           <div className="py-6 grid gap-y-2">
             <h4 className="text-2xl font-bold">Automate everything right</h4>
-            <p className=" leading-relaxed  text-justify">
+            <p className=" leading-relaxed  ">
               We help organizations close the gap between automation projects
               and automation strategy. From consulting services to technology
               deployment to training, our clients scale automation across the
@@ -37,10 +37,10 @@ function services() {
             </p>
           </div>
 
-          <div className="grid grid-cols-12 gap-y-4 mb-8">
+          <div className="grid grid-cols-12 gap-y-4 gap-x-4 mb-8">
             {/* <!-- grid --> */}
-            <div className="col-span-12 mobile:col-span-6 tabletxl:col-span-4 flex items-start justify-center gap-x-6">
-              <i className="fa-brands fa-react text-3xl"></i>
+            <div className="col-span-12 mobile:col-span-6 tabletxl:col-span-4 flex items-start justify-center gap-x-2">
+              <i className="fa-brands fa-react text-3xl text-sky-800"></i>
               <div className="grid gap-y-1.5 leading-relaxed">
                 <h3 className="text-lg">Plan</h3>
                 <p>
@@ -55,7 +55,7 @@ function services() {
             </div>
 
             <div className="col-span-12 mobile:col-span-6 tabletxl:col-span-4 flex items-start justify-center gap-x-2">
-              <i className="fa-solid fa-wand-magic-sparkles text-3xl"></i>
+              <i className="fa-solid fa-wand-magic-sparkles text-3xl text-sky-800"></i>
               <div className="grid gap-y-1.5 leading-relaxed">
                 <h3 className="text-lg">Implement</h3>
                 <p>
@@ -70,7 +70,7 @@ function services() {
             </div>
 
             <div className="col-span-12 mobile:col-span-6 tabletxl:col-span-4 flex items-start justify-center gap-x-2">
-              <i className="fa-solid fa-industry text-3xl"></i>
+              <i className="fa-solid fa-industry text-3xl text-sky-800"></i>
               <div className="grid gap-y-1.5 leading-relaxed">
                 <h3 className="text-lg">Enable</h3>
                 <p>
@@ -85,7 +85,7 @@ function services() {
             </div>
 
             <div className="col-span-12 mobile:col-span-6 tabletxl:col-span-4 flex items-start justify-center gap-x-2">
-              <i className="fa-solid fa-handshake text-3xl"></i>
+              <i className="fa-solid fa-handshake text-3xl text-sky-800"></i>
               <div className="grid gap-y-1.5 leading-relaxed">
                 <h3 className="text-lg">Execute</h3>
                 <p>

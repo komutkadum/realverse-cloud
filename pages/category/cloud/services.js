@@ -30,13 +30,13 @@ function services() {
           <div className="py-6 grid gap-y-2">
             <h4 className="text-2xl font-bold">Cloud services</h4>
             <h5 className="text-lg font-bold">It all starts with strategy</h5>
-            <p className=" leading-relaxed  text-justify">
+            <p className=" leading-relaxed  ">
               Cloud technologies have made it easier for businesses to become
               more resilient in the face of unexpected change. But it can be
               difficult to harness cloud's full potential given its broad reach
               across technology stacks.
             </p>
-            <p className=" leading-relaxed  text-justify">
+            <p className=" leading-relaxed  ">
               That's where the importance of strategy comes in. The right cloud
               strategy can fuel ongoing transformations that unlock new paths
               and solutions, accelerating your business today while sculpting
@@ -57,7 +57,7 @@ function services() {
             <h5 className="text-lg font-bold">
               An easier way to scale and optimize capabilities
             </h5>
-            <p className=" leading-relaxed  text-justify">
+            <p className=" leading-relaxed  ">
               We've developed a Cloud Maturity Model to help organizations
               mature their cloud capabilities across their people, processes and
               technology. No matter where you are in the journey, from zero

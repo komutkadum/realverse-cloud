@@ -26,14 +26,14 @@ function overview() {
             <h4 className="text-2xl font-bold">
               Modernize and simplify your IT operations
             </h4>
-            <p className=" leading-relaxed  text-justify">
+            <p className=" leading-relaxed  ">
               Hyper-converged infrastructure (HCI) and converged infrastructure
               (CI) group compute, storage, network and infrastructure management
               software into one optimized platform, helping organization
               streamline systems, reduce costs, accelerate deployments and
               increase resource utilization.
             </p>
-            <p className=" leading-relaxed  text-justify mt-4">
+            <p className=" leading-relaxed   mt-4">
               Whether you are just learning about the differences between HCI
               and converged infrastructure, need an environment to quickly
               compare and test solutions, or need help migrating data and
@@ -44,7 +44,7 @@ function overview() {
 
           <div className="py-6 grid gap-y-2">
             <h4 className="text-2xl font-bold">Get started today</h4>
-            <p className=" leading-relaxed  text-justify">
+            <p className=" leading-relaxed  ">
               Don't see what you're looking for or want to learn more?
             </p>
             <div>

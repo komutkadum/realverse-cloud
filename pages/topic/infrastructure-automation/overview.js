@@ -26,7 +26,7 @@ function overview() {
             <h4 className="text-2xl font-bold">
               What is infrastructure automation?
             </h4>
-            <p className=" leading-relaxed  text-justify">
+            <p className=" leading-relaxed  ">
               Infrastructure automation (IA) is the process of reducing the
               number of repetitive and potentially error-prone IT operations
               tasks that strain your resources while limiting your ability to
@@ -39,7 +39,7 @@ function overview() {
 
           <div className="py-6 grid gap-y-2">
             <h4 className="text-2xl font-bold">How do I get started?</h4>
-            <p className=" leading-relaxed  text-justify">
+            <p className=" leading-relaxed  ">
               We will support you from learning about infrastructure automation
               through hands-on labs to coming up with an infrastructure
               automation strategy that delivers business value. When it comes
@@ -50,7 +50,7 @@ function overview() {
 
           <div className="py-6 grid gap-y-2">
             <h4 className="text-2xl font-bold">Evaluate</h4>
-            <p className=" leading-relaxed  text-justify">
+            <p className=" leading-relaxed  ">
               Learn how leading automation toolsets are helping infrastructure
               teams. Then, try them out for yourself. Our hands-on labs and
               demonstrations teach you the fundamentals of automation and show
@@ -60,7 +60,7 @@ function overview() {
 
           <div className="py-6 grid gap-y-2">
             <h4 className="text-2xl font-bold">Design</h4>
-            <p className=" leading-relaxed  text-justify">
+            <p className=" leading-relaxed  ">
               We help you create an infrastructure automation strategy. This
               includes identifying business initiatives where automation can add
               the most value and driving out bottlenecks that prevent automation
@@ -70,7 +70,7 @@ function overview() {
 
           <div className="py-6 grid gap-y-2">
             <h4 className="text-2xl font-bold">Implement</h4>
-            <p className=" leading-relaxed  text-justify">
+            <p className=" leading-relaxed  ">
               Whether it's making infrastructure installation easy with
               playbooks, building a CI/CD pipeline, or integrating systems like
               Ansible Tower and ServiceNow, we get you up, running and ready to
@@ -81,7 +81,7 @@ function overview() {
 
           <div className="py-6 grid gap-y-2">
             <h4 className="text-2xl font-bold">Operate</h4>
-            <p className=" leading-relaxed  text-justify">
+            <p className=" leading-relaxed  ">
               We know you need to quickly skill up but also be self-sufficient
               in operating automation toolsets. That's why we put IT operations
               teams on a training and enablement path. And with ongoing access
@@ -91,7 +91,7 @@ function overview() {
 
           <div className="py-6 grid gap-y-2">
             <h4 className="text-2xl font-bold">Get started today</h4>
-            <p className=" leading-relaxed  text-justify">
+            <p className=" leading-relaxed  ">
               Don't see what you're looking for or want to learn more?
             </p>
             <div>

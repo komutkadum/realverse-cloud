@@ -26,7 +26,7 @@ function overview() {
             <h4 className="text-2xl font-bold">
               Cloud migration requires an holistic strategy
             </h4>
-            <p className=" leading-relaxed  text-justify">
+            <p className=" leading-relaxed  ">
               Cloud migration occurs when a company moves some or all of its
               data center capabilities to a public, private or hybrid cloud
               operating model. Once the decision to migrate has been made, the
@@ -41,7 +41,7 @@ function overview() {
 
           <div className="py-6 grid gap-y-2">
             <h4 className="text-2xl font-bold">Get started today</h4>
-            <p className=" leading-relaxed  text-justify">
+            <p className=" leading-relaxed  ">
               Don't see what you're looking for or want to learn more?
             </p>
             <div>

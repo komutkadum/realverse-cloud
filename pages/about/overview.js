@@ -1,6 +1,9 @@
 /* eslint-disable react/no-unescaped-entities */
 import Link from 'next/link';
 import React from 'react';
+import ThreeColumn, {
+  ThreeColumnContent,
+} from '../../components/layout/ThreeColumn';
 import RightNavigationAbove from '../../components/Navigation/RightNavigationAbove';
 import RightNavigationBelow from '../../components/Navigation/RightNavigationBelow';
 import { PageSEO } from '../../components/SEO';
@@ -19,18 +22,18 @@ function overview() {
           <AboutNavigation />
           <div className="py-6 grid gap-y-2">
             <h4 className="text-2xl font-bold">Make a new world happen.</h4>
-            <p className=" leading-relaxed  text-justify">
+            <p className=" leading-relaxed  ">
               This simple phrase encapsulates our ambition and what we do -- not
               just for our customers, but for our people and communities across
               the globe.{' '}
             </p>
-            <p className=" leading-relaxed  text-justify">
+            <p className=" leading-relaxed  ">
               We are thinkers and doers. We combine strategy and execution to
               help organizations accelerate growth and realize a brighter
               future. We turn complex technology solutions into a practical and
               actionable way forward. Then we help deliver them globally.
             </p>
-            <p className=" leading-relaxed  text-justify">
+            <p className=" leading-relaxed  ">
               A culture of innovation lies at our very core. You can see it in
               our people. We live and breathe change every day because we
               believe in doing whatever it takes to help organizations
@@ -44,32 +47,32 @@ function overview() {
             </h4>
             <img src="/images/wwt-venn-diagrams.png" alt="" />
             <div className="grid gap-y-2">
-              <p className=" leading-relaxed  text-justify">
+              <p className=" leading-relaxed  ">
                 We look at the entire process -- from beginning to end -- by
                 delivering both strategy and execution, acting as a bridge
                 between business and technology, and blurring the lines between
                 the physical and digital. In doing so, we remove the barriers to
                 digital transformation.
               </p>
-              <p className=" leading-relaxed  text-justify">
+              <p className=" leading-relaxed  ">
                 We develop real, collaborative partnerships with our customers
                 to connect their organizations to new possibilities.
               </p>
-              <p className=" leading-relaxed  text-justify">
+              <p className=" leading-relaxed  ">
                 We see the opportunities and make change happen fast.
                 Infrastructure modernization is at the core of what we do for
                 your network, data center and everything in between.
               </p>
-              <p className=" leading-relaxed  text-justify">
+              <p className=" leading-relaxed  ">
                 We design technology to deliver the best business outcomes, and
                 we test the viability of solutions in our Advanced Technology
                 Center.
               </p>
-              <p className=" leading-relaxed  text-justify">
+              <p className=" leading-relaxed  ">
                 Before drawing upon our global operations supply chain to
                 implement them at scale -- anywhere around the world.
               </p>
-              <i className=" leading-relaxed  text-justify font-bold">
+              <i className=" leading-relaxed   font-bold">
                 We see the opportunities and make change happen fast.
               </i>
             </div>
@@ -77,14 +80,14 @@ function overview() {
 
           <div className="py-6 grid gap-y-2">
             <h4 className="text-2xl font-bold">What we do</h4>
-            <p className=" leading-relaxed  text-justify">
+            <p className=" leading-relaxed  ">
               We operate at the forefront of innovation and progress, working
               with our clients all over the world to take them into the future.
             </p>
             <div className="grid grid-cols-12 gap-y-4 gap-x-6">
               {/* <!-- grid --> */}
               <div className="col-span-12 mobile:col-span-6 tabletxl:col-span-4 flex items-start justify-center gap-x-2">
-                <i className="fa-brands fa-react text-3xl"></i>
+                <i className="fa-brands fa-react text-3xl text-sky-800"></i>
                 <div className="grid gap-y-1.5 leading-relaxed">
                   <h3 className="text-lg">Solutions</h3>
                   <p>
@@ -100,7 +103,7 @@ function overview() {
               </div>
 
               <div className="col-span-12 mobile:col-span-6 tabletxl:col-span-4 flex items-start justify-center gap-x-2">
-                <i className="fa-solid fa-wand-magic-sparkles text-3xl"></i>
+                <i className="fa-solid fa-wand-magic-sparkles text-3xl text-sky-800"></i>
                 <div className="grid gap-y-1.5 leading-relaxed">
                   <h3 className="text-lg">Services</h3>
                   <p>
@@ -116,7 +119,7 @@ function overview() {
               </div>
 
               <div className="col-span-12 mobile:col-span-6 tabletxl:col-span-4 flex items-start justify-center gap-x-2">
-                <i className="fa-solid fa-industry text-3xl"></i>
+                <i className="fa-solid fa-industry text-3xl text-sky-800"></i>
                 <div className="grid gap-y-1.5 leading-relaxed">
                   <h3 className="text-lg">Industries</h3>
                   <p>
@@ -132,7 +135,7 @@ function overview() {
               </div>
 
               <div className="col-span-12 mobile:col-span-6 tabletxl:col-span-4 flex items-start justify-center gap-x-2">
-                <i className="fa-solid fa-handshake text-3xl"></i>
+                <i className="fa-solid fa-handshake text-3xl text-sky-800"></i>
                 <div className="grid gap-y-1.5 leading-relaxed">
                   <h3 className="text-lg">Partners</h3>
                   <p>
@@ -149,86 +152,40 @@ function overview() {
             </div>
           </div>
 
-          <div className="py-6 grid gap-y-2">
-            <h4 className="text-2xl font-bold">
-              Key services and capabilities
-            </h4>
-            <div className="grid grid-cols-12 gap-2">
-              <Link
-                href="/category/automation-and-orchestration/overview#top"
-                className="col-span-12 mobile:col-span-6 laptopxl:col-span-4 rounded-md border aspect-w-16 aspect-h-9 bg-red-600 bg-cover bg-no-repeat text-white"
-                style={{
-                  backgroundImage: "url('/images/turn-on-2923046_1920.jpg')",
-                }}
-              >
-                <div className="flex flex-col items-center justify-end group hover:backdrop-blur cursor-pointer">
-                  <p className="w-full py-2.5 px-4 font-bold transparent-background">
-                    Automation and orchestration
-                  </p>
-                  <p className="hidden text-sm py-2 px-4 transparent-background group-hover:block animate__animated animate__fadeInUp animate__fast">
-                    Learn about automated infrastructure, platforms &
-                    operations.
-                  </p>
-                </div>
-              </Link>
-              <Link
-                href="/category/cloud/overview#top"
-                className="col-span-12 mobile:col-span-6 laptopxl:col-span-4 rounded-md border aspect-w-16 aspect-h-9 bg-red-600 bg-cover bg-no-repeat text-white"
-                style={{
-                  backgroundImage:
-                    "url('/images/businessman-1176006_1920.jpg')",
-                }}
-              >
-                <div className="flex flex-col items-center justify-end group hover:backdrop-blur cursor-pointer">
-                  <p className="w-full py-2.5 px-4 font-bold transparent-background">
-                    Cloud
-                  </p>
-                  <p className="hidden py-2 px-4 text-sm transparent-background group-hover:block animate__animated animate__fadeInUp animate__fast">
-                    Unlock cloud's potential to transform your business, from
-                    strategy through implementation and beyond...
-                  </p>
-                </div>
-              </Link>
-              <Link
-                href="/category/data-center/overview#top"
-                className="col-span-12 mobile:col-span-6 laptopxl:col-span-4 rounded-md border aspect-w-16 aspect-h-9 bg-red-600 bg-cover bg-no-repeat text-white"
-                style={{
-                  backgroundImage: "url('/images/electrical-2476782_1920.jpg')",
-                }}
-              >
-                <div className="flex flex-col items-center justify-end group hover:backdrop-blur cursor-pointer">
-                  <p className="w-full py-2.5 px-4 font-bold transparent-background">
-                    Data Center
-                  </p>
-                  <p className="hidden py-2 px-4 text-sm transparent-background group-hover:block animate__animated animate__fadeInUp animate__fast">
-                    Learn about data protection, facilities infrastructure,
-                    converged & hyperconverged infrastructure.
-                  </p>
-                </div>
-              </Link>
-              <Link
-                href="/category/networking/overview#top"
-                className="col-span-12 mobile:col-span-6 laptopxl:col-span-4 rounded-md border aspect-w-16 aspect-h-9 bg-red-600 bg-cover bg-no-repeat text-white"
-                style={{
-                  backgroundImage: "url('/images/fiber-4814456_1920.jpg')",
-                }}
-              >
-                <div className="flex flex-col items-center justify-end group hover:backdrop-blur cursor-pointer">
-                  <p className="w-full py-2.5 px-4 font-bold transparent-background">
-                    Networking
-                  </p>
-                  <p className="hidden py-2 px-4 text-sm transparent-background group-hover:block animate__animated animate__fadeInUp animate__fast">
-                    Accelerate your organization's path to a global connectivity
-                    architechture that enforces security...
-                  </p>
-                </div>
-              </Link>
-            </div>
-          </div>
+          <ThreeColumn title="Key services and capabilities">
+            <ThreeColumnContent
+              href="/category/automation-and-orchestration/overview#top"
+              bgImage="/images/turn-on-2923046_1920.jpg"
+              title="Automation and orchestration"
+              content="Learn about automated infrastructure, platforms &
+                    operations."
+            />
+            <ThreeColumnContent
+              href="/category/cloud/overview#top"
+              bgImage="/images/businessman-1176006_1920.jpg"
+              title="Cloud"
+              content="Unlock cloud's potential to transform your business, from
+                    strategy through implementation and beyond..."
+            />
+            <ThreeColumnContent
+              href="/category/data-center/overview#top"
+              bgImage="/images/electrical-2476782_1920.jpg"
+              title="Data Center"
+              content="Learn about data protection, facilities infrastructure,
+                    converged & hyperconverged infrastructure."
+            />
+            <ThreeColumnContent
+              href="/category/networking/overview#top"
+              bgImage="/images/fiber-4814456_1920.jpg"
+              title="Networking"
+              content="Accelerate your organization's path to a global connectivity
+                    architechture that enforces security..."
+            />
+          </ThreeColumn>
 
           <div className="py-6 grid gap-y-2">
             <h4 className="text-2xl font-bold">Realverse Cloud at a glance</h4>
-            <p className=" leading-relaxed  text-justify">
+            <p className=" leading-relaxed  ">
               Realverse Cloud is a financially strong, privately held global
               technology service provider with over 30 years experience
               servicing the world's largest and most innovative organizations.
@@ -263,7 +220,7 @@ function overview() {
 
           <div className="py-6 grid gap-y-2">
             <h4 className="text-2xl font-bold">Get started today</h4>
-            <p className=" leading-relaxed  text-justify">
+            <p className=" leading-relaxed  ">
               Don't see what you're looking for or want to learn more?
             </p>
             <div>

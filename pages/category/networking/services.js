@@ -29,7 +29,7 @@ function services() {
           </ul>
           <div className="py-6 grid gap-y-2">
             <h4 className="text-2xl font-bold">Networking Services</h4>
-            <p className=" leading-relaxed  text-justify">
+            <p className=" leading-relaxed  ">
               Accelerate your journey to a global connectivity architecture.
             </p>
           </div>

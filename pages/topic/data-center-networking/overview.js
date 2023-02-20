@@ -26,7 +26,7 @@ function overview() {
             <h4 className="text-2xl font-bold">
               What is data center networking?
             </h4>
-            <p className=" leading-relaxed  text-justify">
+            <p className=" leading-relaxed  ">
               Reliable and high-performing data center networking enables
               organizations to provision new services faster, leverage
               automation and orchestration to reduce the cost of ownership,
@@ -38,7 +38,7 @@ function overview() {
 
           <div className="py-6 grid gap-y-2">
             <h4 className="text-2xl font-bold">How do I get started?</h4>
-            <p className=" leading-relaxed  text-justify">
+            <p className=" leading-relaxed  ">
               Data center networks have evolved to consist of both logical and
               physical networks. Simplifying data center operations through
               automation introduces new concepts as well as challenges to
@@ -51,7 +51,7 @@ function overview() {
 
           <div className="py-6 grid gap-y-2">
             <h4 className="text-2xl font-bold">Evaluate</h4>
-            <p className=" leading-relaxed  text-justify">
+            <p className=" leading-relaxed  ">
               Evaluate and learn about the different technologies that make up
               today's modern data centers, software-defined networking (SDN)
               solutions, and automation tools and platforms.
@@ -60,7 +60,7 @@ function overview() {
 
           <div className="py-6 grid gap-y-2">
             <h4 className="text-2xl font-bold">Design</h4>
-            <p className=" leading-relaxed  text-justify">
+            <p className=" leading-relaxed  ">
               Proper underlay (physical network) and overlay (logical network)
               design is crucial to achieving the desired simplicity of modern
               data center networks. You can only achieve data security and
@@ -72,7 +72,7 @@ function overview() {
 
           <div className="py-6 grid gap-y-2">
             <h4 className="text-2xl font-bold">Implement</h4>
-            <p className=" leading-relaxed  text-justify">
+            <p className=" leading-relaxed  ">
               Because data centers house the crown jewels of any business, they
               must be properly planned and implemented to mitigate risk. We have
               the experience and expertise to help you every step of the way.
@@ -81,7 +81,7 @@ function overview() {
 
           <div className="py-6 grid gap-y-2">
             <h4 className="text-2xl font-bold">Operate</h4>
-            <p className=" leading-relaxed  text-justify">
+            <p className=" leading-relaxed  ">
               The work doesn't stop once a data center is up and running. There
               are still Day 2 operational tasks, monitoring tools and additional
               features to implement. WWT can help you make the most of your
@@ -92,7 +92,7 @@ function overview() {
 
           <div className="py-6 grid gap-y-2">
             <h4 className="text-2xl font-bold">Get started today</h4>
-            <p className=" leading-relaxed  text-justify">
+            <p className=" leading-relaxed  ">
               Don't see what you're looking for or want to learn more?
             </p>
             <div>

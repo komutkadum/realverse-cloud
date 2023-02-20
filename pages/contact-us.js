@@ -11,7 +11,7 @@ function contactus() {
       <div className="w-full bg-gradient-to-tl from-pink-700 to-sky-800 py-20 mobile:py-28 desktop:py-48"></div>
       <div className="grid grid-cols-12 text-black page-padding ">
         <div className="col-span-12 laptoplg:col-span-7 grid gap-y-4 ">
-          <form className="col-span-6 grid gap-x-4 gap-y-6 text-left mobile:text-justify">
+          <form className="col-span-6 grid gap-x-4 gap-y-6 text-left mobile:">
             <div className="grid gap-y-4">
               <h1 className="text-4xl">Contact Us</h1>
               <h3 className="text-2xl">Questions? We’ve got answers</h3>

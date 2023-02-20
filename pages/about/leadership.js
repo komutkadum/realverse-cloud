@@ -22,7 +22,7 @@ function leadership() {
               <h4 className="text-2xl font-bold">
                 Strong leadership is what matters most.
               </h4>
-              <p className="leading-relaxed text-justify">
+              <p className="leading-relaxed ">
                 Our leaders at every level of the organization are critical to
                 our long-term success, starting at the top with our executive
                 leadership team and permeating throughout our company. We are
@@ -35,48 +35,44 @@ function leadership() {
               <div className="grid justify-center col-span-12 tablet:col-span-6 laptop:col-span-4 gap-y-2">
                 <Image
                   src="/images/akshaymishra.jpeg"
-                  className="rounded-md"
                   alt="akshay mishra"
                   width={400}
                   height={400}
                 />
                 <div className="flex justify-between items-start px-1">
                   <div>
-                    <h1 className="text-2xl font-extrabold r-font">
-                      Akshay Mishra
-                    </h1>
-                    <h3 className="text-gray-600">Founder & Director</h3>
+                    <h1 className="text-2xl font-extrabold">Akshay Mishra</h1>
+                    <h3 className="text-gray-600 text-sm">
+                      Founder & Director
+                    </h3>
                   </div>
                   <a
                     href="https://www.linkedin.com/in/akshay-mishra-08085367/?originalSubdomain=in"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <i className="fa-brands fa-linkedin text-2xl text-blue-700 hover:text-blue-800 cursor-pointer"></i>
+                    <i className="fa-brands fa-linkedin text-2xl text-sky-700 hover:text-sky-800 cursor-pointer"></i>
                   </a>
                 </div>
               </div>
               <div className="grid justify-center col-span-12 tablet:col-span-6 laptop:col-span-4 gap-y-2">
                 <Image
                   src="/images/kadumkomut.jpeg"
-                  className="rounded-md"
                   alt="kadum komut"
                   width={400}
                   height={400}
                 />
                 <div className="flex justify-between items-start px-1">
                   <div>
-                    <h1 className="text-2xl font-extrabold r-font">
-                      Kadum Komut
-                    </h1>
-                    <h3 className="text-gray-600">CTO</h3>
+                    <h1 className="text-2xl font-extrabold">Kadum Komut</h1>
+                    <h3 className="text-gray-600 text-sm">CTO</h3>
                   </div>
                   <a
                     href="https://www.linkedin.com/in/kadum-komut-67023012b/"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <i className="fa-brands fa-linkedin text-2xl text-blue-700 hover:text-blue-800 cursor-pointer"></i>
+                    <i className="fa-brands fa-linkedin text-2xl text-sky-700 hover:text-sky-800 cursor-pointer"></i>
                   </a>
                 </div>
               </div>

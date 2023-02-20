@@ -21,7 +21,7 @@ export default function Home() {
               experienced users.
             </p>
             <div>
-              <button className="bg-sky-700  text-white  hover:bg-sky-500 hover:rounded-xl duration-300 rounded-sm px-6 py-1.5 w-full mobilesm:w-auto">
+              <button className="bg-sky-500  text-white  hover:bg-sky-600 hover:rounded-xl duration-300 rounded-sm px-6 py-1.5 w-full mobilesm:w-auto">
                 Get Started
               </button>
             </div>

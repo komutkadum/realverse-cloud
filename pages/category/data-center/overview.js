@@ -1,6 +1,8 @@
 /* eslint-disable react/no-unescaped-entities */
-import Link from 'next/link';
 import React from 'react';
+import ThreeColumn, {
+  ThreeColumnContent,
+} from '../../../components/layout/ThreeColumn';
 import { PageSEO } from '../../../components/SEO';
 import CategoryNavigationAbove from '../../../components/utility/CategoryNavigationAbove';
 import CategoryNavigationBelow from '../../../components/utility/CategoryNavigationBelow';
@@ -27,7 +29,7 @@ function overview() {
             <h4 className="text-2xl font-bold">
               Data centers in a modern world
             </h4>
-            <p className=" leading-relaxed  text-justify">
+            <p className=" leading-relaxed">
               The data center is undergoing radical transformation. Exponential
               data growth, the need to process and deliver data across
               organizations, and an urgent focus on data security, resiliency
@@ -40,83 +42,36 @@ function overview() {
             </p>
           </div>
 
-          <div className="py-6 grid gap-y-6">
-            <h4 className="text-2xl font-bold">Data center topics</h4>
-
-            <div className="grid grid-cols-12 gap-2">
-              <Link
-                href="/topic/data-protection/overview#top"
-                className="col-span-12 mobile:col-span-6 laptopxl:col-span-4 rounded-md border aspect-w-16 aspect-h-9 bg-red-600 bg-cover bg-no-repeat text-white"
-                style={{
-                  backgroundImage: "url('/images/turn-on-2923046_1920.jpg')",
-                }}
-              >
-                <div className="flex flex-col items-center justify-end group hover:backdrop-blur cursor-pointer">
-                  <p className="w-full py-2.5 px-4 font-bold transparent-background">
-                    Data Protection
-                  </p>
-                  <p className="hidden text-sm py-2 px-4 transparent-background group-hover:block animate__animated animate__fadeInUp animate__fast">
-                    Eliminate complexity across physical, virtual and cloud
-                    storage tiers.
-                  </p>
-                </div>
-              </Link>
-              <Link
-                href="/topic/facilities-infrastructure/overview#top"
-                className="col-span-12 mobile:col-span-6 laptopxl:col-span-4 rounded-md border aspect-w-16 aspect-h-9 bg-red-600 bg-cover bg-no-repeat text-white"
-                style={{
-                  backgroundImage:
-                    "url('/images/businessman-1176006_1920.jpg')",
-                }}
-              >
-                <div className="flex flex-col items-center justify-end group hover:backdrop-blur cursor-pointer">
-                  <p className="w-full py-2.5 px-4 font-bold transparent-background">
-                    Facilities Infrastructure
-                  </p>
-                  <p className="hidden text-sm py-2 px-4 transparent-background group-hover:block animate__animated animate__fadeInUp animate__fast">
-                    Turn-key assessment and installation services designed to
-                    ensure facilities are operating at optimal effieciency.
-                  </p>
-                </div>
-              </Link>
-              <Link
-                href="/topic/hyper-converged-infrastructure/overview#top"
-                className="col-span-12 mobile:col-span-6 laptopxl:col-span-4 rounded-md border aspect-w-16 aspect-h-9 bg-red-600 bg-cover bg-no-repeat text-white"
-                style={{
-                  backgroundImage:
-                    "url('/images/businessman-1176006_1920.jpg')",
-                }}
-              >
-                <div className="flex flex-col items-center justify-end group hover:backdrop-blur cursor-pointer">
-                  <p className="w-full py-2.5 px-4 font-bold transparent-background">
-                    Converged & Hyper-Converged Infrastructure
-                  </p>
-                  <p className="hidden text-sm py-2 px-4 transparent-background group-hover:block animate__animated animate__fadeInUp animate__fast">
-                    Seamless integrate compute, storage, networking and
-                    infrastructure managed software into one optimization
-                  </p>
-                </div>
-              </Link>
-              <Link
-                href="/topic/server-infrastructure/overview#top"
-                className="col-span-12 mobile:col-span-6 laptopxl:col-span-4 rounded-md border aspect-w-16 aspect-h-9 bg-red-600 bg-cover bg-no-repeat text-white"
-                style={{
-                  backgroundImage:
-                    "url('/images/businessman-1176006_1920.jpg')",
-                }}
-              >
-                <div className="flex flex-col items-center justify-end group hover:backdrop-blur cursor-pointer">
-                  <p className="w-full py-2.5 px-4 font-bold transparent-background">
-                    Server Infrastructure
-                  </p>
-                  <p className="hidden text-sm py-2 px-4 transparent-background group-hover:block animate__animated animate__fadeInUp animate__fast">
-                    The foundation that holds It/ICT systems together. It
-                    includeds physical and virtual resources.
-                  </p>
-                </div>
-              </Link>
-            </div>
-          </div>
+          <ThreeColumn title="Data Center Topics">
+            <ThreeColumnContent
+              href="/topic/data-protection/overview#top"
+              bgImage="/images/turn-on-2923046_1920.jpg"
+              title="Data Protection"
+              content="Eliminate complexity across physical, virtual and cloud
+              storage tiers."
+            />
+            <ThreeColumnContent
+              href="/topic/facilities-infrastructure/overview#top"
+              bgImage="/images/turn-on-2923046_1920.jpg"
+              title="Facilities Infrastructure"
+              content="Turn-key assessment and installation services designed to
+              ensure facilities are operating at optimal effieciency."
+            />
+            <ThreeColumnContent
+              href="/topic/hyper-converged-infrastructure/overview#top"
+              bgImage="/images/businessman-1176006_1920.jpg"
+              title="Converged & Hyper-Converged Infrastructure"
+              content="Seamless integrate compute, storage, networking and
+              infrastructure managed software into one optimization"
+            />
+            <ThreeColumnContent
+              href="/topic/server-infrastructure/overview#top"
+              bgImage="/images/businessman-1176006_1920.jpg"
+              title="Server Infrastructure"
+              content="The foundation that holds It/ICT systems together. It
+              includeds physical and virtual resources."
+            />
+          </ThreeColumn>
         </div>
         <CategoryNavigationBelow
           text="Data Center"

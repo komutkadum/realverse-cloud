@@ -1,6 +1,9 @@
 /* eslint-disable react/no-unescaped-entities */
 import Link from 'next/link';
 import React from 'react';
+import ThreeColumn, {
+  ThreeColumnContent,
+} from '../../../components/layout/ThreeColumn';
 import { PageSEO } from '../../../components/SEO';
 import CallToAction from '../../../components/utility/CallToAction';
 import CategoryNavigationAbove from '../../../components/utility/CategoryNavigationAbove';
@@ -29,19 +32,19 @@ function overview() {
           </ul>
           <div className="py-6 grid gap-y-2">
             <h4 className="text-2xl font-bold">Automate everything right</h4>
-            <p className=" leading-relaxed  text-justify">
+            <p className=" leading-relaxed  ">
               Organizations across every industry are looking to automation to
               give their business a competitive advantage. In many cases,
               automation is already underway with multiple grassroots efforts.
             </p>
-            <p className=" leading-relaxed my-2 text-justify">
+            <p className=" leading-relaxed my-2 ">
               But how do you connect siloed automation projects to a scalable
               automation strategy that drives business outcomes?
             </p>
-            <p className=" leading-relaxed  text-justify">
+            <p className=" leading-relaxed  ">
               It's tempting to try to automate everything.
             </p>
-            <p className=" leading-relaxed  text-justify">
+            <p className=" leading-relaxed  ">
               However, we've found that the secret to success is to automate
               everything right. This means prioritizing the correct things to
               automate and then automating them correctly.
@@ -51,39 +54,18 @@ function overview() {
             text="Learn the secrets to success"
             buttonText="View Now"
           />
-
-          <div className="py-6 grid gap-y-6">
-            <h4 className="text-2xl font-bold">Topics</h4>
-            <div className="grid grid-cols-12 gap-2">
-              <Link
-                href="/topic/devops/overview#top"
-                className="col-span-12 mobile:col-span-6 laptopxl:col-span-4 rounded-md border aspect-w-16 aspect-h-9 bg-red-600 bg-cover bg-no-repeat text-white"
-                style={{
-                  backgroundImage: "url('/images/turn-on-2923046_1920.jpg')",
-                }}
-              >
-                <div className="flex flex-col items-center justify-end group hover:backdrop-blur cursor-pointer">
-                  <p className="w-full py-2.5 px-4 font-bold transparent-background">
-                    DevOps
-                  </p>
-                </div>
-              </Link>
-              <Link
-                href="/topic/infrastructure-automation/overview#top"
-                className="col-span-12 mobile:col-span-6 laptopxl:col-span-4 rounded-md border aspect-w-16 aspect-h-9 bg-red-600 bg-cover bg-no-repeat text-white"
-                style={{
-                  backgroundImage:
-                    "url('/images/businessman-1176006_1920.jpg')",
-                }}
-              >
-                <div className="flex flex-col items-center justify-end group hover:backdrop-blur cursor-pointer">
-                  <p className="w-full py-2.5 px-4 font-bold transparent-background">
-                    Infrastructure Automation
-                  </p>
-                </div>
-              </Link>
-            </div>
-          </div>
+          <ThreeColumn title="Topics">
+            <ThreeColumnContent
+              href="/topic/devops/overview#top"
+              bgImage="/images/turn-on-2923046_1920.jpg"
+              title="DevOps"
+            />
+            <ThreeColumnContent
+              href="/topic/infrastructure-automation/overview#top"
+              bgImage="/images/businessman-1176006_1920.jpg"
+              title="Infrastructure Automation"
+            />
+          </ThreeColumn>
         </div>
         <CategoryNavigationBelow
           text="Automation & Orchestration"

@@ -26,7 +26,7 @@ function overview() {
             <h4 className="text-2xl font-bold">
               Cloud networking enables true transformation
             </h4>
-            <p className=" leading-relaxed  text-justify">
+            <p className=" leading-relaxed  ">
               Modern organizations are increasingly taking advantage of multiple
               clouds to deliver distinct capabilities for the business. Success
               requires connecting users to these different clouds without
@@ -40,7 +40,7 @@ function overview() {
 
           <div className="py-6 grid gap-y-2">
             <h4 className="text-2xl font-bold">Paths to cloud success</h4>
-            <p className=" leading-relaxed  text-justify">
+            <p className=" leading-relaxed  ">
               Cloud solutions are deployed in three primary ways. The right
               model for your business will depend on your unique needs and
               goals. Our certified experts can help you choose, implement and
@@ -50,7 +50,7 @@ function overview() {
 
           <div className="py-6 grid gap-y-2">
             <h4 className="text-2xl font-bold">Get started today</h4>
-            <p className=" leading-relaxed  text-justify">
+            <p className=" leading-relaxed  ">
               Don't see what you're looking for or want to learn more?
             </p>
             <div>

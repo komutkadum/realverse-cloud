@@ -24,13 +24,13 @@ function overview() {
           </ul>
           <div className="py-6 grid gap-y-2">
             <h4 className="text-2xl font-bold">What is DevOps?</h4>
-            <p className=" leading-relaxed  text-justify">
+            <p className=" leading-relaxed  ">
               DevOps is a combination of cultural philosophies, methodologies,
               infrastructure and tools aimed at improving an organization's
               ability to deliver applications and services with greater
               efficiency and agility.
             </p>
-            <p className="leading-relaxed text-justify mt-4">
+            <p className="leading-relaxed  mt-4">
               DevOps methodologies can improve the engineering processes for any
               organization, regardless of the environment in which your
               applications and services run. Whether you're an infrastructure,
@@ -45,7 +45,7 @@ function overview() {
 
           <div className="py-6 grid gap-y-2">
             <h4 className="text-2xl font-bold">Why WWT for DevOps?</h4>
-            <p className=" leading-relaxed  text-justify">
+            <p className=" leading-relaxed  ">
               WWT is the unique partner who can offer infrastructure design,
               deployment automation and software consulting services all under
               one roof. Our DevOps experts can help your infrastructure,
@@ -53,7 +53,7 @@ function overview() {
               capabilities that enable the delivery of new services with speed,
               stability and availability.
             </p>
-            <p className="leading-relaxed text-justify mt-4">
+            <p className="leading-relaxed  mt-4">
               Our Advanced Technology Center (ATC) allows clients to test and
               validate DevOps solutions in a safe and scalable environment. Once
               validated, WWT's DevOps practitioners assist clients in the
@@ -65,7 +65,7 @@ function overview() {
 
           <div className="py-6 grid gap-y-2">
             <h4 className="text-2xl font-bold">Get started today</h4>
-            <p className=" leading-relaxed  text-justify">
+            <p className=" leading-relaxed  ">
               Don't see what you're looking for or want to learn more?
             </p>
             <div>

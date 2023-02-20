@@ -26,7 +26,7 @@ function overview() {
             <h4 className="text-2xl font-bold">
               What is facilities infrastructure?
             </h4>
-            <p className=" leading-relaxed  text-justify">
+            <p className=" leading-relaxed  ">
               Facilities infrastructure comprises six distinct disciplines --
               power, cooling, space management, cabling, safety and containers.
               Ensure your facilities and legacy infrastructure are operating at
@@ -37,7 +37,7 @@ function overview() {
 
           <div className="py-6 grid gap-y-2">
             <h4 className="text-2xl font-bold">Get started today</h4>
-            <p className=" leading-relaxed  text-justify">
+            <p className=" leading-relaxed  ">
               Don't see what you're looking for or want to learn more?
             </p>
             <div>

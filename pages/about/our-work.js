@@ -21,13 +21,13 @@ function ourwork() {
               <h4 className="text-2xl font-bold">
                 Disruption is unavoidable and change is hard.
               </h4>
-              <p className="leading-relaxed text-justify">
+              <p className="leading-relaxed ">
                 Every company that embarks on digital transformation experiences
                 significant challenges. At those moments, perseverance pays off.
               </p>
             </div>
 
-            <p className=" leading-relaxed   text-justify">
+            <p className=" leading-relaxed   ">
               Our ability to advise and execute, align business and technology,
               and blur the lines between physical and digital simplifies the
               transformation journey. And our track record of doing whatever it
@@ -35,7 +35,7 @@ function ourwork() {
               end.{' '}
             </p>
 
-            <p className=" leading-relaxed text-justify">
+            <p className=" leading-relaxed ">
               We create new realities that build a brighter future by:
             </p>
 
@@ -65,12 +65,12 @@ function ourwork() {
             </h4>
             <img src="/images/wwt-venn-diagrams.png" alt="" />
             <div className="grid gap-y-2">
-              <p className=" leading-relaxed  text-justify">
+              <p className=" leading-relaxed  ">
                 Our ambition is to create a brighter future for all. So, our
                 most important work benefits our partners and customers as much
                 as it does our people and communities across the globe.
               </p>
-              <p className=" leading-relaxed  text-justify">
+              <p className=" leading-relaxed  ">
                 As a company rooted in delivering outcomes, it's important we be
                 able to back these words up with real stories showing how
                 combine these worlds, and make a positive impact on the world by
@@ -85,7 +85,7 @@ function ourwork() {
             <h4 className="text-2xl font-bold">
               Looking for more success stories?
             </h4>
-            <p className=" leading-relaxed  text-justify">
+            <p className=" leading-relaxed  ">
               We work with the world's largest companies, service providers and
               government entities to deliver business outcomes that drive value
               through savings and/or profit improvements. See how by clicking on

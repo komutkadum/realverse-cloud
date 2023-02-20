@@ -11,16 +11,15 @@ function SideNavigation() {
   return (
     <>
       {/* // header with text */}
-      <aside className="invisible desktop:visible scroll-hidden px-5 w-56 absolute flex flex-col text-xs justify-between left-0 top-14 bottom-0 hover:overflow-y-auto ">
+      <aside className="invisible desktop:visible rb-font tracking-wide scroll-hidden px-5 w-56 absolute flex flex-col text-xs justify-between left-0 top-14 bottom-0 hover:overflow-y-auto ">
         <div className="grid mt-4 gap-y-4 relative">
           <Link href="/">
-            <div className="text-sm flex items-center gap-x-2 link cursor-pointer">
-              {/* <i className="fa-solid fa-house"></i> */}
-              <img
-                src="/icons/home.png"
-                alt="home icon"
-                className="w-4 h-4"
-              />{' '}
+            <div
+              className={`text-sm flex items-center gap-x-2 link cursor-pointer ${
+                router.pathname == '/' && 'active-link'
+              }`}
+            >
+              <img src="/icons/home.png" alt="home icon" className="w-4 h-4" />{' '}
               Home
             </div>
           </Link>
@@ -37,7 +36,6 @@ function SideNavigation() {
                 onClick={() => setSideBarAccordion((prev) => !prev)}
               >
                 <span className="grid grid-flow-col items-center gap-x-2">
-                  {/* <i className="fa-solid fa-gear"></i> */}
                   <img
                     src="/icons/solutions.png"
                     alt="solutions icon"
@@ -133,7 +131,7 @@ function SideNavigation() {
                 } py-3  font-bold link hover:no-underline`}
                 onClick={() => setSideBarAccordion((prev) => !prev)}
               >
-                <span className="grid grid-flow-col items-center gap-x-2">
+                <span className="grid grid-flow-col items-center gap-x-[6px]">
                   {/* <i className="fa-solid fa-users-gear"></i> */}
                   <img
                     src="/icons/services.png"

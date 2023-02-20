@@ -23,7 +23,7 @@ function enterprisearchitecture() {
             <h4 className="text-2xl font-bold">
               The importance of Enterprise Architecture
             </h4>
-            <p className=" leading-relaxed  text-justify">
+            <p className=" leading-relaxed  ">
               Growing interdependencies between the business and IT are driving
               a renewed interest in Enterprise Architecture. Yet without the
               right approach, organizations pursuing digital transformation risk
@@ -65,14 +65,14 @@ function enterprisearchitecture() {
 
           <div className="py-6 grid gap-y-2">
             <h4 className="text-2xl font-bold">Think differently</h4>
-            <p className=" leading-relaxed  text-justify">
+            <p className=" leading-relaxed  ">
               Our experts take a practical approach to building an Enterprise
               Architecture function that drives positive business results. Learn
               to position Enterprise Architecture in a way that influences key
               strategy, planning and delivery decisions, becoming the connective
               tissue between IT and the business.
             </p>
-            <p className=" leading-relaxed  text-justify">
+            <p className=" leading-relaxed  ">
               Using our Enterprise Architecture Maturity Curve framework, we
               work to understand your current state capabilities to help you
               chart a path toward a fully-integrated Enterprise Architecture
@@ -156,18 +156,18 @@ function enterprisearchitecture() {
             <h4 className="text-2xl font-bold">
               From strategy through delivery
             </h4>
-            <p className=" leading-relaxed  text-justify">
+            <p className=" leading-relaxed  ">
               As organizations look to transform the core functionality of IT to
               thrive in today's digital world, the role of Enterprise
               Architecture must not remain solely strategy based.
             </p>
-            <p className=" leading-relaxed  text-justify">
+            <p className=" leading-relaxed  ">
               Rather, Enterprise Architecture must become the connective tissue
               between a company's business and IT organizations, playing a
               central role in influencing strategy, planning and delivery
               decisions.
             </p>
-            <p className=" leading-relaxed  text-justify">
+            <p className=" leading-relaxed  ">
               Our experts are ready to help, wherever your organization is in
               the journey to a mature Enterprise Architecture.
             </p>
@@ -178,7 +178,7 @@ function enterprisearchitecture() {
             <h4 className="text-2xl font-bold">
               Enterprise Architecture assessments
             </h4>
-            <p className=" leading-relaxed  text-justify">
+            <p className=" leading-relaxed  ">
               Whether your organization currently has an Enterprise Architecture
               function or not, our experts can help you kickstart or mature your
               capabilities by building the foundational components of Enterprise
@@ -189,7 +189,7 @@ function enterprisearchitecture() {
 
           <div className="py-6 grid gap-y-2">
             <h4 className="text-2xl font-bold">Scale-out engagements</h4>
-            <p className=" leading-relaxed  text-justify">
+            <p className=" leading-relaxed  ">
               Once you establish the foundation of your Enterprise Architecture
               plan, we'll help you scale the downstream delivery of technology
               projects and programs by building artifacts and implementing
@@ -202,7 +202,7 @@ function enterprisearchitecture() {
             <h4 className="text-2xl font-bold">
               Operational readiness engagements
             </h4>
-            <p className=" leading-relaxed  text-justify">
+            <p className=" leading-relaxed  ">
               During operational readiness engagements, our experts deep dive
               into the current state of your business or technology environment
               and identify gaps compared to your desired future state. We also
