@@ -11,7 +11,7 @@ function overview() {
         description="Simplify the process of migrating applications and workloads to the right cloud environment for your business."
         title="Cloud Migration - Overview - Realverse Cloud"
       />
-      <div class="grid grid-flow-row laptop:grid-flow-col page-padding">
+      <div className="grid grid-flow-row laptop:grid-flow-col page-padding">
         <CategoryNavigationAbove
           text="Cloud Migration"
           desc="Simplify the process of migrating applications and workloads to the right cloud environment for your business."

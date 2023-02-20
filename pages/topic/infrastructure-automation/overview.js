@@ -11,7 +11,7 @@ function overview() {
         description="Reduce operational costs, lower the potential for human error and deliver services at scale that support your organization&#x27;s success."
         title="Infrastructure Automation - Overview - Realverse Cloud"
       />
-      <div class="grid grid-flow-row laptop:grid-flow-col page-padding">
+      <div className="grid grid-flow-row laptop:grid-flow-col page-padding">
         <CategoryNavigationAbove
           text="Infrastructure Automation"
           desc="Reduce operational costs, lower the potential for human error and deliver services at scale that support your organization's success."

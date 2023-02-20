@@ -11,7 +11,7 @@ function overview() {
         description="Seamlessly integrate compute, storage, networking and infrastructure management software into one optimized platform."
         title="Converged &amp; Hyper-Converged Infrastructure - Overview - Realverse Cloud"
       />
-      <div class="grid grid-flow-row laptop:grid-flow-col">
+      <div className="grid grid-flow-row laptop:grid-flow-col page-padding">
         <CategoryNavigationAbove
           text="Converged & Hyper-Converged Infrastructure"
           desc="Seamlessly integrate compute, storage, networking and infrastructure management software into one optimized platform."

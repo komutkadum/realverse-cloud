@@ -15,7 +15,7 @@ function overview() {
         description="Combining the insights of a traditional consulting firm with the ability to execute complex infrastructure solutions at scale globally."
         title="Consulting Services - Overview - Realverse Cloud"
       />
-      <div class="grid grid-flow-row laptop:grid-flow-col page-padding">
+      <div className="grid grid-flow-row laptop:grid-flow-col page-padding">
         <CategoryNavigationAbove
           text="Consulting Services"
           desc="Combining the insights of a traditional consulting firm with the ability to execute complex infrastructure solutions at scale globally."

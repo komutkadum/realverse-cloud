@@ -16,7 +16,7 @@ function overview() {
         description="Unlock cloud&#x27;s potential to transform your business, from strategy through implementation and beyond."
         title="Cloud - Overview - Realverse Cloud"
       />
-      <div class="grid grid-flow-row laptop:grid-flow-col page-padding">
+      <div className="grid grid-flow-row laptop:grid-flow-col page-padding">
         <CategoryNavigationAbove
           text="Cloud"
           desc="Unlock cloud's potential to transform your business, from strategy through implementation and beyond."

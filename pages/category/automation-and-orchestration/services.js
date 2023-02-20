@@ -13,7 +13,7 @@ function services() {
         description="Learn about automated infrastructure, platforms and operations."
         title="Automation & Orchestration - Services - Realverse Cloud"
       />
-      <div class="grid grid-flow-row laptop:grid-flow-col page-padding">
+      <div className="grid grid-flow-row laptop:grid-flow-col page-padding">
         <CategoryNavigationAbove
           text="Automation & Orchestration"
           desc="Learn about automated infrastructure, platforms and operations."

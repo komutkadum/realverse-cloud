@@ -11,7 +11,7 @@ function overview() {
         description="Paving the way for connectivity across multiple cloud environments."
         title="Cloud Networking - Overview - Realverse Cloud"
       />
-      <div class="grid grid-flow-row laptop:grid-flow-col page-padding">
+      <div className="grid grid-flow-row laptop:grid-flow-col page-padding">
         <CategoryNavigationAbove
           text="Cloud Networking"
           desc="Paving the way for connectivity across multiple cloud environments."

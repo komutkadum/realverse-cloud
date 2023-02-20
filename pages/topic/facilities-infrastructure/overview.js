@@ -11,7 +11,7 @@ function overview() {
         description="Turn-key assessment and installation services designed to ensure facilities are operating at optimal efficiency and can support organizational growth needs."
         title="Facilities Infrastructure - Overview - Realverse Cloud"
       />
-      <div class="grid grid-flow-row laptop:grid-flow-col page-padding page-padding">
+      <div className="grid grid-flow-row laptop:grid-flow-col page-padding page-padding">
         <CategoryNavigationAbove
           text="Facilities Infrastructure"
           desc="Turn-key assessment and installation services designed to ensure facilities are operating at optimal efficiency and can support organizational growth needs."

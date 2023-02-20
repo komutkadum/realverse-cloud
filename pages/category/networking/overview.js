@@ -15,7 +15,7 @@ function overview() {
         description="Accelerate your organization&#x27;s path to a global connectivity architecture that enforces security, encourages productivity and enhances user experience."
         title="Networking - Overview - Realverse Cloud"
       />
-      <div class="grid grid-flow-row laptop:grid-flow-col page-padding">
+      <div className="grid grid-flow-row laptop:grid-flow-col page-padding">
         <CategoryNavigationAbove
           text="Networking"
           desc="Accelerate your organization's path to a global connectivity architecture that enforces security, encourages productivity and enhances user experience."

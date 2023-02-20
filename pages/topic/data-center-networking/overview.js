@@ -11,7 +11,7 @@ function overview() {
         description="Data center networking provides the connectivity between servers and data for applications critical to the business."
         title="Data Center Networking - Overview - Realverse Cloud"
       />
-      <div class="grid grid-flow-row laptop:grid-flow-col page-padding">
+      <div className="grid grid-flow-row laptop:grid-flow-col page-padding">
         <CategoryNavigationAbove
           text="Data Center Networking"
           desc="Data center networking provides the connectivity between servers and data for applications critical to the business."

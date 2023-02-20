@@ -15,7 +15,7 @@ function overview() {
         description="Assessing today&#x27;s technology, designing tomorrow&#x27;s solutions and seamlessly deploying critical investments at scale around the world."
         title="Infrastructure Services - Overview - Realverse Cloud"
       />
-      <div class="grid grid-flow-row laptop:grid-flow-col page-padding">
+      <div className="grid grid-flow-row laptop:grid-flow-col page-padding">
         <CategoryNavigationAbove
           text="Infrastructure Services"
           desc="Assessing today's technology, designing tomorrow's solutions and seamlessly deploying critical investments at scale around the world."

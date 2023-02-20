@@ -11,7 +11,7 @@ function overview() {
         description="Combining people, processes and technology to enable the continuous delivery of value to end users."
         title="DevOps - Overview - Realverse Cloud"
       />
-      <div class="grid grid-flow-row laptop:grid-flow-col page-padding">
+      <div className="grid grid-flow-row laptop:grid-flow-col page-padding">
         <CategoryNavigationAbove
           text="DevOps"
           desc="Combining people, processes and technology to enable the continuous delivery of value to end users."

@@ -18,7 +18,7 @@ function enterprisearchitecture() {
         description="Achieve an agile, supported, service-oriented enterprise architecture that empowers IT and the business."
         title="Enterprise Architechture - Realverse Cloud"
       />
-      <div class="grid grid-flow-row laptop:grid-flow-col page-padding">
+      <div className="grid grid-flow-row laptop:grid-flow-col page-padding">
         <CategoryNavigationAbove
           text="Enterprise Architecture"
           desc="Aligning business strategy to IT decision-making"
