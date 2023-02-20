@@ -40,11 +40,20 @@ function leadership() {
                   width={400}
                   height={400}
                 />
-                <div>
-                  <h1 className="text-2xl font-extrabold r-font">
-                    Akshay Mishra
-                  </h1>
-                  <h3 className="text-gray-600">Founder & Director</h3>
+                <div className="flex justify-between items-start px-1">
+                  <div>
+                    <h1 className="text-2xl font-extrabold r-font">
+                      Akshay Mishra
+                    </h1>
+                    <h3 className="text-gray-600">Founder & Director</h3>
+                  </div>
+                  <a
+                    href="https://www.linkedin.com/in/akshay-mishra-08085367/?originalSubdomain=in"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <i className="fa-brands fa-linkedin text-2xl text-blue-700 hover:text-blue-800 cursor-pointer"></i>
+                  </a>
                 </div>
               </div>
               <div className="grid justify-center col-span-12 tablet:col-span-6 laptop:col-span-4 gap-y-2">
@@ -55,11 +64,20 @@ function leadership() {
                   width={400}
                   height={400}
                 />
-                <div>
-                  <h1 className="text-2xl font-extrabold r-font">
-                    Kadum Komut
-                  </h1>
-                  <h3 className="text-gray-600">CTO</h3>
+                <div className="flex justify-between items-start px-1">
+                  <div>
+                    <h1 className="text-2xl font-extrabold r-font">
+                      Kadum Komut
+                    </h1>
+                    <h3 className="text-gray-600">CTO</h3>
+                  </div>
+                  <a
+                    href="https://www.linkedin.com/in/kadum-komut-67023012b/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <i className="fa-brands fa-linkedin text-2xl text-blue-700 hover:text-blue-800 cursor-pointer"></i>
+                  </a>
                 </div>
               </div>
             </div>

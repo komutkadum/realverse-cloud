@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 
 function Header({ navOpen, setNavOpen }) {
@@ -19,17 +20,25 @@ function Header({ navOpen, setNavOpen }) {
           )}
           <span className="hidden mobile:inline">Menu</span>
         </div>
-        <div className="flex items-center text-xl mobile:text-2xl  font-extrabold r-font gap-x-1 tracking-wide">
-          <Image
-            src="/icons/cloud.png"
-            width={35}
-            height={35}
-            alt="realverse cloud icon"
-          />
-          <h1>REALVERSE&nbsp;CLOUD</h1>
-        </div>
+
+        <Link href="/#top">
+          <div className="flex items-center text-lg hover:text-primary-blue duration-200 mobilesm:text-xl mobile:text-2xl  font-extrabold r-font gap-x-1 tracking-wide">
+            <Image
+              src="/icons/cloud.png"
+              width={35}
+              height={35}
+              alt="realverse cloud icon"
+            />
+            <h1>REALVERSE&nbsp;CLOUD</h1>
+          </div>
+        </Link>
+
         <div className="hidden tablet:inline">
-          <button className=" px-3 text-sm bg-button py-1.5">Contact us</button>
+          <Link href="/contact-us#top">
+            <button className=" px-4 text-sm bg-button py-1.5">
+              Contact us
+            </button>
+          </Link>
         </div>
       </nav>
     </header>

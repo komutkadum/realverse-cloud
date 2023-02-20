@@ -94,7 +94,7 @@ function overview() {
                   </p>
                   <a href="#" className="group inline-flex">
                     Learn more&nbsp;
-                    <i className="fa-solid fa-circle-chevron-right duration-200 text-sky-600 text-lg group-hover:translate-x-1"></i>
+                    <i className="fa-solid fa-circle-chevron-right duration-200 text-sky-700 text-lg group-hover:translate-x-1"></i>
                   </a>
                 </div>
               </div>
@@ -110,7 +110,7 @@ function overview() {
                   </p>
                   <a href="#" className="group inline-flex">
                     Learn more&nbsp;
-                    <i className="fa-solid fa-circle-chevron-right duration-200 text-sky-600 text-lg group-hover:translate-x-1"></i>
+                    <i className="fa-solid fa-circle-chevron-right duration-200 text-sky-700 text-lg group-hover:translate-x-1"></i>
                   </a>
                 </div>
               </div>
@@ -126,7 +126,7 @@ function overview() {
                   </p>
                   <a href="#" className="group inline-flex">
                     Learn more&nbsp;
-                    <i className="fa-solid fa-circle-chevron-right duration-200 text-sky-600 text-lg group-hover:translate-x-1"></i>
+                    <i className="fa-solid fa-circle-chevron-right duration-200 text-sky-700 text-lg group-hover:translate-x-1"></i>
                   </a>
                 </div>
               </div>
@@ -142,7 +142,7 @@ function overview() {
                   </p>
                   <a href="#" className="group inline-flex">
                     Learn more&nbsp;
-                    <i className="fa-solid fa-circle-chevron-right duration-200 text-sky-600 text-lg group-hover:translate-x-1"></i>
+                    <i className="fa-solid fa-circle-chevron-right duration-200 text-sky-700 text-lg group-hover:translate-x-1"></i>
                   </a>
                 </div>
               </div>
@@ -235,27 +235,27 @@ function overview() {
             </p>
             <div className="grid grid-cols-12 gap-4 items-start mt-4">
               <div className="col-span-12 mobile:col-span-6 laptopxl:col-span-4 grid gap-y-6">
-                <i className="fa-solid fa-hands-bound text-2xl text-sky-600"></i>
+                <i className="fa-solid fa-hands-bound text-2xl text-sky-700"></i>
                 <p>Founded in 2021.</p>
               </div>
               <div className="col-span-12 mobile:col-span-6 laptopxl:col-span-4 grid gap-y-6">
-                <i className="fa-solid fa-people-group text-sky-600 text-2xl"></i>
+                <i className="fa-solid fa-people-group text-sky-700 text-2xl"></i>
                 <p>Leading tech specialist working.</p>
               </div>
               <div className="col-span-12 mobile:col-span-6 laptopxl:col-span-4 grid gap-y-6">
-                <i className="fa-solid fa-money-bill-1-wave text-2xl text-sky-600"></i>
+                <i className="fa-solid fa-money-bill-1-wave text-2xl text-sky-700"></i>
                 <p>Outstanding Revenue</p>
               </div>
               <div className="col-span-12 mobile:col-span-6 laptopxl:col-span-4 grid gap-y-6">
-                <i className="fa-solid fa-dna text-2xl text-sky-600"></i>
+                <i className="fa-solid fa-dna text-2xl text-sky-700"></i>
                 <p>Solution provider for more than dozen of companies</p>
               </div>
               <div className="col-span-12 mobile:col-span-6 laptopxl:col-span-4 grid gap-y-6">
-                <i className="fa-solid fa-handshake-angle text-2xl text-sky-600"></i>
+                <i className="fa-solid fa-handshake-angle text-2xl text-sky-700"></i>
                 <p>Huge reliable partners</p>
               </div>
               <div className="col-span-12 mobile:col-span-6 laptopxl:col-span-4 grid gap-y-6">
-                <i className="fa-solid fa-award text-2xl text-sky-600"></i>
+                <i className="fa-solid fa-award text-2xl text-sky-700"></i>
                 <p>"Great Place to Work"</p>
               </div>
             </div>
@@ -268,7 +268,7 @@ function overview() {
             </p>
             <div>
               <Link href="/contact-us#top">
-                <button className="px-6 py-3 bg-button">Contact us</button>
+                <button className="px-6 py-2 bg-button">Contact us</button>
               </Link>
             </div>
           </div>

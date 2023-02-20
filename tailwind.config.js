@@ -7,6 +7,11 @@ module.exports = {
     './src/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
+    extend: {
+      colors: {
+        'primary-blue': '#4084a3',
+      },
+    },
     screens: {
       mobilesm: '500px',
       mobile: '600px',

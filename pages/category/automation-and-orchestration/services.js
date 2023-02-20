@@ -23,7 +23,7 @@ function services() {
             <Link href="/category/automation-and-orchestration/overview#top">
               <li className="px-5 py-1.5">Overview</li>
             </Link>
-            <li className="px-5 border-b-4 border-sky-600 font-bold py-1.5">
+            <li className="px-5 border-b-4 border-sky-700 font-bold py-1.5">
               Services
             </li>
           </ul>
@@ -49,7 +49,7 @@ function services() {
                 </p>
                 <a href="#" className="group inline-flex">
                   Learn more&nbsp;
-                  <i className="fa-solid fa-circle-chevron-right duration-200 text-sky-600 text-lg group-hover:translate-x-1"></i>
+                  <i className="fa-solid fa-circle-chevron-right duration-200 text-sky-700 text-lg group-hover:translate-x-1"></i>
                 </a>
               </div>
             </div>
@@ -64,7 +64,7 @@ function services() {
                 </p>
                 <a href="#" className="group inline-flex">
                   Learn more&nbsp;
-                  <i className="fa-solid fa-circle-chevron-right duration-200 text-sky-600 text-lg group-hover:translate-x-1"></i>
+                  <i className="fa-solid fa-circle-chevron-right duration-200 text-sky-700 text-lg group-hover:translate-x-1"></i>
                 </a>
               </div>
             </div>
@@ -79,7 +79,7 @@ function services() {
                 </p>
                 <a href="#" className="group inline-flex">
                   Learn more&nbsp;
-                  <i className="fa-solid fa-circle-chevron-right duration-200 text-sky-600 text-lg group-hover:translate-x-1"></i>
+                  <i className="fa-solid fa-circle-chevron-right duration-200 text-sky-700 text-lg group-hover:translate-x-1"></i>
                 </a>
               </div>
             </div>
@@ -94,7 +94,7 @@ function services() {
                 </p>
                 <a href="#" className="group inline-flex">
                   Learn more&nbsp;
-                  <i className="fa-solid fa-circle-chevron-right duration-200 text-sky-600 text-lg group-hover:translate-x-1"></i>
+                  <i className="fa-solid fa-circle-chevron-right duration-200 text-sky-700 text-lg group-hover:translate-x-1"></i>
                 </a>
               </div>
             </div>

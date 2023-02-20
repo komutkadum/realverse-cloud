@@ -12,14 +12,9 @@ body {
 body {
   font-family: 'Open Sans', sans-serif;
 }
-.nav-font {
-  font-family: 'Labrada', serif;
-}
-
 .scroll-hidden::-webkit-scrollbar {
   display: none;
 }
-
 .scroll {
   white-space: nowrap; /* [1] */
   overflow-x: auto; /* [2] */
@@ -58,15 +53,21 @@ body {
     @apply hover:text-sky-700 cursor-pointer hover:font-bold hover:underline underline-offset-4 duration-100;
   }
   .active-link {
-    @apply text-pink-600;
+    @apply text-pink-600 underline underline-offset-4;
   }
   .bg-button {
-    @apply text-white rounded-md bg-sky-600 hover:bg-sky-700 duration-200;
+    @apply text-white rounded-sm bg-sky-700 hover:bg-sky-800 duration-200;
   }
   .page-padding-inline {
     @apply px-5 tablet:px-5 desktop:px-10;
   }
   .page-padding {
     @apply pt-10 px-5 tablet:p-10 tablet:px-5 desktop:px-10;
+  }
+  .link-underline-animation-top {
+    @apply hover:text-sky-700 hover:font-extrabold transition duration-200;
+  }
+  .link-underline-animation-body {
+    @apply block max-w-0 group-hover:max-w-full transition-all duration-500 group-hover:h-0.5 bg-sky-700;
   }
 }

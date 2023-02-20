@@ -19,7 +19,7 @@ function overview() {
         />
         <div>
           <ul className="flex border-b border-gray-400 w-full">
-            <li className="px-5 border-b-4 border-sky-600 font-bold py-1.5">
+            <li className="px-5 border-b-4 border-sky-700 font-bold py-1.5">
               Overview
             </li>
           </ul>
@@ -53,35 +53,35 @@ function overview() {
             </p>
             <div className="grid grid-cols-12 gap-4 items-start mt-4">
               <div className="col-span-12 mobile:col-span-6 laptopxl:col-span-4 grid gap-y-6">
-                <i className="fa-solid fa-object-group text-2xl text-sky-600"></i>
+                <i className="fa-solid fa-object-group text-2xl text-sky-700"></i>
                 <p>
                   Accelerate the planning, design and implementation of complex
                   technology investments
                 </p>
               </div>
               <div className="col-span-12 mobile:col-span-6 laptopxl:col-span-4 grid gap-y-4">
-                <i className="fa-solid fa-people-group text-sky-600 text-2xl"></i>
+                <i className="fa-solid fa-people-group text-sky-700 text-2xl"></i>
                 <p>
                   Monitor, manage and remediate issues with our flexible IT
                   Managed Services platform
                 </p>
               </div>
               <div className="col-span-12 mobile:col-span-6 laptopxl:col-span-4 grid gap-y-4">
-                <i className="fa-solid fa-headset text-2xl text-sky-600"></i>
+                <i className="fa-solid fa-headset text-2xl text-sky-700"></i>
                 <p>
                   Get 24/7 real-time engineering and deployment support from our
                   Command Center
                 </p>
               </div>
               <div className="col-span-12 mobile:col-span-6 laptopxl:col-span-4 grid gap-y-4">
-                <i className="fa-solid fa-chart-line text-2xl text-sky-600"></i>
+                <i className="fa-solid fa-chart-line text-2xl text-sky-700"></i>
                 <p>
                   Boost the productivity of IT teams on a long-term basis with
                   Strategic Resourcing placement
                 </p>
               </div>
               <div className="col-span-12 mobile:col-span-6 laptopxl:col-span-4 grid gap-y-4">
-                <i className="fa-brands fa-react text-2xl text-sky-600"></i>
+                <i className="fa-brands fa-react text-2xl text-sky-700"></i>
                 <p>
                   Achieve unmatched services innovation with access to hands-on
                   labs, workshops, trainings and more via our Advanced
@@ -89,7 +89,7 @@ function overview() {
                 </p>
               </div>
               <div className="col-span-12 mobile:col-span-6 laptopxl:col-span-4 grid gap-y-4">
-                <i className="fa-solid fa-globe text-2xl text-sky-600"></i>
+                <i className="fa-solid fa-globe text-2xl text-sky-700"></i>
                 <p>
                   Leverage our global network of supply chain, logistics and
                   integration facilities

@@ -2,6 +2,7 @@
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import React, { useState } from 'react';
+import CustomLink from '../utility/CustomLink';
 
 function SideNavigation() {
   const [sidebarAccordion, setSideBarAccordion] = useState(true);
@@ -32,7 +33,7 @@ function SideNavigation() {
               <li
                 className={`flex items-center cursor-pointer hover:font-bold justify-between gap-x-2 ${
                   router.pathname == '/explore/solutions' ? 'active-link' : ''
-                } py-3 link`}
+                } py-3 link hover:no-underline`}
                 onClick={() => setSideBarAccordion((prev) => !prev)}
               >
                 <span className="grid grid-flow-col items-center gap-x-2">
@@ -50,7 +51,11 @@ function SideNavigation() {
                   } text-sm`}
                 ></i>
               </li>
-              <ul className={`${sidebarAccordion ? 'grid' : 'hidden'}`}>
+              <ul
+                className={`${
+                  sidebarAccordion ? 'grid' : 'hidden'
+                } text-[13px]`}
+              >
                 <li
                   className={`bg-zinc-100 px-2 py-2 font-thin ${
                     [
@@ -61,12 +66,10 @@ function SideNavigation() {
                       : 'text-gray-600'
                   }`}
                 >
-                  <Link
+                  <CustomLink
+                    text="Automation & Orchestration"
                     href="/category/automation-and-orchestration/overview#top"
-                    className="link"
-                  >
-                    Automation & Orchestration
-                  </Link>
+                  />
                 </li>
 
                 <li
@@ -79,9 +82,10 @@ function SideNavigation() {
                       : 'text-gray-600'
                   }`}
                 >
-                  <Link href="/category/cloud/overview#top" className="link">
-                    Cloud
-                  </Link>
+                  <CustomLink
+                    href="/category/cloud/overview#top"
+                    text="Cloud"
+                  />
                 </li>
                 <li
                   className={`bg-zinc-100 px-2 py-2 font-thin ${
@@ -90,12 +94,10 @@ function SideNavigation() {
                       : 'text-gray-600'
                   }`}
                 >
-                  <Link
+                  <CustomLink
                     href="/category/data-center/overview#top"
-                    className="link"
-                  >
-                    Data Center
-                  </Link>
+                    text="Data Center"
+                  />
                 </li>
                 <li
                   className={`bg-zinc-100 px-2 py-2 font-thin ${
@@ -107,18 +109,20 @@ function SideNavigation() {
                       : 'text-gray-600'
                   }`}
                 >
-                  <Link
+                  <CustomLink
                     href="/category/networking/overview#top"
-                    className="link"
-                  >
-                    Networking
-                  </Link>
+                    text="Networking"
+                  />
                 </li>
 
                 <li className="bg-zinc-100 px-2 py-2 font-medium rounded-b-md text-sky-600">
-                  <Link href="/explore/solutions#top" className="link">
+                  <Link
+                    href="/explore/solutions#top"
+                    className="group link-underline-animation-top"
+                  >
                     See all Solutions&nbsp;&nbsp;
-                    <i className="fa-solid fa-angle-right"></i>
+                    <i className="fa-solid fa-angle-right group-hover:translate-x-2 duration-300"></i>
+                    <div class="link-underline-animation-body"></div>
                   </Link>
                 </li>
               </ul>
@@ -126,7 +130,7 @@ function SideNavigation() {
               <li
                 className={`flex items-center cursor-pointer hover:font-bold justify-between gap-x-2 ${
                   router.pathname == '/explore/services' ? 'active-link' : ''
-                } py-3  font-bold link`}
+                } py-3  font-bold link hover:no-underline`}
                 onClick={() => setSideBarAccordion((prev) => !prev)}
               >
                 <span className="grid grid-flow-col items-center gap-x-2">
@@ -146,7 +150,11 @@ function SideNavigation() {
                 ></i>
               </li>
 
-              <ul className={`${sidebarAccordion ? 'hidden' : 'grid'}`}>
+              <ul
+                className={`${
+                  sidebarAccordion ? 'hidden' : 'grid'
+                } text-[13px]`}
+              >
                 <li
                   className={`bg-zinc-100 px-2 py-2 font-thin ${
                     router.pathname == '/service/consulting-services/overview'
@@ -154,12 +162,10 @@ function SideNavigation() {
                       : 'text-gray-600'
                   }`}
                 >
-                  <Link
+                  <CustomLink
                     href="/service/consulting-services/overview#top"
-                    className="link"
-                  >
-                    Consulting Services
-                  </Link>
+                    text="Consulting Services"
+                  />
                 </li>
 
                 <li
@@ -170,18 +176,20 @@ function SideNavigation() {
                       : 'text-gray-600'
                   }`}
                 >
-                  <Link
+                  <CustomLink
                     href="/service/infrastructure-services/overview#top"
-                    className="link"
-                  >
-                    Infrastructure Services
-                  </Link>
+                    text="Infrastructure Services"
+                  />
                 </li>
 
                 <li className="bg-zinc-100 px-2 py-2 font-medium rounded-b-md text-sky-600">
-                  <Link href="/explore/services#top" className="link">
+                  <Link
+                    href="/explore/services#top"
+                    className="group link-underline-animation-top"
+                  >
                     See all Services&nbsp;&nbsp;
-                    <i className="fa-solid fa-angle-right"></i>
+                    <i className="fa-solid fa-angle-right group-hover:translate-x-2 duration-300"></i>
+                    <div class="link-underline-animation-body"></div>
                   </Link>
                 </li>
               </ul>
@@ -191,7 +199,7 @@ function SideNavigation() {
         </div>
 
         <div>
-          <hr className="h-0.5 bg-gray-300" />
+          <hr className="border-b bg-gray-300" />
           <div className={`text-sm py-4 gap-x-2 flex items-center rounded-md `}>
             <Link
               href="/about/overview#top"
@@ -215,12 +223,10 @@ function SideNavigation() {
               About Us
             </Link>
           </div>
-          <hr className="h-0.5 bg-gray-300" />
+          <hr className="border-b bg-gray-300" />
           <ul className="py-4 flex flex-wrap gap-2">
             <li>Careers</li>
-            <Link href="/contact-us#top" className="link">
-              <li>Contact Us</li>
-            </Link>
+            <CustomLink text="Contact Us" href="/contact-us#top" />
             <li>Diversity & Inclusion</li>
             <li>Locations</li>
             <li>Sustainability</li>
@@ -251,7 +257,7 @@ function SideNavigation() {
         </div>
 
         <div>
-          <hr className="h-0.5 bg-gray-300" />
+          <hr className="border-b bg-gray-300" />
           <div className="text-sm py-4 gap-x-2 flex items-center  rounded-md text-pink-600 font-bold">
             <i className="fa-solid fa-info text-lg"></i>
           </div>

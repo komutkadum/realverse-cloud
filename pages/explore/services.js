@@ -16,7 +16,7 @@ function services() {
           <Link href="/explore/solutions#top">
             <li className="px-5  py-1.5">Solutions</li>
           </Link>
-          <li className="px-5 py-1.5 border-b-4 border-sky-600 font-bold">
+          <li className="px-5 py-1.5 border-b-4 border-sky-700 font-bold">
             Services
           </li>
           {/* <!-- <li className="px-5 py-1.5">Industries</li>

@@ -5,7 +5,7 @@ function RightNavigationBelow() {
     <aside className="px-14 sticky top-0 self-start w-96 hidden laptop:grid gap-y-4">
       <h1 className="text-3xl font-bold">Why Realverse Cloud</h1>
       <div>
-        <button className="border px-3 text-xs py-1.5 rounded-md font-bold tracking-wider bg-button text-white">
+        <button className="border px-3 text-xs py-1.5 rounded-sm font-bold tracking-wider bg-button text-white">
           <i className="fa-solid fa-wifi"></i> Follow
         </button>
       </div>

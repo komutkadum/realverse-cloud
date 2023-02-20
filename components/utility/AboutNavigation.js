@@ -12,7 +12,7 @@ function AboutNavigation() {
           href="/about/overview#top"
           className={`px-5 hover:font-bold ${
             router.pathname == '/about/overview'
-              ? 'border-sky-600 border-b-4 font-bold'
+              ? 'border-sky-700 border-b-4 font-bold'
               : 'hidden mobilesm:inline-flex'
           } py-1.5`}
         >
@@ -22,7 +22,7 @@ function AboutNavigation() {
           href="/about/our-work#top"
           className={`px-5 hover:font-bold ${
             router.pathname == '/about/our-work'
-              ? 'border-sky-600 border-b-4 font-bold'
+              ? 'border-sky-700 border-b-4 font-bold'
               : 'hidden mobilesm:inline-flex'
           } py-1.5`}
         >
@@ -32,7 +32,7 @@ function AboutNavigation() {
           href="/about/culture#top"
           className={`px-5 hover:font-bold ${
             router.pathname == '/about/culture'
-              ? 'border-sky-600 border-b-4 font-bold'
+              ? 'border-sky-700 border-b-4 font-bold'
               : 'hidden mobilesm:inline-flex'
           } py-1.5`}
         >
@@ -42,13 +42,13 @@ function AboutNavigation() {
           href="/about/leadership#top"
           className={`px-5 hover:font-bold ${
             router.pathname == '/about/leadership'
-              ? 'border-sky-600 border-b-4 font-bold'
+              ? 'border-sky-700 border-b-4 font-bold'
               : 'hidden mobilesm:inline-flex'
           } py-1.5`}
         >
           <li>Leadership</li>
         </Link>
-        <li type className="px-5 py-1.5  inline-flex mobilesm:hidden">
+        <li className="px-5 py-1.5  inline-flex mobilesm:hidden">
           <button
             className="hover:font-bold"
             onClick={() => setMoreDropdown((prev) => !prev)}
