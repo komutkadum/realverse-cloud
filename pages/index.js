@@ -9,7 +9,7 @@ export default function Home() {
         title="Realverse Cloud"
       />
 
-      <div className="w-full duration-200 grid grid-flow-row justify-center tablet:grid-flow-col items-center bg-gradient-to-tr from-sky-800 to-zinc-900 py-10 laptop:py-4  table:px-10 desktop:px-20">
+      <div className="w-full duration-200 grid grid-flow-row justify-center tablet:grid-flow-col items-center bg-gradient-to-tr from-sky-800 to-zinc-900 py-16 laptop:py-4  table:px-10 desktop:px-20">
         <div className=" text-white  px-4 tablet:px-10">
           <div className="flex flex-col gap-y-4 justify-center">
             <h1 className="text-2xl tablet:text-3xl font-extrabold">
