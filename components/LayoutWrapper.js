@@ -9,15 +9,15 @@ import ScrollToTop from './utility/ScrollToTop';
 
 function LayoutWrapper({ children }) {
   const [navOpen, setNavOpen] = useState(false);
-  const [firstAccordion, setFirstAccordion] = useState(false);
-  const [secondAccordion, setSecondAccordion] = useState(false);
+  const [firstAccordion, setFirstAccordion] = useState(true);
+  const [secondAccordion, setSecondAccordion] = useState(true);
   const router = useRouter();
   const topref = useRef();
 
   useEffect(() => {
     setNavOpen(false);
-    setFirstAccordion(false);
-    setSecondAccordion(false);
+    setFirstAccordion(true);
+    setSecondAccordion(true);
     topref.current.scrollIntoView(true);
   }, [router]);
 
