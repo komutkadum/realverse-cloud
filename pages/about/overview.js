@@ -187,7 +187,7 @@ function overview() {
             <h4 className="text-2xl font-bold">Realverse Cloud at a glance</h4>
             <p className=" leading-relaxed  ">
               Realverse Cloud is a financially strong, privately held global
-              technology service provider with over 30 years experience
+              technology service provider with over many years experience
               servicing the world's largest and most innovative organizations.
             </p>
             <div className="grid grid-cols-12 gap-4 items-start mt-4">
