@@ -59,11 +59,13 @@ function overview() {
               href="/topic/devops/overview"
               bgImage="/bgImages/devops.webp"
               title="DevOps"
+              content="Combining people, processes and technology to enable the continuous delivery of value to end users."
             />
             <ThreeColumnContent
               href="/topic/infrastructure-automation/overview"
               bgImage="/bgImages/infrastructure-automation.webp"
               title="Infrastructure Automation"
+              content="Reduce operational costs, lower the potential for human error and deliver services at scale that support your organization's success."
             />
           </ThreeColumn>
         </div>

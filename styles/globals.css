@@ -19,6 +19,13 @@ h3,
   font-family: 'Roboto', sans-serif;
   letter-spacing: 0.025em;
 }
+.multiline-ellipsis {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3; /* start showing ellipsis when 3rd line is reached */
+  white-space: pre-wrap; /* let the text wrap preserving spaces */
+}
 .scroll-hidden::-webkit-scrollbar {
   display: none;
 }
@@ -48,7 +55,7 @@ h3,
   background: #555;
 }
 .transparent-background {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 @tailwind base;

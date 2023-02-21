@@ -61,11 +61,13 @@ function overview() {
               bgImage="/bgImages/cloud.webp"
               href="/category/cloud/overview"
               title="Cloud Services"
+              content="Learn how our consultants can guide you through all levels of cloud maturity -- from initial strategy design through migration and operation."
             />
             <ThreeColumnContent
               bgImage="/bgImages/enterprise-architecture.webp"
               href="/enterprise-architecture"
               title="Enterprise Architechture Services"
+              content=""
             />
           </ThreeColumn>
 

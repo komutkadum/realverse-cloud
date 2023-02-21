@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Link from 'next/link';
 import React from 'react';
 
@@ -17,16 +18,14 @@ export function FourColumnContent({ bgImage, title, content = '', href }) {
       <Link
         href={href}
         className="col-span-12 mobile:col-span-6 tabletxl:col-span-4 laptopxl:col-span-3 rounded-sm border aspect-w-16 aspect-h-9 bg-red-600 bg-cover bg-no-repeat text-white box-image-shadow"
-        style={{
-          backgroundImage: `url('${bgImage}')`,
-        }}
       >
-        <div className="flex flex-col items-center justify-end group hover:backdrop-blur-sm cursor-pointer">
-          <h4 className="w-full py-2.5 px-4 font-bold transparent-background">
+        <img src={bgImage} alt="hello" className="object-cover object-center" />
+        <div className="flex flex-col items-center justify-end group hover:backdrop-blur-sm hover:backdrop-hue-rotate-180 cursor-pointer">
+          <h4 className="w-full py-2 px-4 font-bold transparent-background ">
             {title}
           </h4>
           {content !== '' && (
-            <p className="hidden py-2 px-4 text-sm group-hover:block transparent-background animate__animated animate__fadeIn animate__fast">
+            <p className="hidden pb-2 px-4 text-sm group-hover:block transparent-background animate__animated animate__fadeIn animate__fast">
               {content}
             </p>
           )}

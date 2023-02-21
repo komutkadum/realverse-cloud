@@ -47,29 +47,25 @@ function overview() {
               href="/topic/data-protection/overview"
               bgImage="/bgImages/data-protection.webp"
               title="Data Protection"
-              content="Eliminate complexity across physical, virtual and cloud
-              storage tiers."
+              content="Eliminate complexity across physical, virtual and cloud storage tiers while developing strategies to control data volume growth and streamline how you store, manage and leverage data assets."
             />
             <ThreeColumnContent
               href="/topic/facilities-infrastructure/overview"
               bgImage="/bgImages/facilities-infrastructure.webp"
               title="Facilities Infrastructure"
-              content="Turn-key assessment and installation services designed to
-              ensure facilities are operating at optimal effieciency."
+              content="Turn-key assessment and installation services designed to ensure facilities are operating at optimal efficiency and can support organizational growth needs."
             />
             <ThreeColumnContent
               href="/topic/hyper-converged-infrastructure/overview"
               bgImage="/bgImages/hyper-converged-infrastructure.webp"
               title="Converged & Hyper-Converged Infrastructure"
-              content="Seamless integrate compute, storage, networking and
-              infrastructure managed software into one optimization"
+              content="Seamlessly integrate compute, storage, networking and infrastructure management software into one optimized platform."
             />
             <ThreeColumnContent
               href="/topic/server-infrastructure/overview"
               bgImage="/bgImages/server-infrastructure.webp"
               title="Server Infrastructure"
-              content="The foundation that holds It/ICT systems together. It
-              includeds physical and virtual resources."
+              content="The foundation that holds IT/ICT systems together. Server infrastructure includes physical and virtual resources across hardware, software, network resources and related services."
             />
           </ThreeColumn>
         </div>

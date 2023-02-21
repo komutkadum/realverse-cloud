@@ -35,15 +35,13 @@ function services() {
         <FourColumn title="Realverse Cloud Services">
           <FourColumnContent
             title="Consulting Services"
-            content="Combining the insights of a traditional consulting firm with
-            the ability to execute complex infrastructure solutions."
+            content="Combining the insights of a traditional consulting firm with the ability to execute complex infrastructure solutions at scale globally."
             bgImage="/bgImages/consulting-services.webp"
             href="/service/consulting-services/overview"
           />
           <FourColumnContent
             title="Infrastructure Services"
-            content="Assessing today's technology, designing tommorow's solutions
-            and seamlessly deploying critical invest...."
+            content="Assessing today's technology, designing tomorrow's solutions and seamlessly deploying critical investments at scale around the world."
             bgImage="/bgImages/infrastructure-services.webp"
             href="/service/infrastructure-services/overview"
           />
@@ -57,6 +55,7 @@ function services() {
               bgImage="/bgImages/cloud.webp"
               title="Cloud Services"
               href="/category/cloud/overview"
+              content="Learn how our consultants can guide you through all levels of cloud maturity -- from initial strategy design through migration and operation."
             />
             <FourColumnContent
               bgImage="/bgImages/enterprise-architecture.webp"

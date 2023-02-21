@@ -39,21 +39,19 @@ function solutions() {
           <FourColumnContent
             title="Cloud"
             content="Unlock cloud' potential to transform your business, from
-            strategy through implementation and beyond..."
+            strategy through implementation and beyond."
             bgImage="/bgImages/cloud.webp"
             href="/category/cloud/overview"
           />
           <FourColumnContent
             title="Data Center"
-            content="Learn about data protection, facilities infrastructure,
-            converged & hyperconverged infrastructure."
+            content="Learn about data protection, facilities infrastructure, hyper-converged infrastructure (HCI), primary storage and server infrastructure."
             bgImage="/bgImages/data-center.webp"
             href="/category/data-center/overview"
           />
           <FourColumnContent
             title="Networking"
-            content="Accelerate your organization' path to a global
-            connectivity architechture that enforces security..."
+            content="Accelerate your organization's path to a global connectivity architecture that enforces security, encourages productivity and enhances user experience."
             bgImage="/bgImages/networking.webp"
             href="/category/networking/overview"
           />
@@ -65,14 +63,13 @@ function solutions() {
           <FourColumn title="Automation and orchestration">
             <FourColumnContent
               title="DevOps"
-              content="Combining people, processess and technology to enable the
-              continuous delivery of value to end users."
+              content="Combining people, processes and technology to enable the continuous delivery of value to end users."
               bgImage="/bgImages/devops.webp"
               href="/topic/devops/overview"
             />
             <FourColumnContent
               title="Infrastructure Automation"
-              content="Reduce operational cost, lower the potential for human error and deliver services at scale."
+              content="Reduce operational costs, lower the potential for human error and deliver services at scale that support your organization's success."
               bgImage="/bgImages/infrastructure-automation.webp"
               href="/topic/infrastructure-automation/overview"
             />
@@ -94,29 +91,25 @@ function solutions() {
           <FourColumn title="Data Center">
             <FourColumnContent
               title="Data Protection"
-              content="Eliminate complexity across physical, virtual and cloud
-                    storage tiers."
+              content="Eliminate complexity across physical, virtual and cloud storage tiers while developing strategies to control data volume growth and streamline how you store, manage and leverage data assets."
               bgImage="/bgImages/data-protection.webp"
               href="/topic/data-protection/overview"
             />
             <FourColumnContent
               title="Facilities Infrastructure"
-              content="Turn-key assessment and installation services designed to
-              ensure facilities are operating at optimal effieciency."
+              content="Turn-key assessment and installation services designed to ensure facilities are operating at optimal efficiency and can support organizational growth needs."
               bgImage="/bgImages/facilities-infrastructure.webp"
               href="/topic/facilities-infrastructure/overview"
             />
             <FourColumnContent
               title="Converged & Hyper-Converged Infrastructure"
-              content="Seamless integrate compute, storage, networking and
-              infrastructure managed software into one optimization"
+              content="Seamlessly integrate compute, storage, networking and infrastructure management software into one optimized platform."
               bgImage="/bgImages/hyper-converged-infrastructure.webp"
               href="/topic/hyper-converged-infrastructure/overview"
             />
             <FourColumnContent
               title="Server Infrastructure"
-              content="The foundation that holds It/ICT systems together. It
-                    includeds physical and virtual resources."
+              content="The foundation that holds IT/ICT systems together. Server infrastructure includes physical and virtual resources across hardware, software, network resources and related services."
               bgImage="/bgImages/server-infrastructure.webp"
               href="/topic/server-infrastructure/overview"
             />

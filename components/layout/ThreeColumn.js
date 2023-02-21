@@ -31,7 +31,7 @@ export function ThreeColumnContent({ href, title, content = '', bgImage }) {
           {title}
         </h4>
         {content !== '' && (
-          <p className="hidden text-sm py-2 px-4 transparent-background group-hover:block animate__animated animate__fadeIn animate__fast">
+          <p className="hidden text-sm pb-2 px-4 transparent-background group-hover:block animate__animated animate__fadeIn animate__fast">
             {content}
           </p>
         )}
