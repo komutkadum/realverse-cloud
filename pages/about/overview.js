@@ -18,6 +18,7 @@ function Overview() {
         description="We play a vital role in changing the world for the better."
         title="About Us - Overview - Realverse Cloud"
       />
+
       <div className="grid grid-flow-row laptop:grid-flow-col page-padding">
         <RightNavigationAbove />
         <div>

@@ -27,6 +27,7 @@ function Header({ navOpen, setNavOpen }) {
             width={35}
             height={35}
             alt="realverse cloud icon"
+            className="border shadow-2xl border-primary-blue/40 p-1 rounded bg-gradient-to-r to-sky-300 from-pink-200"
           />
           <h1 className=" flex flex-col mobilesm:flex-row">
             <span>REALVERSE&nbsp;</span>

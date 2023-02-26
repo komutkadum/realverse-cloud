@@ -60,7 +60,7 @@ function SideNavigation() {
                       '/category/automation-and-orchestration/services',
                     ].indexOf(router.pathname) !== -1
                       ? 'active-link'
-                      : 'text-gray-600'
+                      : 'text-gray-700'
                   }`}
                 >
                   <CustomLink
@@ -76,7 +76,7 @@ function SideNavigation() {
                       '/category/cloud/services',
                     ].indexOf(router.pathname) !== -1
                       ? 'active-link'
-                      : 'text-gray-600'
+                      : 'text-gray-700'
                   }`}
                 >
                   <CustomLink href="/category/cloud/overview" text="Cloud" />
@@ -85,7 +85,7 @@ function SideNavigation() {
                   className={`bg-zinc-100 px-2 py-2 font-thin ${
                     router.pathname == '/category/data-center/overview'
                       ? 'active-link'
-                      : 'text-gray-600'
+                      : 'text-gray-700'
                   }`}
                 >
                   <CustomLink
@@ -100,7 +100,7 @@ function SideNavigation() {
                       '/category/networking/services',
                     ].indexOf(router.pathname) !== -1
                       ? 'active-link'
-                      : 'text-gray-600'
+                      : 'text-gray-700'
                   }`}
                 >
                   <CustomLink
@@ -153,7 +153,7 @@ function SideNavigation() {
                   className={`bg-zinc-100 px-2 py-2 font-thin ${
                     router.pathname == '/service/consulting-services/overview'
                       ? 'active-link'
-                      : 'text-gray-600'
+                      : 'text-gray-700'
                   }`}
                 >
                   <CustomLink
@@ -167,7 +167,7 @@ function SideNavigation() {
                     router.pathname ==
                     '/service/infrastructure-services/overview'
                       ? 'active-link'
-                      : 'text-gray-600'
+                      : 'text-gray-700'
                   }`}
                 >
                   <CustomLink

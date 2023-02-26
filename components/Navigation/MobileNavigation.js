@@ -17,7 +17,6 @@ function MobileNavigation({
     >
       <li>
         <Link href="/" className="flex px-2 items-center">
-          {/* <i className="fa-solid fa-house"></i> */}
           <img src="/icons/home.png" alt="home icon" className="w-5 h-5" />
           &nbsp;&nbsp;&nbsp;Home
         </Link>
@@ -79,7 +78,6 @@ function MobileNavigation({
             onClick={() => setSecondAccordion((prev) => !prev)}
           >
             <span>
-              {/* <i className="fa-solid  fa-users-gear"></i> */}
               <img
                 src="/icons/services.png"
                 width={20}
@@ -116,7 +114,6 @@ function MobileNavigation({
       <hr className="h-[2px] bg-neutral-500" />
       <Link href="/about/overview">
         <li className="flex px-2 items-center">
-          {/* <i className="fa-solid fa-hashtag"></i> */}
           <img
             src="/icons/about.png"
             alt="about icon"

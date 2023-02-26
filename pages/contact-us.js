@@ -46,7 +46,7 @@ function ContactUs() {
         description="Contact Realverse Cloud to explore solutions in network, mobility, collaboration, security, compute and cloud, storage, big data and more."
         title="Contact Us - Realverse Cloud"
       />
-      <div className="w-full bg-gradient-to-tl from-pink-700 to-sky-800 py-20 mobile:py-28 desktop:py-48"></div>
+      <div className="w-full bg-gradient-to-r from-sky-800 to-pink-900 py-20 mobile:py-28 desktop:py-48"></div>
       <div className="grid grid-cols-12 text-black page-padding ">
         <div className="col-span-12 laptoplg:col-span-7 grid gap-y-4 ">
           <form
