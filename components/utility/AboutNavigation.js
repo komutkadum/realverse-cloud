@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import React, { useState } from 'react';
+import AboutNavigationModal from './AboutNavigationModal';
 
 function AboutNavigation() {
   const [moreDropdown, setMoreDropdown] = useState(false);
@@ -61,7 +62,11 @@ function AboutNavigation() {
               <i className="fa-solid fa-ellipsis"></i>
             )}
           </button>
-          <div
+          <AboutNavigationModal
+            isOpen={moreDropdown}
+            onClose={() => setMoreDropdown(false)}
+          />
+          {/* <div
             className={`${
               moreDropdown ? 'grid' : 'hidden'
             } absolute top-10 bg-gray-100 left-0 w-full px-5 py-5 gap-y-3 shadow-2xl border`}
@@ -98,7 +103,7 @@ function AboutNavigation() {
             >
               Leadership
             </Link>
-          </div>
+          </div> */}
         </li>
       </ul>
     </>

@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import Image from 'next/image';
 import Link from 'next/link';
-import React from 'react';
+import React, { useState } from 'react';
 import ThreeColumn, {
   ThreeColumnContent,
 } from '../../components/layout/ThreeColumn';
@@ -11,7 +11,8 @@ import { PageSEO } from '../../components/SEO';
 import AboutNavigation from '../../components/utility/AboutNavigation';
 import vennDiagram from '../../public/images/wwt-venn-diagrams.png';
 
-function overview() {
+function Overview() {
+  const [isOpen, setIsOpen] = useState(false);
   return (
     <>
       <PageSEO
@@ -239,4 +240,4 @@ function overview() {
   );
 }
 
-export default overview;
+export default Overview;
