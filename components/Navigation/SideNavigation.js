@@ -7,7 +7,6 @@ import CustomLink from '../utility/CustomLink';
 function SideNavigation() {
   const [sidebarAccordion, setSideBarAccordion] = useState(true);
   const router = useRouter();
-
   return (
     <>
       {/* // header with text */}

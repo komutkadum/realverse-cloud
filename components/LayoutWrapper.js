@@ -25,7 +25,7 @@ function LayoutWrapper({ children }) {
     <>
       <ScrollToTop />
       <Header navOpen={navOpen} setNavOpen={setNavOpen} />
-      <SideNavigation navOpen={navOpen} setNavOpen={setNavOpen} />
+      <SideNavigation />
       <main className="left-0  tablet:left-[70px] desktop:left-56 absolute overflow-y-scroll top-14 text-gray-800 right-0 bottom-0 ">
         {/* top div for scrolltotop button */}
         <div id="top" ref={topref} className="-top-20 absolute"></div>

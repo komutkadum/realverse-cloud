@@ -66,44 +66,6 @@ function AboutNavigation() {
             isOpen={moreDropdown}
             onClose={() => setMoreDropdown(false)}
           />
-          {/* <div
-            className={`${
-              moreDropdown ? 'grid' : 'hidden'
-            } absolute top-10 bg-gray-100 left-0 w-full px-5 py-5 gap-y-3 shadow-2xl border`}
-          >
-            <Link
-              href="/about/overview"
-              className={`${
-                router.pathname == '/about/overview' ? 'hidden' : 'inline'
-              }`}
-            >
-              Overview
-            </Link>
-            <Link
-              href="/about/our-work"
-              className={`${
-                router.pathname == '/about/our-work' ? 'hidden' : 'inline'
-              }`}
-            >
-              Our Work
-            </Link>
-            <Link
-              href="/about/culture"
-              className={`${
-                router.pathname == '/about/culture' ? 'hidden' : 'inline'
-              }`}
-            >
-              Culture
-            </Link>
-            <Link
-              href="/about/leadership"
-              className={`${
-                router.pathname == '/about/leadership' ? 'hidden' : 'inline'
-              }`}
-            >
-              Leadership
-            </Link>
-          </div> */}
         </li>
       </ul>
     </>

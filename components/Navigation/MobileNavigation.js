@@ -11,9 +11,9 @@ function MobileNavigation({
 }) {
   return (
     <ul
-      className={`w-full h-screen text-sm flex-col gap-y-4 px-3 pt-5 bg-white overflow-y-scroll absolute animate__animated  animate__slideIn animate__faster ${
-        navOpen ? 'flex' : 'hidden'
-      }`}
+      className={`w-full  duration-700 scroll-hidden ease-in-out text-sm flex-col gap-y-4 px-3 pt-5 bg-white overflow-y-scroll absolute  ${
+        navOpen ? 'left-0' : '-left-[200%]'
+      } flex`}
     >
       <li>
         <Link href="/" className="flex px-2 items-center">
