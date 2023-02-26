@@ -20,7 +20,7 @@ export default function AboutNavigationModal({ isOpen, onClose }) {
             <i className="fa-solid fa-xmark"></i>
           </button>
         </div>
-        <div className={`grid w-full pb-6 gap-y-3 px-6 text-black`}>
+        <div className={`grid w-full pb-10 gap-y-3 px-6 text-black`}>
           <Link
             href="/about/overview"
             className={`py-2 ${
