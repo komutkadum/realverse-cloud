@@ -11,8 +11,8 @@ function MobileNavigation({
 }) {
   return (
     <ul
-      className={`w-full  duration-700 scroll-hidden ease-in-out text-sm flex-col gap-y-4 px-3 pt-5 bg-white overflow-y-scroll absolute  ${
-        navOpen ? 'left-0' : '-left-[200%]'
+      className={`w-full  duration-[.4s] scroll-hidden ease-in-out text-sm flex-col gap-y-4 px-3 pt-5 bg-white overflow-y-scroll absolute  ${
+        navOpen ? 'left-0 opacity-100' : '-left-[100%] opacity-0'
       } flex`}
     >
       <li>
