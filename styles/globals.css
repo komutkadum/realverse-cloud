@@ -70,7 +70,7 @@ h3,
     @apply text-pink-700   underline underline-offset-4;
   }
   .bg-button {
-    @apply text-white rounded-sm hover:rounded-xl bg-sky-700 hover:bg-sky-800 duration-300;
+    @apply text-white rounded-sm  bg-sky-700 hover:bg-sky-800 duration-300;
   }
   .page-padding-inline {
     @apply px-5 tablet:px-5 desktop:px-10;
