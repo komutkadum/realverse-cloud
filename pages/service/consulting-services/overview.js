@@ -104,7 +104,7 @@ function overview() {
             <div className="grid grid-cols-12 gap-y-4 gap-x-6 mt-2">
               {/* <!-- grid --> */}
               <div className="col-span-12 mobile:col-span-6 tabletxl:col-span-4 flex items-start justify-center gap-x-2">
-                <i className="fa-solid fa-handshake text-3xl text-sky-800"></i>
+                <i className="fa-solid fa-handshake text-3xl "></i>
                 <div className="grid gap-y-1.5 leading-relaxed">
                   <h3 className="text-lg">Increased customer acquisition</h3>
                   <p>
@@ -116,7 +116,7 @@ function overview() {
               </div>
 
               <div className="col-span-12 mobile:col-span-6 tabletxl:col-span-4 flex items-start justify-center gap-x-2">
-                <i className="fa-solid fa-chart-line text-3xl text-sky-800"></i>
+                <i className="fa-solid fa-chart-line text-3xl "></i>
                 <div className="grid gap-y-1.5 leading-relaxed">
                   <h3 className="text-lg">Increased revenue and profit</h3>
                   <p>
@@ -127,7 +127,7 @@ function overview() {
               </div>
 
               <div className="col-span-12 mobile:col-span-6 tabletxl:col-span-4 flex items-start justify-center gap-x-2">
-                <i className="fa-solid fa-rocket text-3xl text-sky-800"></i>
+                <i className="fa-solid fa-rocket text-3xl "></i>
                 <div className="grid gap-y-1.5 leading-relaxed">
                   <h3 className="text-lg">Reduced transaction friction</h3>
                   <p>
@@ -138,7 +138,7 @@ function overview() {
               </div>
 
               <div className="col-span-12 mobile:col-span-6 tabletxl:col-span-4 flex items-start justify-center gap-x-2">
-                <i className="fa-solid fa-receipt text-3xl text-sky-800"></i>
+                <i className="fa-solid fa-receipt text-3xl "></i>
                 <div className="grid gap-y-1.5 leading-relaxed">
                   <h3 className="text-lg">
                     Reduced costs from a new operating model

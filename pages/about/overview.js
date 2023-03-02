@@ -91,7 +91,7 @@ function Overview() {
             <div className="grid grid-cols-12 gap-y-4 gap-x-6">
               {/* <!-- grid --> */}
               <div className="col-span-12 mobile:col-span-6 tabletxl:col-span-4 flex items-start justify-center gap-x-2">
-                <i className="fa-brands fa-react text-3xl text-sky-800"></i>
+                <i className="fa-brands fa-react text-3xl "></i>
                 <div className="grid gap-y-1.5 leading-relaxed">
                   <h3 className="text-lg">Solutions</h3>
                   <p>
@@ -101,13 +101,13 @@ function Overview() {
                   </p>
                   <a href="#" className="group inline-flex">
                     Learn more&nbsp;
-                    <i className="fa-solid fa-circle-chevron-right duration-200 text-sky-700 text-lg group-hover:translate-x-1"></i>
+                    <i className="fa-solid fa-circle-chevron-right text-sky-700 duration-200  text-lg group-hover:translate-x-1"></i>
                   </a>
                 </div>
               </div>
 
               <div className="col-span-12 mobile:col-span-6 tabletxl:col-span-4 flex items-start justify-center gap-x-2">
-                <i className="fa-solid fa-wand-magic-sparkles text-3xl text-sky-800"></i>
+                <i className="fa-solid fa-wand-magic-sparkles text-3xl "></i>
                 <div className="grid gap-y-1.5 leading-relaxed">
                   <h3 className="text-lg">Services</h3>
                   <p>
@@ -117,13 +117,13 @@ function Overview() {
                   </p>
                   <a href="#" className="group inline-flex">
                     Learn more&nbsp;
-                    <i className="fa-solid fa-circle-chevron-right duration-200 text-sky-700 text-lg group-hover:translate-x-1"></i>
+                    <i className="fa-solid fa-circle-chevron-right text-sky-700 duration-200  text-lg group-hover:translate-x-1"></i>
                   </a>
                 </div>
               </div>
 
               <div className="col-span-12 mobile:col-span-6 tabletxl:col-span-4 flex items-start justify-center gap-x-2">
-                <i className="fa-solid fa-industry text-3xl text-sky-800"></i>
+                <i className="fa-solid fa-industry text-3xl "></i>
                 <div className="grid gap-y-1.5 leading-relaxed">
                   <h3 className="text-lg">Industries</h3>
                   <p>
@@ -133,13 +133,13 @@ function Overview() {
                   </p>
                   <a href="#" className="group inline-flex">
                     Learn more&nbsp;
-                    <i className="fa-solid fa-circle-chevron-right duration-200 text-sky-700 text-lg group-hover:translate-x-1"></i>
+                    <i className="fa-solid fa-circle-chevron-right text-sky-700 duration-200  text-lg group-hover:translate-x-1"></i>
                   </a>
                 </div>
               </div>
 
               <div className="col-span-12 mobile:col-span-6 tabletxl:col-span-4 flex items-start justify-center gap-x-2">
-                <i className="fa-solid fa-handshake text-3xl text-sky-800"></i>
+                <i className="fa-solid fa-handshake text-3xl "></i>
                 <div className="grid gap-y-1.5 leading-relaxed">
                   <h3 className="text-lg">Partners</h3>
                   <p>
@@ -149,7 +149,7 @@ function Overview() {
                   </p>
                   <a href="#" className="group inline-flex">
                     Learn more&nbsp;
-                    <i className="fa-solid fa-circle-chevron-right duration-200 text-sky-700 text-lg group-hover:translate-x-1"></i>
+                    <i className="fa-solid fa-circle-chevron-right text-sky-700 duration-200  text-lg group-hover:translate-x-1"></i>
                   </a>
                 </div>
               </div>
@@ -196,27 +196,27 @@ function Overview() {
             </p>
             <div className="grid grid-cols-12 gap-4 items-start mt-4">
               <div className="col-span-12 mobile:col-span-6 laptopxl:col-span-4 grid gap-y-6">
-                <i className="fa-solid fa-hands-bound text-2xl text-sky-700"></i>
+                <i className="fa-solid fa-hands-bound text-2xl "></i>
                 <p>Founded in 2021.</p>
               </div>
               <div className="col-span-12 mobile:col-span-6 laptopxl:col-span-4 grid gap-y-6">
-                <i className="fa-solid fa-people-group text-sky-700 text-2xl"></i>
+                <i className="fa-solid fa-people-group  text-2xl"></i>
                 <p>Leading tech specialist working.</p>
               </div>
               <div className="col-span-12 mobile:col-span-6 laptopxl:col-span-4 grid gap-y-6">
-                <i className="fa-solid fa-money-bill-1-wave text-2xl text-sky-700"></i>
+                <i className="fa-solid fa-money-bill-1-wave text-2xl "></i>
                 <p>Outstanding Revenue</p>
               </div>
               <div className="col-span-12 mobile:col-span-6 laptopxl:col-span-4 grid gap-y-6">
-                <i className="fa-solid fa-dna text-2xl text-sky-700"></i>
+                <i className="fa-solid fa-dna text-2xl "></i>
                 <p>Solution provider for more than dozen of companies</p>
               </div>
               <div className="col-span-12 mobile:col-span-6 laptopxl:col-span-4 grid gap-y-6">
-                <i className="fa-solid fa-handshake-angle text-2xl text-sky-700"></i>
+                <i className="fa-solid fa-handshake-angle text-2xl "></i>
                 <p>Huge reliable partners</p>
               </div>
               <div className="col-span-12 mobile:col-span-6 laptopxl:col-span-4 grid gap-y-6">
-                <i className="fa-solid fa-award text-2xl text-sky-700"></i>
+                <i className="fa-solid fa-award text-2xl "></i>
                 <p>"Great Place to Work"</p>
               </div>
             </div>

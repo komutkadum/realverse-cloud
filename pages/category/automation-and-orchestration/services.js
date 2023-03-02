@@ -40,7 +40,7 @@ function services() {
           <div className="grid grid-cols-12 gap-y-4 gap-x-4 mb-8">
             {/* <!-- grid --> */}
             <div className="col-span-12 mobile:col-span-6 tabletxl:col-span-4 flex items-start justify-center gap-x-2">
-              <i className="fa-brands fa-react text-3xl text-sky-800"></i>
+              <i className="fa-brands fa-react text-3xl "></i>
               <div className="grid gap-y-1.5 leading-relaxed">
                 <h3 className="text-lg">Plan</h3>
                 <p>
@@ -55,7 +55,7 @@ function services() {
             </div>
 
             <div className="col-span-12 mobile:col-span-6 tabletxl:col-span-4 flex items-start justify-center gap-x-2">
-              <i className="fa-solid fa-wand-magic-sparkles text-3xl text-sky-800"></i>
+              <i className="fa-solid fa-wand-magic-sparkles text-3xl "></i>
               <div className="grid gap-y-1.5 leading-relaxed">
                 <h3 className="text-lg">Implement</h3>
                 <p>
@@ -70,7 +70,7 @@ function services() {
             </div>
 
             <div className="col-span-12 mobile:col-span-6 tabletxl:col-span-4 flex items-start justify-center gap-x-2">
-              <i className="fa-solid fa-industry text-3xl text-sky-800"></i>
+              <i className="fa-solid fa-industry text-3xl "></i>
               <div className="grid gap-y-1.5 leading-relaxed">
                 <h3 className="text-lg">Enable</h3>
                 <p>
@@ -85,7 +85,7 @@ function services() {
             </div>
 
             <div className="col-span-12 mobile:col-span-6 tabletxl:col-span-4 flex items-start justify-center gap-x-2">
-              <i className="fa-solid fa-handshake text-3xl text-sky-800"></i>
+              <i className="fa-solid fa-handshake text-3xl "></i>
               <div className="grid gap-y-1.5 leading-relaxed">
                 <h3 className="text-lg">Execute</h3>
                 <p>

@@ -56,35 +56,35 @@ function overview() {
             </p>
             <div className="grid grid-cols-12 gap-4 items-start mt-4">
               <div className="col-span-12 mobile:col-span-6 laptopxl:col-span-4 grid gap-y-6">
-                <i className="fa-solid fa-object-group text-2xl text-sky-800"></i>
+                <i className="fa-solid fa-object-group text-2xl "></i>
                 <p>
                   Accelerate the planning, design and implementation of complex
                   technology investments
                 </p>
               </div>
               <div className="col-span-12 mobile:col-span-6 laptopxl:col-span-4 grid gap-y-4">
-                <i className="fa-solid fa-people-group text-sky-800 text-2xl"></i>
+                <i className="fa-solid fa-people-group  text-2xl"></i>
                 <p>
                   Monitor, manage and remediate issues with our flexible IT
                   Managed Services platform
                 </p>
               </div>
               <div className="col-span-12 mobile:col-span-6 laptopxl:col-span-4 grid gap-y-4">
-                <i className="fa-solid fa-headset text-2xl text-sky-800"></i>
+                <i className="fa-solid fa-headset text-2xl "></i>
                 <p>
                   Get 24/7 real-time engineering and deployment support from our
                   Command Center
                 </p>
               </div>
               <div className="col-span-12 mobile:col-span-6 laptopxl:col-span-4 grid gap-y-4">
-                <i className="fa-solid fa-chart-line text-2xl text-sky-800"></i>
+                <i className="fa-solid fa-chart-line text-2xl "></i>
                 <p>
                   Boost the productivity of IT teams on a long-term basis with
                   Strategic Resourcing placement
                 </p>
               </div>
               <div className="col-span-12 mobile:col-span-6 laptopxl:col-span-4 grid gap-y-4">
-                <i className="fa-brands fa-react text-2xl text-sky-800"></i>
+                <i className="fa-brands fa-react text-2xl "></i>
                 <p>
                   Achieve unmatched services innovation with access to hands-on
                   labs, workshops, trainings and more via our Advanced
@@ -92,7 +92,7 @@ function overview() {
                 </p>
               </div>
               <div className="col-span-12 mobile:col-span-6 laptopxl:col-span-4 grid gap-y-4">
-                <i className="fa-solid fa-globe text-2xl text-sky-800"></i>
+                <i className="fa-solid fa-globe text-2xl "></i>
                 <p>
                   Leverage our global network of supply chain, logistics and
                   integration facilities

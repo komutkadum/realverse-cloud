@@ -67,7 +67,7 @@ h3,
     @apply hover:text-sky-700 cursor-pointer hover:font-bold hover:underline underline-offset-4 duration-100;
   }
   .active-link {
-    @apply text-pink-700   underline underline-offset-4;
+    @apply text-red-700   underline underline-offset-4;
   }
   .bg-button {
     @apply text-white rounded-sm  bg-sky-700 hover:bg-sky-800 duration-300;
